@@ -85,7 +85,10 @@
     		padding-left: 3%;
     		padding-bottom: 3%;
 	}
-
+	.main-text {
+		font-size: medium;
+	}
+		
 	.banner {
 		background: black;
 	}
