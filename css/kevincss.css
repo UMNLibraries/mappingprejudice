@@ -179,14 +179,14 @@
 		color: #fcfcfc;
 	}
 	#btn-menu{
-		background-color: #343434 !important;
+		background-color: #343434;
 		border-color: #343434 !important;
 		width: 100%;
 		border-radius: 0px;
 	}
 	#btn-menu:hover {
-		background-color: #343434;
-		border-color: #343434 !important;
+		background-color: #252525;
+		border-color: #252525 !important;
 	}
 	.btn:focus {
 		outline: 0px !important;
