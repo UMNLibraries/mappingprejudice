@@ -86,6 +86,13 @@
     		padding-left: 3%;
     		padding-bottom: 3%;
 	}
+	#content-main {
+		background: white;
+    		padding-right: 3%;
+    		padding-left: 3%;
+    		padding-bottom: 3%;
+    		margin-top: 20px;
+	}
 	.main-text {
 		font-size: medium;
 	}
@@ -221,6 +228,13 @@
 
 	@media screen and (max-width: 475px){
 		
+		#content-main {
+			background: white;
+    			padding-right: 3%;
+    			padding-left: 3%;
+    			padding-bottom: 3%;
+    			margin-top: 20px;
+		}	
 		.masthead {
 			display: none;
 		}		
