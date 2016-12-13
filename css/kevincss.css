@@ -166,7 +166,9 @@
 	.dropdown-menu {
 		position: relative;
 		float: none;
-		background-color: rgba(0, 0, 0, 0.64);
+		background-color: rgba(134, 134, 134, 0.64);
+		margin: 0px;
+		border: none !important;
 	}
 	.open>.dropdown-menu {
 		text-align: center;
