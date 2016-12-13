@@ -41,10 +41,10 @@
 
 	}
 	
- 	.underline {
+ 	/**.underline {
  		border-bottom: solid 2px rgba(150, 149, 141, 0.75);
  		padding-right: 100px;
- 	}
+ 	} **/
 
 
  	.header-name {
@@ -84,6 +84,7 @@
 		padding-right: 3%;
     		padding-left: 3%;
     		padding-bottom: 3%;
+		border: solid 5px rgb(245, 239, 239);
 	}
 	.main-text {
 		font-size: medium;
