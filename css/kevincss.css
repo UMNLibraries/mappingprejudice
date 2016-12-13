@@ -163,12 +163,12 @@
 		font-size: large;
 		color: #fcfcfc;
 	}
-	.btn-primary {
+	.btn btn-primary dropdown-toggle {
 		background-color: #343434 !important;
 		border-color: #343434 !important;
 		width: 100%;
 	}
-	.btn-primary:hover {
+	.btn btn-primary dropdown-toggle:hover {
 		background-color: #343434;
 		border-color: #343434 !important;
 	}
