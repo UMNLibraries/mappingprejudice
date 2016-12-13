@@ -172,25 +172,26 @@
 		background-color: #343434;
 		border-color: #343434 !important;
 	}
-    .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+   	.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
 		background-color: #343434;
 		border-color: #343434 !important;
 	}
 	
 	#menu-img {
-		    margin-right: 15px;
+		margin-right: 15px;
 	}
 	#menu-text{
-	color: #fefefe;
-    text-decoration: none;
-    font-size: large;   
-    font-weight: bold;
-    }
-    #menu-text:hover{
-	color: #fefefe;
-    text-decoration: none;
-    font-size: large;   
-    font-weight: bold;
+		color: #fefefe;
+    		text-decoration: none;
+    		font-size: large;   
+    		font-weight: bold;
+    	}
+    	#menu-text:hover{
+		color: #fefefe;
+   		text-decoration: none;
+   		font-size: large;   
+    		font-weight: bold;
+		text-transform: uppercase;
     }
 	/** Responsive Web Design **/
 
