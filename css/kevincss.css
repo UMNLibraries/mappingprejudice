@@ -167,6 +167,7 @@
 		background-color: #343434 !important;
 		border-color: #343434 !important;
 		width: 100%;
+		border-radius: 0px;
 	}
 	#btn-menu:hover {
 		background-color: #343434;
