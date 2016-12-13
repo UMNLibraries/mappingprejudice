@@ -188,6 +188,9 @@
 		background-color: #343434;
 		border-color: #343434 !important;
 	}
+	#btn-menu:focus {
+		outline: 0 !important;
+	}
    	.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
 		background-color: #343434;
 		border-color: #343434 !important;
