@@ -169,6 +169,7 @@
 		background-color: rgba(134, 134, 134, 0.64);
 		margin: 0px;
 		border: none !important;
+		border-radius: 0px;
 	}
 	.open>.dropdown-menu {
 		text-align: center;
