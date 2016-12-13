@@ -191,6 +191,7 @@
     		text-decoration: none;
     		font-size: large;   
     		font-weight: bold;
+		text-transform: uppercase;
     	}
     	#menu-text:hover{
 		color: #fefefe;
