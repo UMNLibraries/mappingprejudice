@@ -16,7 +16,6 @@
 
 	#map-border {
 		padding-top: 0%;
-		border: 5px solid #f5efef;
 		line-height: 0px;
 	}
 
@@ -86,7 +85,6 @@
 		padding-right: 3%;
     		padding-left: 3%;
     		padding-bottom: 3%;
-		border: solid 5px rgb(245, 239, 239);
 	}
 	.main-text {
 		font-size: medium;
