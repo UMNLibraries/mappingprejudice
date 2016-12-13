@@ -86,7 +86,7 @@
     		padding-left: 3%;
     		padding-bottom: 3%;
 	}
-	#content-main {
+	#content-home {
 		background: white;
     		padding-right: 3%;
     		padding-left: 3%;
@@ -228,7 +228,7 @@
 
 	@media screen and (max-width: 475px){
 		
-		#content-main {
+		#content-home {
 			background: white;
     			padding-right: 3%;
     			padding-left: 3%;
