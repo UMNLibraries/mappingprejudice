@@ -147,9 +147,9 @@
 		padding: .2em 1em;
 		color: #fff;
 	}
-    .dropdown {
-			display: none;
-			text-align: center;
+    	.dropdown {
+		display: none;
+		text-align: center;
 		}
 	.dropdown-menu {
 		position: relative;
@@ -159,16 +159,16 @@
 	.open>.dropdown-menu {
 		text-align: center;
 	}
-    .dropdown-menu>li>a {
+    	.dropdown-menu>li>a {
 		font-size: large;
 		color: #fcfcfc;
 	}
-	.btn btn-primary dropdown-toggle {
+	#btn-menu{
 		background-color: #343434 !important;
 		border-color: #343434 !important;
 		width: 100%;
 	}
-	.btn btn-primary dropdown-toggle:hover {
+	#btn-menu:hover {
 		background-color: #343434;
 		border-color: #343434 !important;
 	}
