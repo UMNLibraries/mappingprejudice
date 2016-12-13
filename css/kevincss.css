@@ -81,7 +81,9 @@
 
 	#content {
 		background: white;
-		padding: 3%;
+		padding-right: 3%;
+    		padding-left: 3%;
+    		padding-bottom: 3%;
 	}
 
 	.banner {
