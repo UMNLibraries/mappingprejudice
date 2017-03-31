@@ -204,4 +204,7 @@
 		padding-right: 7%;
 		padding-left: 7%;
 	}
+	.model-events-text {
+    		font-size: smaller;
+}
 }
