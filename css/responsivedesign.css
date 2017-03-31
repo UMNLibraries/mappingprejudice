@@ -212,6 +212,16 @@
 		bottom: 0;
 		text-align: center;
 		width: 100%;
-	}	
+		margin-top: 0px;
+		position: absolute;
+	}
+	#contact-btn {
+		display: none;
+	}
+	.social-ul {
+		display: -webkit-inline-box;
+   		text-align: center;
+	}
+		
 		
 }
