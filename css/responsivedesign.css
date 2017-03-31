@@ -158,9 +158,6 @@
 }
 
 @media screen and (max-width: 475px)  {
-	.sub-title {
-		display: inline;
-	}
 	.sub-title-list {
 		margin: 10px;
     		font-size: medium;
