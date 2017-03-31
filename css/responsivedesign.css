@@ -176,9 +176,6 @@
     		line-height: 1;
     		font-size: small;
 	}
-	#social-list {
-    		display: none;
-	}
 	#contact_modal_div {
 		left: 5%;
     		top: 5%;
@@ -206,5 +203,19 @@
 	}
 	.model-events-text {
     		font-size: smaller;
-}
+	}
+/** social media icons **/
+	.social-width {
+		float: none;
+        }
+	#social-list {
+		bottom: 0;
+		text-align: center;
+		width: 100%;
+	}
+	li {
+		display: inline-block;
+	}
+	
+		
 }
