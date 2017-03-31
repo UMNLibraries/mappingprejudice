@@ -204,6 +204,9 @@
 	.model-events-text {
     		font-size: smaller;
 	}
+	.press-imgs {
+		max-height: 150px;
+	}
 /** social media icons **/
 	.social-width {
 		float: none;
