@@ -123,13 +123,13 @@
 
 	.stickyNav-img {
 		display: none;
-    	float: right;
-    	margin-right: 1px;
+    		float: right;
+    		margin-right: 1px;
 	}
 	.stickyNav-menu-center {
 		display: inline-block;
-    	margin: 10px 0px 0px 0px;
-    	text-align: center;
+    		margin: 10px 0px 0px 0px;
+    		text-align: center;
 	}
 	.active-nav-link {
 		color: #f3f3f3;
@@ -157,7 +157,7 @@
 
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 475px)  {
 	.sub-title {
 		display: inline;
 	}
@@ -211,7 +211,5 @@
     		margin-top: 0px;
     		margin-bottom: 350px;
 	}
-
-	
 
 }
