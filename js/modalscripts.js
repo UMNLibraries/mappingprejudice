@@ -99,7 +99,7 @@ $(document).ready(function () {
         } else {
             
              $('#stickyNav').css({
-                'position': 'static'
+                'position': 'relative'
             });
             $('.stickyNav-title').removeAttr('id');
             $('.stickyNav-img').removeAttr('id');
