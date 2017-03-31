@@ -398,7 +398,7 @@ ul.bxslider {
     width: 100%;
     position: fixed;
     left: 0;
-    min-height: 150px;
+    min-height: 200px;
     z-index: -1;
     padding-bottom: 30px;
     background-color: #eaeaea !important;
