@@ -165,5 +165,20 @@
 		margin: 5px;
     		font-size: 12px;
 	}
-	
+	.logo-imgs {
+		max-height: 75px;
+	}
+	.logo-images-div {
+    		text-align: center;
+    		margin-left: 5%;
+    		margin-right: 5%;
+    		margin-bottom: 10%;
+	}
+	.footer-text-p {
+    		line-height: 0;
+    		font-size: small;
+	}
+	#social-list {
+    		margin-top: 80px;
+	}
 }
