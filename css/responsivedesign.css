@@ -166,12 +166,12 @@
     		font-size: 12px;
 	}
 	.main-title {
-		font-size: -webkit-xxx-large;
+		font-size: 65px;
 		margin: 10px 0px 15px 0px;
 	}
 	.sub-title-list {
 		margin-bottom: 0px;
-		font-size: x-large;
+		font-size: 30px;
 	}
 	.stickyNav-menu-center {
 		font-size: xx-large;
@@ -188,5 +188,30 @@
 	#social-list-mobile {
 		display: inherit;
 	}
+	.img-sub-script {
+		font-size: small;
+	}
+	p {
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: medium;
+	}
+	.iframe-background {
+   		background-color: #9a9a9a;
+    		text-align: center;
+    		padding: 1%;
+    		margin-left: 0% !important;
+    		margin-right: 0% !important;
+    		margin-top: 30px;
+	}
+	.logo-imgs {
+    		height: 200px;
+	}
+	.wrapper-parallax {
+    		margin-top: 0px;
+    		margin-bottom: 350px;
+	}
+
+	
 
 }
