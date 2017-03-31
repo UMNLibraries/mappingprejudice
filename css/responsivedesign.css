@@ -163,7 +163,7 @@
 	}
 	.sub-title-list {
 		margin: 5px;
-    		font-size: 12px;
+    		font-size: medium;
 	}
 	.logo-imgs {
 		max-height: 75px;
@@ -179,6 +179,19 @@
     		font-size: small;
 	}
 	#social-list {
-    		margin-top: 80px;
+    		display: none;
 	}
+	#contact_modal_div {
+		left: 5%;
+    		top: 5%;
+    		bottom: 5%;
+    		right: 5%;
+	}
+	#events_modal_div {
+    		left: 5%;
+    		top: 5%;
+    		bottom: 5%;
+    		right: 5%;
+    		font-size: smaller;
+}
 }
