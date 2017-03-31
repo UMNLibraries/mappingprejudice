@@ -180,7 +180,7 @@
     cursor: pointer;
 }
 .model-events-text {
-    line-height: 0;
+    line-height: 1;
     margin-left: 5%;
     margin-right: 5%
 }
