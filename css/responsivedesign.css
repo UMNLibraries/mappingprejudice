@@ -162,8 +162,11 @@
 		display: inline;
 	}
 	.sub-title-list {
-		margin: 5px;
+		margin: 10px;
     		font-size: medium;
+	}
+	.stickyNav-menu-center {
+    		margin: 0px;
 	}
 	.logo-imgs {
 		max-height: 75px;
