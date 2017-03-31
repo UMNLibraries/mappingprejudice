@@ -163,14 +163,24 @@
 	}
 	.sub-title-list {
 		margin: 5px;
-    	font-size: 12px;
+    		font-size: 12px;
 	}
 	.main-title {
-		font-size: x-large;
+		font-size: -webkit-xxx-large;
 		margin: 10px 0px 15px 0px;
 	}
 	.sub-title-list {
 		margin-bottom: 0px;
+		font-size: x-large;
+	}
+	.stickyNav-menu-center {
+		font-size: xx-large;
+	}
+	.stickyNavList-btn {
+		height: 75px;
+	}
+	.stickyNav-title {
+		font-size: xx-large;
 	}
 	#social-list {
 		display: none;
