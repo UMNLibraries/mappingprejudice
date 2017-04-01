@@ -155,7 +155,8 @@
     right: 0;
     overflow: scroll;
     background-color: #e6e6e6;
-    border-radius: 7px;
+    border-radius: 0px;
+    height: 93%;
 }
 .events_modal_content {
   position: fixed;
