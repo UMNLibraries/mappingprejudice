@@ -380,6 +380,18 @@ ul.bxslider {
 .post-text {
   margin-top: 0px;
 }
+
+.page-sub-title {
+    text-align: center;
+    border-bottom: #393f44;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
 /** Press Page Styles **/
 
 .press-images-div {
