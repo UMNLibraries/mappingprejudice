@@ -489,7 +489,11 @@ p {
     line-height: 1.5;
 	 color: black;
 }
-
+.training-text-div { 
+    width: 45%;
+    margin: 0px;
+    display: inline-flex;
+}
 .content-width {
     /* background-color: #f1f1ec; */
 	  margin: 0 auto;
