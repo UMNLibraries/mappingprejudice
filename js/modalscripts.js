@@ -40,7 +40,6 @@ $(document).ready(function () {
     var contact_link = document.getElementById('sub-title-link-contact');
     var events_link = document.getElementById('sub-title-link-events');
     var footer_contact_btn = document.getElementById('footer-contact-btn');
-    var contact_text = document.getElementById('contact-text-btn');
     var events_modal = document.getElementById('events_modal_screened');
     var events_span = document.getElementById('events_close');
 
@@ -58,9 +57,7 @@ $(document).ready(function () {
     events_link.onclick = function () {
         events_modal.style.display ="block";
     }
-    contact_text.onclick = function () {
-        contact_modal.style.display ="block";
-    }
+
     contact_span.onclick = function() {
         contact_modal.style.display = "none";
     }
