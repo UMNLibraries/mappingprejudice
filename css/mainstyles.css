@@ -351,8 +351,8 @@ ul.bxslider {
     padding-right: 85px;
     font-weight: bold;
     display: inline-block;
-    padding: 45px 15px 0px 5px;
-    width: 110px;
+    padding: 38px 5px 0px 0px;
+    width: 125px;
 }
 
 .active-nav-link:hover{
@@ -391,6 +391,14 @@ ul.bxslider {
     font-size: larger;
     font-weight: bold;
     margin-bottom: 0px;
+}
+
+.blog-img {
+    max-width: 500px;
+}
+
+.blog-img-div {
+    text-align: center;
 }
 /** Press Page Styles **/
 
@@ -668,7 +676,7 @@ footer {
 
 .wrapper-parallax {
     margin-top: 0px;
-    margin-bottom: 200px;
+    margin-bottom: 175px;
 }
 
 
