@@ -91,7 +91,7 @@ ul.bxslider {
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
   left: 10px;
-  background: url('images/controls.png') no-repeat 0 -32px;
+  background: url('../images/controls.png') no-repeat 0 -32px;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
@@ -99,7 +99,7 @@ ul.bxslider {
 }
 .bx-wrapper .bx-next {
   right: 10px;
-  background: url('images/controls.png') no-repeat -43px -32px;
+  background: url('../images/controls.png') no-repeat -43px -32px;
 }
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
