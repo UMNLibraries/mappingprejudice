@@ -22,6 +22,18 @@
 <!-- Social Share Kit JS -->
 <script type="text/javascript" src="../social/js/social-share-kit.js"></script>
 <script src="../js/modalscripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88400382-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Lightbox Stylesheet -->
+<link rel="stylesheet" href="../lightbox2-master/dist/css/lightbox.css">
 </head>
 <div class="wrapper-parallax">
 <body>
@@ -117,7 +129,9 @@
     </div>
     <div class="content-width">
       <div id="map-border" style="text-align: center;">
-            <img class="page-lead-img" src="../images/group_shot.png">
+            <a class="example-image-link" href="../images/group_shot.png" data-lightbox="example-1">
+              <img class="page-lead-img" src="../images/group_shot.png">
+            </a>
             <p class="img-sub-script">From left: Borchert Library director Ryan Mattke, project director Kirten Delegard, project manager Kevin Ehrman-Solberg, and property records specialist Penny Petersen.</p>
       </div>      
       <p id="lead-para">Our work started with the <a href="www.historyapolis.com/">Historyapolis Project</a> at Augsburg College. Rooted in the conviction that contemporary problems demand a sophisticated understanding of the past, Historyapolis has traced the roots of the city's current day racial disparities.</p>
@@ -139,6 +153,13 @@
   </div>
 </div>
 <script type="text/javascript">SocialShareKit.init();</script>
+<script src="../lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+<script>
+    lightbox.option({
+      disableScrolling: true,
+      fadeDuration: 100
+    })
+</script>
 </body>
 <footer>
   <div class="footer-text">    
