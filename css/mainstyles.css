@@ -457,6 +457,18 @@ ul.bxslider {
     padding: 2%;
     background-color: grey;
 }
+
+.page-body-img {
+    max-width: 60%;
+    height: auto;
+    padding: 2%;
+    background-color: grey;
+}
+
+.page-body-img-caption-div {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .img-sub-script {
     color: #808080;
     margin-top: 5px;
