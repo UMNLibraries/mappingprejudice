@@ -205,7 +205,7 @@
     		font-size: smaller;
 	}
 	.press-imgs {
-		max-height: 150px;
+		max-width: 250px;
 	}
 /** social media icons **/
 	.social-width {

@@ -287,10 +287,6 @@ ul.bxslider {
 	margin-bottom: 60 px !important;
 }
 
-.bx-wrapper .bx-controls-direction a {
-	margin-top: 75px;
-}
-
 /** side nav bar menu styles **/
 
 .nav_container_mp {
@@ -404,24 +400,32 @@ ul.bxslider {
 
 .press-images-div {
     text-align: center;
-    border-bottom-color: #c3b9b9;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #f2f2ed;
+}
+
+.press-images-div-alt {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #e3e7f3;
 }
 .press-imgs {
   margin-bottom: 25px;
-  max-height: 225px;
+  max-width: 450px;
 }
 .press-text-title {
     font-size: larger;
     font-weight: bold;
     margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 .press-text {
     margin-top: 10px;
     margin-bottom: 15px;
+    font-style: italic;
 }
 /** Page Styles **/
 
@@ -456,18 +460,6 @@ ul.bxslider {
     height: auto;
     padding: 2%;
     background-color: grey;
-}
-
-.page-body-img {
-    max-width: 60%;
-    height: auto;
-    padding: 2%;
-    background-color: grey;
-}
-
-.page-body-img-caption-div {
-    margin-left: 15%;
-    margin-right: 15%;
 }
 .img-sub-script {
     color: #808080;
