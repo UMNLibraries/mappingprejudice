@@ -241,8 +241,10 @@ div.cartodb-popup.v2 {
 	margin-right: 25px;
 }
 
-/** page modal btn stuff **/
-.img-btn-screen-txt-homepage{
+/** 
+
+modal btn stuff **/
+.img-btn-screen-txt-home{
     color: #2d2c2a;
     text-decoration: none;
     font-weight: bolder;
@@ -463,7 +465,7 @@ ul.bxslider {
 }
 
 .page-body-img {
-    max-width: 75%;
+    max-width: 65%;
     height: auto;
     padding: 2%;
     background-color: grey;
