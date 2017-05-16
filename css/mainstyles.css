@@ -525,6 +525,11 @@ p {
 .training-text {
 	text-align: left;
 }
+
+.iframe-div {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .training-text-div { 
     width: 45%;
     margin: 0px;
@@ -642,7 +647,7 @@ footer {
     position: fixed;
     z-index: -1;
     bottom: 0;
-    height: 200px;
+    height: 170px;
 
 }
 .logo-images-div {
@@ -689,7 +694,7 @@ footer {
 
 .wrapper-parallax {
     margin-top: 0px;
-    margin-bottom: 175px;
+    margin-bottom: 150px;
 }
 
 

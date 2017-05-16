@@ -157,6 +157,27 @@
 
 }
 
+@media screen and (max-width: 800px) {
+	/** social media icons **/
+	.social-width {
+		float: none;
+        }
+	#social-list {
+		bottom: 17px;
+		text-align: center;
+		width: 100%;
+		margin-top: 0px;
+		position: absolute;
+	}
+	#contact-btn {
+		display: none;
+	}
+	.social-ul {
+		display: -webkit-inline-box;
+   		text-align: center;
+	}
+}
+
 @media screen and (max-width: 475px)  {
 	.sub-title-list {
 		margin: 10px;
@@ -212,7 +233,7 @@
 		float: none;
         }
 	#social-list {
-		bottom: 0;
+		bottom: 17px;
 		text-align: center;
 		width: 100%;
 		margin-top: 0px;
