@@ -400,19 +400,27 @@ ul.bxslider {
 }
 /** Press Page Styles **/
 
-.press-images-div {
+.press-images-div-1 {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
     background-color: #f2f2ed;
 }
 
-.press-images-div-alt {
+.press-images-div-2 {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
     background-color: #e3e7f3;
 }
+
+.press-images-div-3 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #f1e9e9;
+}
+
 .press-imgs {
   margin-bottom: 25px;
   max-width: 450px;
