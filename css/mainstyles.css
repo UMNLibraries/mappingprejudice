@@ -31,14 +31,21 @@
 .modal-content {
 	position: fixed;
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 1%;
+    bottom: 20px;
+    left: 23px;
+    right: 30px;
 
 }
+
+#iframe-modal {
+    border-style: solid;
+    border-width: 3px !important;
+    border-color: #827b7b;
+    width: 100%; 
+    border-width: 0px
+}
 .close {
-    color: #5d5c5c;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
