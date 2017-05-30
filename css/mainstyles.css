@@ -793,7 +793,7 @@ footer {
 /* contact btn */
 .top_btns {    
     position: fixed;
-    background: url(https://github.com/mappingprejudice/mappingprejudice.github.io/blob/master/images/mail_icon.png?raw=true) no-repeat rgba(17, 17, 17, 0);
+    background: url(https://raw.githubusercontent.com/mappingprejudice/mappingprejudice.github.io/master/images/menu.png) no-repeat rgba(17, 17, 17, 0);
     height: 46px;
     width: 46px;
     border-width: 0px;
