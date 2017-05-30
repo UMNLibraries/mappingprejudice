@@ -116,7 +116,7 @@ div.cartodb-timeslider .ui-slider-horizontal {
 }
 
 div.cartodb-timeslider .ui-slider .ui-slider-handle {
-	background: url(../images/sliderdark.png) no-repeat -98px -17px #fff !important;
+	background: url(../images/slider.png) no-repeat -98px -17px #fff !important;
 	top: -3px !important;
 	height: 11px !important;
 }
@@ -127,7 +127,7 @@ div.cartodb-timeslider .ui-slider .ui-slider-range {
 
 
 div.cartodb-timeslider a.button{    
-	background: url(../images/sliderdark.png) no-repeat -2px -55px !important;
+	background: url(../images/slider.png) no-repeat -2px -55px !important;
 }
 
 div.cartodb-timeslider p {
