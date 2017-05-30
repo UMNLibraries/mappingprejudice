@@ -7,7 +7,7 @@
     width: 14px;
     height: 14px;
     padding: 14px;
-    background: #fff url(http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/img/fullscreen.png) no-repeat 7px 3px;
+    background: #fff url(https://raw.githubusercontent.com/mappingprejudice/mappingprejudice.github.io/master/images/fullscreen.png) no-repeat 7px 3px;
     box-shadow: rgba(0,0,0,.2) 0 0 4px 2px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -793,7 +793,7 @@ footer {
 /* contact btn */
 .top_btns {    
     position: fixed;
-    background: url(http://historyapolis.com/ImageHosting/Images/MetroUI_Mail.png) no-repeat rgba(17, 17, 17, 0);
+    background: url(https://github.com/mappingprejudice/mappingprejudice.github.io/blob/master/images/mail_icon.png) no-repeat rgba(17, 17, 17, 0);
     height: 46px;
     width: 46px;
     border-width: 0px;
