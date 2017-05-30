@@ -7,7 +7,7 @@ $(document).ready(function () {
              // Get the <span> element that closes the modal
              var span = document.getElementsByClassName("close")[0];
              // Get iframe by id and set iframe src
-             var address = "http://historyapolis.com/KevinsProjects/Covenants-1983674857393026152499/iframe-timelapse/index.html";
+             var address = "https://mappingprejudice.org/timelapse/index.html";
              var iframe = document.getElementById("iframe-modal");
              var blankaddress = "http://historyapolis.com/KevinsProjects/background-blank/index.html";
 
