@@ -44,6 +44,11 @@
     width: 100%; 
     border-width: 0px
 }
+
+.iframe-media {
+    width: 450px;
+    height: 300px; 
+}
 .close {
     color: #ffffff;
     float: right;
