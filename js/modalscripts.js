@@ -33,6 +33,12 @@ $(document).ready(function () {
         }
     )
 //Contact Modal
+
+
+
+
+
+
 $(document).ready(function () {
     var contact_modal = document.getElementById('contact_modal_screened');
     var contact_btn = document.getElementById('contact_btn');
@@ -40,6 +46,7 @@ $(document).ready(function () {
     var contact_link = document.getElementById('sub-title-link-contact');
     var events_link = document.getElementById('sub-title-link-events');
     var footer_contact_btn = document.getElementById('footer-contact-btn');
+    var events_btn = document.getElementById('events_btn');
     var events_modal = document.getElementById('events_modal_screened');
     var events_span = document.getElementById('events_close');
 
@@ -55,6 +62,10 @@ $(document).ready(function () {
         contact_modal.style.display = "block";
     }
     events_link.onclick = function () {
+        events_modal.style.display ="block";
+    }
+
+    events_btn.onclick = function () {
         events_modal.style.display ="block";
     }
 
@@ -75,7 +86,6 @@ $(document).ready(function () {
     }
     
 })
-//Get Involved Modal
 //Fixed Nav Bar
     $(document).ready(function () {
         $(window).bind('scroll', function () {
@@ -89,12 +99,13 @@ $(document).ready(function () {
         if (finalSize <= 0) {
             $('#stickyNav').css({
                 'position': 'fixed',
-                    'top': 0
+                    'top': 50
             });
             
             $('.stickyNav-title').attr('id', 'show-title');
             $('.stickyNav-img').attr('id', 'show-img');
             $('.stickyNav-menu-center').attr('id', 'hide-menu');
+            $('.top-sticky-nav-desktop').attr('id', 'show-nav');
         } else {
             
              $('#stickyNav').css({
@@ -103,6 +114,7 @@ $(document).ready(function () {
             $('.stickyNav-title').removeAttr('id');
             $('.stickyNav-img').removeAttr('id');
             $('.stickyNav-menu-center').removeAttr('id');
+            $('.top-sticky-nav-desktop').removeAttr('id');
         }
     });
 });
