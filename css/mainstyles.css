@@ -396,6 +396,9 @@ ul.bxslider {
     position: absolute;
     margin: 0 auto;
 }
+#stickyNav_container_1 {
+
+}
 
 .stickyNav-img {
     display: none;
@@ -703,7 +706,7 @@ a#sub-title-link:hover {
 
 a {
     text-decoration: none;
-    color: #688bbb;
+    color: #688bbb
 }
 
 .left-nav-ul {
