@@ -437,6 +437,10 @@ ul.bxslider {
     display: none;
 }
 
+.stickyNavList-btn {
+        display: none;
+}
+
 .active-nav-link {
     color: black;
     font-size: larger;
