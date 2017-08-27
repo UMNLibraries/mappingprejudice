@@ -25,8 +25,6 @@
 <!-- Social Share Kit JS -->
 <script type="text/javascript" src="social/js/social-share-kit.js"></script>
 <script src="js/modalscripts.js"></script>
-<!-- override CSS file for bxslider main page -->
-<link href="css/bxslider_mainpage.css" rel="stylesheet">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -78,8 +76,7 @@
     <span id="events_close">x</span>
     <iframe src="https://www.mappingprejudice.org/Events/" style="width: 100%; height:100%; border-width: 0px;"></iframe>
   </div>  
-</div> 
-<!-- Nav Buttons and Title Top Section -->        
+</div>         
   <div class="top-section">
     <div class="top-section-text">
       <div>
@@ -89,62 +86,64 @@
       <h3 class="main-title"> <a id="main_title_a" href="index.html">Mapping Prejudice</a></h3>
       <h4 class="sub-title">
         <div>
-          <ul class="sub-title-list" id="sub-title-header-list" style="padding: 0px;">
-            <li class="sub-title-list" ><a class="hvr-underline-from-center" id="sub-title-link-events" href="# contact_modal_screened">Events</a></li>
-            <li class="sub-title-list"><a class="hvr-underline-from-center" id="sub-title-link-contact" href="# contact_modal_screened">Contact</a></li>
+          <ul class="sub-title-list" style="padding: 0px;">
+            <li class="sub-title-list"><a class="hvr-underline-from-center" id="sub-title-link-events" href="#">Events</a></li>
+            <li class="sub-title-list"><a class="hvr-underline-from-center" id="sub-title-link-contact" href="#">Contact</a></li>
             <li class="sub-title-list"><a class="hvr-underline-from-center"  id="sub-title-link" href="http://www.historyapolis.com/">Historyapolis</a></li>
           </ul>
         </div>
     </div>
   </div>
-<!-- Sticky Nav Bar Desktop -->
-  <div class="top-sticky-nav-desktop">
-      <div class="top-sticky-nav-container">
-        <ul class="sub-title-list" style="padding: 0px;">
-            <li class="sub-title-list-nav-home"><a href="#" class="homepage-icon">Mapping Prejudice</a></li>
-            <li class="sub-title-list-nav-contact"><a id="contact_btn" href="# contact_modal_screened">Contact</a></li>
-            <li class="sub-title-list-nav-events"><a id="events_btn" href="# events_modal_screened">Events</a></li>
-          </ul>
-            <button class="stickyNavList-btn">
-                <img class="stickyNav-img" src="images/nav_icon.png"></img>
-            </button>
-      </div>
-  </div>
-<!--Sub-header content -->
-  <div id="sub-header-content">
-    <div id="sub-header-wrapper">
-      <div class="content-top-bar">
+<div id="sub-header-content">
+  <div id="sub-header-wrapper">
+    <div class="content-top-bar">
     </div>
-<!--Side Nav Bar -->
+    <div class="ssk-group">
+      <div class="social-width">
+          <div id="social-list">
+            <ul style="padding: 0px;" class="social-ul">
+              <li><a href="" class="ssk ssk-facebook ssk-lg"></a></li>
+              <li><a href="" class="ssk ssk-twitter ssk-lg"></a></li>
+              <li><a href="" class="ssk ssk-google-plus ssk-lg"></a></li>
+              <li><button id="contact_btn" class="top_btns"></button></li>
+            </ul>
+          </div>
+      </div>
+    </div>
     <div class="side-nav-bar">
       <div id="stickyNav_container_1">
         <div id="stickyNav">
           <ul id="left_nav_ul">
-            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="what-are-covenants">What Are Covenants?</a></li>
+          <li class="stickyNavList-lead"><button class="stickyNavList-btn">
+            <h4 class="stickyNav-title">Mapping Prejudice</h4>
+            <h4 class="stickyNav-menu-center">Menu</h4>
+            <img class="stickyNav-img" src="images/menu.png" alt="menu-icon"></img>
+          </button></li>
+            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" id="top-nav-item" href="what-are-covenants">What Are Covenants?</a></li>
             <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="about-us">About Us</a></li>
-            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="get-involved">Get Involved</a></li>
-            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="media">Media</a></li>
+            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="our-mission/">Our Mission</a></li>
+            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="get-involved/">Get Involved</a></li>
+            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="media/">Media</a></li>
           </ul>
         </div>
       </div>
     </div>
-<!--Begin Main Page Content -->
     <div class="content-width">
-          <div class="iframe-background">
+          <div class="iframe-background" style="margin-right: 5%; margin-left: 5%;">
             <div style="margin-right: 5%; margin-left: 5%;">
             <div style="float: right">
               <button id="kevBtn"></button>
             </div>
           </div>
           
-<!-- Modal Iframe -->
+      <!-- Modal Iframe -->
           <div id="myModal" class="modal">
               <div class="modal-content">
                 <span class="close">x</span>
                 <iframe width="100%" height="93%" frameborder="0" src="background-blank/index.html" name="search_iframe" id="iframe-modal"></iframe>
               </div>
           </div>
-<!-- Main Page Iframe -->
+      <!-- Main Page Iframe -->
           <div class="iframe-box">
             <div id="map-border" style="text-align: center;">
               <iframe src="https://www.mappingprejudice.org/timelapse/" id="myiframe" name="search_iframe" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
@@ -153,48 +152,16 @@
       </div>
       <p class="img-sub-script">This interactive visualization shows the spread of racially-restrictive deeds across Minneapolis during the first half of the twentieth century.</p>
 
-      <p id="lead-para">The Mapping Prejudice Project is working to identify and map racial restrictions buried in historic Minneapolis property deeds. These restrictions, known as racial covenants or racially-restrictive deeds, were used in most American cities before 1968 to prevent people who were not white from buying or occupying property. Yet no one has ever shown how much of the urban landscape was saddled with these restrictions. We are making the first-ever comprehensive map of racial covenants for an American city.</p>
+      <p id="lead-para">The Mapping Prejudice Project is an ongoing and collaborative attempt to map racial restrictions attached to Minneapolis property records during the 20th century. While the practice was common throughout the country, no city has tracked the full extent of these restrictions. We hope to be the first. </p>
 
-      <p id="lead-para">Our visualization will transform our collective understanding of race and real estate. Over the course of the twentieth century, discriminatory deeds reshaped Minneapolis in ways that we need to confront as a community.</p>
+      <p>Racial covenants were legal documents that prohibited certain groups of people—especially African Americans—from buying or occupying property. These contracts were embedded in property deeds to make neighborhoods racially segregated.</p>
 
-      <p>Racial covenants were invisible to the casual observer. In this way, they were different from the whites-only drinking fountains and waiting rooms of the Jim Crow south. Yet these real estate contracts were powerful tools for segregationists. Real estate developers and public officials used private property transactions to build a hidden system of American apartheid during the twentieth century.</p> 
+      <p>Covenants were widely used throughout the country during the Jim Crow era. Yet unlike the segregated drinking fountains and waiting rooms of the American south, racially-restrictive deeds were invisible to the casual observer, lurking beneath the surface of the urban landscape. Real estate developers and public officials used these powerful tools for segregation to build a hidden system of American apartheid during the twentieth century.</p> 
 
-      <p>Inspired by the idea that we cannot address the inequities of the present without an understanding of the past, Mapping Prejudice was created to make this structural racism visible. Our interdisciplinary team of community activists, students and scholars from Augsburg College and the University of Minnesota is working to identify and map the property contracts that rendered many neighborhoods in Minneapolis racially exclusive.</p>
+      <p>Inspired by the idea that we cannot address the inequities of the present without an understanding of the past, Mapping Prejudice was created to make this structural racism visible. Our interdisciplinary team of community activists, students and scholars from Augsburg College and the University of Minnesota is working to identify and map the property contracts that rendered many neighborhoods in Minneapolis racially exclusive. </p>
 
-      <p>Minneapolis was not always segregated. The maps below, created from raw census data compiled by the Minnesota Population Center, show how covenants helped remake the racial landscape of the city. As racially-restrictive deeds spread, African Americans were pushed into small and increasingly circumscribed neighborhoods. Even as the number of black residents continued to climb, ever-larger swaths of the city became entirely white. </p>
+      <p>This effort will culminate in the first-ever comprehensive visualization of covenants for an American city. Our finished map will illuminate a hidden history of race in Minneapolis. </p>
 
-      <div>
-        <ul class="bxslider">
-          <li><a href="images/demo_1910.png"><img src="images/demo_1910.png" title="1910"></a></li>
-          <li><a href="images/demo_1920.png"><img src="images/demo_1920.png" title="1920"></a></li>
-          <li><a href="images/demo_1930.png"><img src="images/demo_1930.png" title="1930"></a></li>
-          <li><a href="images/demo_1940.png"><img src="images/demo_1940.png" title="1940"></a></li>
-        </ul>
-
-        <script>
-          jQuery('.bxslider').bxSlider({
-          mode: 'fade',
-          captions: true,
-          controls: true,
-          auto: false,
-          infinateLoop: false,
-          adaptiveHeight: false,
-          pager: false
-          });
-        </script>
-      </div>
-
-      <p>These maps show how covenants changed neighborhoods. Nascent black communities in Northeast Minneapolis and around Lake Harriet were completely eradicated by 1940. By that year, black residents had been pushed out of every census enumeration district on the east side of the Mississippi River.</p> 
-
-      <p>Today, we are living with the legacies of these policies. Racial covenants dovetailed with redlining and predatory lending practices to depress homeownership rates for African Americans. And today, Minneapolis has the <a href="http://www.startribune.com/already-low-homeownership-rates-of-twin-cities-minorities-fall-further-down/441087863/">lowest African-American homeownership</a> rate in the county.</p>
-
-      <p>Our contemporary disparities have grown out of these historic practices. Our map will help our community grapple with the reality of structural racism. But we need your help.</p> 
-      
-      <div class="main-page-btns">
-        <ul class="ul-main-page-btns">
-          <li><a href="https://www.mappingprejudice.org/what-are-covenants/">Learn More</a></li>
-          <li><a href="https://www.mappingprejudice.org/get-involved/">Get Involved</a></li>
-      </div>
     </div>
   </div>
   </div>
@@ -214,34 +181,19 @@
 </body>
 <footer>
   <div class="footer-text">    
-        <div class="footer-btn-box-div">
-          <ul class="sub-title-list" style="padding: 0px;">
-           <li class="sub-title-list"><a id="footer-contact-btn" href="# contact_modal_screened">Contact</a></li>
-            <li class="sub-title-list"><a id="sub-title-link-footer" href="http://historyapolis.com/">Historyapolis</a></li>
-            <li class="sub-title-list"><a id="sub-title-link-footer" href="https://www.lib.umn.edu/borchert">Borchert Map Library</a></li>
-            <li class="sub-title-list"><a id="sub-title-link-footer" href="http://www.cura.umn.edu/">C.U.R.A</a></li>
-          </ul>
-        </div>
-        <div class="ssk-group">
-              <div id="social-list">
-                <ul style="padding: 0px;" class="social-ul">
-                  <li><a href="" class="ssk ssk-facebook ssk-lg" id="ssk-overide-fb"></a></li>
-                  <li><a href="" class="ssk ssk-twitter ssk-lg" id="ssk-overide-twit"></a></li>
-                  <li><a href="" class="ssk ssk-google-plus ssk-lg" id="ssk-overide-google"></a></li>
-                </ul>
-              </div>
-        </div>
-        <p class="footer-text-p">&copy 2017 Mapping Prejudice Project. All Rights Reserved.</p>
+    <div class="logo-images-div">
+     <a id="footer-icons" href="https://www.historyapolis.com">
+        <img class="logo-imgs" src="images/HSP-Logo-web.png" alt="Historyapolis Logo">
+     </a>
+     <a id="footer-icons" href="https://www.cura.umn.edu/">
+      <img class="logo-imgs" src="images/cura_logo.jpg" alt="Center for Urban and Regional Affairs Logo">
+     </a>
+     <a id="footer-icons" href="https://www.lib.umn.edu/borchert/">
+        <img class="logo-imgs" src="images/ulib.png" alt="Borchert Map Library Logo">
+     </a>
+    </div>
+    <p class="footer-text-p" id="footer-contact-btn">&copy 2017 Mapping Prejudice. All rights Reserved</p>
   </div>
-  <script type="text/javascript">SocialShareKit.init({
-  twitter: {
-        url: 'https://mappingprejudice.org',
-        text: 'Racial covenants and housing discrimination in 20th century Minneapolis.',
-        image: 'https://www.mappingprejudice.org/images/protest_1200.png',
-    }
-  }
-);
-</script>
 </footer>
 </div>
 </html>
