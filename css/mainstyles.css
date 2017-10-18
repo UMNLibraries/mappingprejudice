@@ -811,7 +811,7 @@ a {
     background-color: rgba(0, 0, 0, 0);
     background-size: 40px;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 #ssk-overide-twit{
     background-image: url('../images/Twitter.png');
@@ -819,6 +819,7 @@ a {
     background-color: rgba(0, 0, 0, 0);
     background-size: 40px;
     background-repeat: no-repeat;
+    margin-right: 10px;
 }
 #ssk-overide-google{
     background-image: url('../images/Google_Plus.png');
@@ -853,7 +854,8 @@ footer {
     position: fixed;
     z-index: -1;
     bottom: 0;
-    height: 170px;
+    height: 205px;
+    background-color: #a9bbd2;
 
 }
 
@@ -874,7 +876,7 @@ footer {
 
 
 .footer-btn-box-div {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .logo-images-div {
@@ -889,11 +891,11 @@ footer {
   color: black;
 }
 .footer-text {
-    padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #a9bbd2;
     height: 200px;
     text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 #footer-contact-btn {
     text-decoration: none;
@@ -908,10 +910,14 @@ footer {
   cursor: pointer;
 }
 .footer-text-p {
-  line-height: 0;
-  margin-top: 20px;
   color: #6d6c6c;
   font-size: small;
+  margin-bottom: 0px;
+}
+.footer-text-p-social {
+  color: white;
+  font-size: small;
+  margin-bottom: 20px;
 }
 .footer-para {
     margin-bottom: 25px;
@@ -928,7 +934,7 @@ footer {
 
 .wrapper-parallax {
     margin-top: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 205px;
 }
 
 
@@ -1390,7 +1396,7 @@ footer {
     }
     .footer-text-p {
             line-height: 1;
-            font-size: small;
+            font-size: 11px;
             margin-top: 10px;
     }
     #contact_modal_div {
