@@ -24,7 +24,7 @@ $(document).ready(function () {
 			 iframe.src = blankaddress;
              }
              // When the user clicks anywhere outside of the modal, close it
-             window.onclick = function(event) {
+             modal.onclick = function(event) {
              if (event.target == modal) {
              modal.style.display = "none";
 			 iframe.src = blankaddress;
@@ -106,6 +106,9 @@ $(document).ready(function () {
             $('.stickyNav-img').attr('id', 'show-img');
             $('.stickyNav-menu-center').attr('id', 'hide-menu');
             $('.top-sticky-nav-desktop').attr('id', 'show-nav');
+            $('.side-nav-bar').removeAttr('id');
+
+
         } else {
             
              $('#stickyNav').css({
@@ -115,6 +118,8 @@ $(document).ready(function () {
             $('.stickyNav-img').removeAttr('id');
             $('.stickyNav-menu-center').removeAttr('id');
             $('.top-sticky-nav-desktop').removeAttr('id');
+            $('.side-nav-bar').attr('id', 'hide-menu');
+
         }
     });
 });

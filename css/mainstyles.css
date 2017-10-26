@@ -53,6 +53,8 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+    width: 100%;
+    text-align: right;
 }
 .close:hover,
 .close:focus {
@@ -806,21 +808,43 @@ a {
 /** Social Icon Style **/
 
 #ssk-overide-fb{
-    background-image: url('../images/Facebook.png');
+    background-image: url('../images/fb_no_border.png');
     color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     background-size: 40px;
     background-repeat: no-repeat;
     margin-left: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 20px;
 }
+
+#ssk-overide-fb:hover {
+    border-color: #d10000;
+    cursor: pointer;
+}
+
 #ssk-overide-twit{
-    background-image: url('../images/Twitter.png');
+    background-image: url('../images/twitter_no_border.png');
     color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     background-size: 40px;
     background-repeat: no-repeat;
     margin-right: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 20px;
 }
+
+#ssk-overide-twit:hover {
+    border-color: #d10000;
+    cursor: pointer;
+}
+
 #ssk-overide-google{
     background-image: url('../images/Google_Plus.png');
     color: rgba(0, 0, 0, 0);
@@ -1154,6 +1178,7 @@ footer {
     #hide-menu {
         display: none;
     }
+
     .stickyNav-title {
         display: none;
         float: left;
