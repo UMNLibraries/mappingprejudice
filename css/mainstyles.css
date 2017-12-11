@@ -29,7 +29,7 @@
     background-color: rgba(0, 0, 0, 0.72);
 } 
 .modal-content {
-	position: fixed;
+    position: fixed;
     top: 0;
     bottom: 20px;
     left: 23px;
@@ -206,32 +206,51 @@
 
 /** Carto Style Edits **/
 
+#carto_screen {
+    position: absolute;
+    width: 705px;
+    height: 500px;
+    background-color: #80808000;
+    margin-top: 38px;
+    text-align: center;
+    margin-left: 47px;
+    z-index: 2;
+}
+
+#carto_div {
+    margin: 0 auto;
+    max-width: 800px;
+}
+#carto_div2 {
+
+}
+
 .cartodb-timeslider {
-	bottom: 15px !important;
-	left: 20px !important;
+    bottom: 15px !important;
+    left: 20px !important;
 }
 
 .cartodb-logo {
-	display: none !important;
+    display: none !important;
 }
 
 div.cartodb-timeslider .ui-slider-horizontal {
-	height: 8px !important;
+    height: 8px !important;
 }
 
 div.cartodb-timeslider .ui-slider .ui-slider-handle {
-	background: url(../images/sliderdark.png) no-repeat -98px -17px #fff !important;
-	top: -3px !important;
-	height: 11px !important;
+    background: url(../images/sliderdark.png) no-repeat -98px -17px #fff !important;
+    top: -3px !important;
+    height: 11px !important;
 }
 
 div.cartodb-timeslider a.button{    
-	background: url(../images/sliderdark.png) no-repeat -2px -55px !important;
+    background: url(../images/sliderdark.png) no-repeat -2px -55px !important;
 }
 
 div.cartodb-timeslider p {
-	color: #5b5858 !important;
-	font-size: 15px !important;
+    color: #5b5858 !important;
+    font-size: 15px !important;
 }
 
 div.cartodb-timeslider a.button:hover {
@@ -246,16 +265,15 @@ div.cartodb-timeslider a.button.stop {
     background-position: -2px -4px !important;
 }
 .leaflet-control-attribution {
-	display: none;
+    display: none;
 }
 
 div.cartodb-popup.v2 {
-	margin-top: 50px;
-	margin-right: 25px;
+    margin-top: 50px;
+    margin-right: 25px;
 }
 
 /** 
-
 modal btn stuff **/
 .img-btn-screen-txt-home{
     color: #2d2c2a;
@@ -273,33 +291,33 @@ modal btn stuff **/
 }
 
 .footnote-text {
-	font-size: smaller;
+    font-size: smaller;
 }
 
 
 /** Bxslider Edits **/
 
 ul.bxslider {
-	margin: 0px;
+    margin: 0px;
 }
 
 #slidertext {
-	padding: 0px;
-	padding-bottom: 5px;
-	margin-left: 55px;
+    padding: 0px;
+    padding-bottom: 5px;
+    margin-left: 55px;
     margin-right: 50px;
-	text-align: center;
+    text-align: center;
 }
 
 #sliderlink {
-	color: #c2dee8;
-	text-align: center;
+    color: #c2dee8;
+    text-align: center;
 }
 
 .bx-wrapper {
-	margin-left: 5% !important;
-	margin-right: 5% !important;
-	margin-bottom: 60px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-bottom: 60px !important;
 }
 
 /** main nav bar desktop display **/
@@ -329,7 +347,7 @@ ul.bxslider {
     margin-left: 30px;
     color: #000000;
     position: fixed;
-    right: 100px;
+    right: 200px;
 }
 .sub-title-list-nav-contact a{
     color: #ffffff;
@@ -345,7 +363,7 @@ ul.bxslider {
     margin-left: 55px;
     color: #000000;
     position: fixed;
-    right: 0;
+    right: 100px;
 }
 .sub-title-list-nav-events a{
     color: #ffffff;
@@ -353,7 +371,20 @@ ul.bxslider {
 .sub-title-list-nav-events a:hover{
     color: grey;
 }
-
+.sub-title-list-nav-donate {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 55px;
+    color: #000000;
+    position: fixed;
+    right: 0px;
+}
+.sub-title-list-nav-donate a{
+    color: #ffffff;
+}
+.sub-title-list-nav-donate a:hover{
+    color: grey;
+}
 .sub-title-list-nav-home {
     display: inline-block;
     margin-right: 30px;
@@ -412,27 +443,27 @@ ul.bxslider {
 
 }
 #stickyNav ul {
-	float: left;
+    float: left;
   padding-left: 0px;
   margin-top: 2px;
 
 }
 
 #top-nav-item{
-	margin-top: 15px;
+    margin-top: 15px;
   padding-top: 10px;
 }
 .stickyNavList {
     margin-top: 2em;
-	 margin-bottom: 4em;
+     margin-bottom: 4em;
     list-style: none;
     color: #a79797;
     /* border-width: 0px 0px 2px 0px;
     border-style: groove; */
 }
 .stickyNavList-active {
-	border-width: 0px;
-	
+    border-width: 0px;
+    
 }
 .stickyNavList-lead{
     display: none;
@@ -530,11 +561,11 @@ ul.bxslider {
 }
 #content {
     background: rgb(234, 234, 235) !important;
-	
+    
 }
 
 #lead-para {
-	padding-top: .5em;
+    padding-top: .5em;
     font-weight: bold;
 }
 
@@ -562,10 +593,10 @@ ul.bxslider {
     position: absolute;
 }
 .side-nav-link {
-	list-style: none;
-    	color: #a5a5a5;
-	text-decoration: none;
-	font-size: larger;
+    list-style: none;
+        color: #a5a5a5;
+    text-decoration: none;
+    font-size: larger;
 }
 a.side-nav-link:hover {
     color: black;
@@ -575,19 +606,19 @@ li:hover {
 }
 
 .mp-lead-img {
-	height: auto;
+    height: auto;
 }
 
 
 .align-center-div {
-	padding-top: 5%;
+    padding-top: 5%;
     padding-bottom: 5%;
-	background-color: #9a9a9a;
+    background-color: #9a9a9a;
     text-align: center;
 }
-	
+    
 .entry-content {
-	background-color: none;
+    background-color: none;
 }
 
 body {
@@ -601,10 +632,10 @@ p {
     padding-left: 5%;
     padding-right: 5%;
     line-height: 1.5;
-	 color: black;
+     color: black;
 }
 .training-text {
-	text-align: left;
+    text-align: left;
 }
 
 .iframe-div {
@@ -621,7 +652,7 @@ p {
 }
 .content-width {
     /* background-color: #f1f1ec; */
-	margin: 0 auto;
+    margin: 0 auto;
     max-width: 800px;
     padding-bottom: 15px;
     padding-top: 30px;
@@ -685,7 +716,9 @@ p {
     margin: 0px;
 
 }
-
+#sub-title-link-donate {
+  color: #000000;
+}
 #sub-title-link-contact {
   color: #000000;
 }
@@ -1125,6 +1158,9 @@ footer {
     .sub-title-list-nav-events {
         display: none;
     }
+    .sub-title-list-nav-donate {
+        display: none;
+    }
     #stickyNav{
         height: 50px;
         width: 100%;
@@ -1236,7 +1272,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    /** social media icons **/
+    #carto_screen{
+        display: none;
+
+    }
     .social-width {
         float: none;
         }
@@ -1342,13 +1381,21 @@ footer {
     #sub-title-link-contact{
         color: white;
         font-weight: 500;
-    }       
+    }
+    #sub-title-link-donate{
+        color: white;
+        font-weight: 500;
+    }         
     #sub-title-link{
         color: white;
         font-weight: 500;
     }
     a#sub-title-link:hover{
         color: white;
+    }
+
+    #mobile_drop {
+        display: none;
     }
     .content-width {
         padding-top: 0px;
@@ -1475,4 +1522,3 @@ footer {
         text-align: center;
     }   
 }
-

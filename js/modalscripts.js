@@ -32,12 +32,7 @@ $(document).ready(function () {
             } 
         }
     )
-//Contact Modal
-
-
-
-
-
+//Modals
 
 $(document).ready(function () {
     var contact_modal = document.getElementById('contact_modal_screened');
@@ -49,6 +44,7 @@ $(document).ready(function () {
     var events_btn = document.getElementById('events_btn');
     var events_modal = document.getElementById('events_modal_screened');
     var events_span = document.getElementById('events_close');
+    
 
     contact_link.onclick = function () {
         contact_modal.style.display = "block";
@@ -77,15 +73,42 @@ $(document).ready(function () {
         events_modal.style.display = "none";
     }
 
+
     window.onclick = function(event) {
         if (event.target == contact_modal) {
             contact_modal.style.display = "none";
         } else if (event.target == events_modal) {
             events_modal.style.display ="none";
-        }
+        } 
     }
     
 })
+
+// donate modal
+$(document).ready(function () {
+    var donate_link = document.getElementById('sub-title-link-donate');
+        var donate_btn = document.getElementById('donate_btn');
+        var donate_modal = document.getElementById('donate_modal_screened');
+        var donate_span = document.getElementById('donate_modal_close');
+
+    donate_modal.onclick = function(event) {
+        if (event.target != donate_modal_div) {
+            donate_modal.style.display ="none";
+        }
+    }
+
+        donate_span.onclick = function() {
+            donate_modal.style.display ="none";
+        }
+        donate_link.onclick = function () {
+            donate_modal.style.display ="block";
+        }
+
+        donate_btn.onclick = function () {
+            donate_modal.style.display ="block";
+        }
+})
+
 //Fixed Nav Bar
     $(document).ready(function () {
         $(window).bind('scroll', function () {
@@ -131,4 +154,3 @@ $(document).ready(function() {
          $('.stickyNavList').toggle();
     })
 })
-

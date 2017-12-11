@@ -33,10 +33,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-88400382-2', 'auto');
   ga('send', 'pageview');
-
 </script>
 </head>
 <div class="wrapper-parallax">
@@ -97,11 +95,13 @@
           <ul class="sub-title-list" id="sub-title-header-list" style="padding: 0px;">
             <li class="sub-title-list" ><a class="hvr-underline-from-center" id="sub-title-link-events" href="# contact_modal_screened">Events</a></li>
             <li class="sub-title-list"><a class="hvr-underline-from-center" id="sub-title-link-contact" href="# contact_modal_screened">Contact</a></li>
-            <li class="sub-title-list"><a class="hvr-underline-from-center"  id="sub-title-link" href="http://www.historyapolis.com/">Historyapolis</a></li>
+            <li class="sub-title-list" id="mobile_drop"><a class="hvr-underline-from-center"  id="sub-title-link" href="http://www.historyapolis.com/">Historyapolis</a></li>
+            <li class="sub-title-list"><a class="hvr-underline-from-center" target="_blank" id="sub-title-link-donate" href="https://makingagift.umn.edu/donate/fund-contact-info.html?&fundCode=22110#formstep-1">Donate</a></li>
           </ul>
         </div>
     </div>
   </div>
+
 <!-- Sticky Nav Bar Desktop -->
   <div class="top-sticky-nav-desktop">
       <div class="top-sticky-nav-container">
@@ -109,6 +109,7 @@
             <li class="sub-title-list-nav-home"><a href="#" class="homepage-icon">Mapping Prejudice</a></li>
             <li class="sub-title-list-nav-contact"><a id="contact_btn" href="# contact_modal_screened">Contact</a></li>
             <li class="sub-title-list-nav-events"><a id="events_btn" href="# events_modal_screened">Events</a></li>
+            <li class="sub-title-list-nav-donate"><a href="https://makingagift.umn.edu/donate/fund-contact-info.html?&fundCode=22110#formstep-1" target="_blank">Donate</a></li>
           </ul>
             <button class="stickyNavList-btn">
                 <img class="stickyNav-img" src="images/nav_icon.png"></img>
@@ -130,6 +131,17 @@
             <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="get-involved">Get Involved</a></li>
             <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="media">Media</a></li>
           </ul>
+        </div>
+      </div>
+    </div>
+<!--modal map screen -->
+    <div id="carto_div">
+      <div id="carto_div2">
+        <div id="carto_screen" onclick="screen_test()">
+          <script>function screen_test() {
+          document.getElementById("carto_screen").style.display = "none";
+           }
+          </script>
         </div>
       </div>
     </div>
