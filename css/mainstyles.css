@@ -838,6 +838,32 @@ a {
     font-style: italic;
     text-align: left;
 }
+
+#get_involved_box {
+    background-color: #e4eaf1;
+    padding: 5px;
+    margin: 5%;
+
+}
+
+#get_involved_box_border {
+    border-color: #969595;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.get_involved_text {
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.get_involved_title {
+    font-weight: 500;
+    margin-bottom: 5%;
+    text-align: center;
+}
 /** Social Icon Style **/
 
 #ssk-overide-fb{
