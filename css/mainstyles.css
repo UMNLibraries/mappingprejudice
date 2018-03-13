@@ -781,6 +781,12 @@ a {
 }
 /** Media Page Styles **/
 
+.media-align {
+    text-align: center;
+}
+.media-ul {
+    padding-left: 0px;
+}
 .media-group-title{
     margin-bottom: 0px;
     padding-bottom: 0px;
