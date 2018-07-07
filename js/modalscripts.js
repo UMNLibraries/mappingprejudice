@@ -7,7 +7,7 @@ $(document).ready(function () {
              // Get the <span> element that closes the modal
              var span = document.getElementsByClassName("close")[0];
              // Get iframe by id and set iframe src
-             var address = "http://www.kevinehrman.com/mpv2/timelapse-hennepin/";
+             var address = "https://www.mappingprejudice.org/timelapse-hennepin/index.html";
              var iframe = document.getElementById("iframe-modal");
              var blankaddress = "http://historyapolis.com/KevinsProjects/background-blank/index.html";
              var navbar = document.getElementById('map_hide');
