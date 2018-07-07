@@ -35,7 +35,11 @@
 		display: block; 
 		padding-top: 100px;
 	}
-
+.copyright {
+    max-width: 16px;
+    margin-bottom: -3px;
+    padding: 0px;
+}
  /** modal stuff **/
 
  /* The Modal (background) */
@@ -180,7 +184,7 @@ h4 {
 	padding-bottom: 0px;
 	padding-left: 5px;
 	width: 119px;
-	background-color: #ffffff;
+	background-color: #d8d8d830;
 	border-radius: 3px 0px 0px 0px;
 }
 
@@ -190,8 +194,11 @@ h4 {
 
 #attribution-link-font {
 	font: 14px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
-	text-decoration: none;
-        color: #6e80b5;
+    text-decoration: none;
+    color: #000000;
+}
+#attribution-link-font:hover{
+	color: #4a5b8f;
 }
 
 #carto_screen {

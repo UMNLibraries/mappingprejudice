@@ -7,12 +7,15 @@ $(document).ready(function () {
              // Get the <span> element that closes the modal
              var span = document.getElementsByClassName("close")[0];
              // Get iframe by id and set iframe src
-             var address = "https://www.mappingprejudice.org/timelapse/";
+             var address = "http://www.kevinehrman.com/mpv2/timelapse-hennepin/";
              var iframe = document.getElementById("iframe-modal");
              var blankaddress = "http://historyapolis.com/KevinsProjects/background-blank/index.html";
+             var navbar = document.getElementById('map_hide');
 
              btn.onclick = function() {
+            console.log(navbar);
              modal.style.display = "block";
+             navbar.style.display = "none";
 			 iframe.src = address;
              } 
             
@@ -22,67 +25,34 @@ $(document).ready(function () {
              span.onclick = function() {
              modal.style.display = "none";
 			 iframe.src = blankaddress;
+             navbar.style.display = "block";
              }
              // When the user clicks anywhere outside of the modal, close it
              modal.onclick = function(event) {
              if (event.target == modal) {
              modal.style.display = "none";
 			 iframe.src = blankaddress;
+             navbar.style.display = "block";
              }
-            } 
+            }
         }
     )
-//Modals
-
+//Contact Modal
 $(document).ready(function () {
-    var contact_modal = document.getElementById('contact_modal_screened');
-    var contact_btn = document.getElementById('contact_btn');
-    var contact_span = document.getElementById('contact_close');
-    var contact_link = document.getElementById('sub-title-link-contact');
-    var events_link = document.getElementById('sub-title-link-events');
-    var footer_contact_btn = document.getElementById('footer-contact-btn');
-    var events_btn = document.getElementById('events_btn');
-    var events_modal = document.getElementById('events_modal_screened');
-    var events_span = document.getElementById('events_close');
-    
+             var contact_modal = document.getElementById('contact_modal_screened');
+             var btn = document.getElementById('contact_btn');
+             var close_btn = document.getElementById('contact_close');
 
-    contact_link.onclick = function () {
-        contact_modal.style.display = "block";
-    }
+             btn.onclick = function() {
+             contact_modal.style.display = "block";
+             }
 
-    contact_btn.onclick = function () {
-        contact_modal.style.display = "block";
-    }
+             close_btn.onclick = function() {
+             contact_modal.style.display = "none";
+             }        
+            
+    });
 
-    footer_contact_btn.onclick = function () {
-        contact_modal.style.display = "block";
-    }
-    events_link.onclick = function () {
-        events_modal.style.display ="block";
-    }
-
-    events_btn.onclick = function () {
-        events_modal.style.display ="block";
-    }
-
-    contact_span.onclick = function() {
-        contact_modal.style.display = "none";
-    }
-
-    events_span.onclick = function() {
-        events_modal.style.display = "none";
-    }
-
-
-    window.onclick = function(event) {
-        if (event.target == contact_modal) {
-            contact_modal.style.display = "none";
-        } else if (event.target == events_modal) {
-            events_modal.style.display ="none";
-        } 
-    }
-    
-})
 
 // donate modal
 $(document).ready(function () {
@@ -113,13 +83,13 @@ $(document).ready(function () {
     $(document).ready(function () {
         $(window).bind('scroll', function () {
         var vPos = $(window).scrollTop();
-        var totalH = $('#sub-header-content').offset().top;
+        var totalH = $('.top-section').offset().top;
         var finalSize = totalH - vPos;
 
         console.log('nav offset', totalH)
-        // console.log(finalSize);
+        console.log(finalSize);
 
-        if (finalSize <= 0) {
+        if (finalSize <= -10) {
             $('#stickyNav').css({
                 'position': 'fixed',
                     'top': 50
@@ -149,8 +119,15 @@ $(document).ready(function () {
 
 //Fire mobile Nav Bar
 $(document).ready(function() {
+
     $('.stickyNavList-btn')
-    .on('click', function(){
-         $('.stickyNavList').toggle();
+    .on('click', function() {
+        $('.stickyNav').toggle(); 
     })
-})
+    
+
+});
+
+
+
+ 

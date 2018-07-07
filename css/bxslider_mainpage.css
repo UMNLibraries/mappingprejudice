@@ -4,9 +4,8 @@
     -webkit-box-shadow: 0 0 0px #ccc;
     box-shadow: 0 0 0px #ccc;
     border: 0px solid #fff;
-    background: #fff;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    background: none;
+    margin-bottom: 0px;
 }
 
 
@@ -21,7 +20,7 @@
 }
 .bx-wrapper img {
    	width: auto;
-   	height: 700px;
+   	height: auto;
    	margin: 0 auto;
    	margin-top: 30px;
  }
@@ -53,9 +52,11 @@
 }
 
 .bx-wrapper .bx-caption {
-	top: 0;
-	bottom: auto;
-    left: auto;
+	  top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10%;
     background: none;
 }
 

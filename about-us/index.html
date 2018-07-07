@@ -1,16 +1,17 @@
 <!doctype html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
-<meta property="og:title" content="About Us" />
-<meta property="og:description" content="Rooted in the conviction that contemporary problems demand a sophisticated understanding of the past, Mapping Prejudice has traced the roots of the city's current day racial disparities through the practice of racial covenants." />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta property="og:title" content="Mapping Prejudice" />
+<meta name="description" content="Racial covenants and housing discrimination in 20th Century Minneapolis. Racial covenants were legal contracts embedded in property deeds to prevent African Americans from purchasing or occupying property." />
+<meta property="og:description" name="description" content="Racial covenants and housing discrimination in 20th century Minneapolis." />
 <meta property="og:image" content="https://www.mappingprejudice.org/images/protest_1200.png" />
 <meta property="og:url" content="https://www.mappingprejudice.org" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Mapping Prejudice">
 <meta name="twitter:description" content="Racial covenants and housing discrimination in 20th century Minneapolis">
 <meta name="twitter:image" content="https://www.mappingprejudice.org/images/protest_1200.png">
-<title>About Us</title>
+<title>Mapping Prejudice</title>
 <link rel="icon" href="../images/web_icon.ico"/>
 <link rel="stylesheet" type="text/css" href="../css/mainstyles.css">
 <link rel="stylesheet" type="text/css" href="../css/responsivedesign.css">
@@ -25,18 +26,16 @@
 <!-- Social Share Kit JS -->
 <script type="text/javascript" src="../social/js/social-share-kit.js"></script>
 <script src="../js/modalscripts.js"></script>
+<!-- override CSS file for bxslider main page -->
+<link href="../css/bxslider_mainpage.css" rel="stylesheet">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-88400382-2', 'auto');
   ga('send', 'pageview');
-
 </script>
-<!-- Lightbox Stylesheet -->
-<link rel="stylesheet" href="../lightbox2-master/dist/css/lightbox.css">
 </head>
 <div class="wrapper-parallax">
 <body>
@@ -49,7 +48,7 @@
       <div class="user-form">
         <form action="https://formspree.io/kevinesolberg@gmail.com" method="POST" class="form-style">
           <div class="field-div">
-          <p class="model-events-text" style="text-align: center;">We welcome feedback, comments, and suggestions.</p>
+          <p class="model-events-text" style="text-align: center;">We welcome feedback, comments, and suggestions. To request a speaking engagement, please click <a href="../speaking/index.html">here</a>.</p>
             <div class="sub-field-div">
 
               <input type="hidden" name="_cc" value="kdelegard@gmail.com" />
@@ -63,7 +62,7 @@
               <p class="field-text">Comment</p>
               <textarea name="comment-stuff" id="field_text_comment_box" cols="30" rows="5" class="form-field"> </textarea>
 
-             <input type="submit" value="Send" class="form-field" style="max-width: 50px">
+              <input type="submit" value="Send" class="form-field" style="max-width: 50px">
             </div>
           </div>
         </form>
@@ -72,184 +71,298 @@
   </div>
 </div>
 </div>
-<!-- events modal content -->
-<div id="events_modal_screened">
-  <div id="events_modal_div">
-    <span id="events_close">x</span>
-    <iframe src="../Events/index.html" style="width: 100%; height:100%; border-width: 0px;"></iframe>
-  </div>  
-</div> 
 <!-- Nav Buttons and Title Top Section -->        
   <div class="top-section">
     <div class="top-section-text">
       <div>
-        <div class="banner-img">
+        <div class="banner-img-about">
       </div>
     </div>
-      <h3 class="main-title">
-        <div class="mobile-main-title-screen">
-         <a id="main_title_a" href="../index.html">Mapping Prejudice</a>
-        </div>
-      </h3>
-      <h4 class="sub-title">
-        <div>
-          <ul class="sub-title-list" id="sub-title-header-list" style="padding: 0px;">
-            <li class="sub-title-list" ><a class="hvr-underline-from-center" id="sub-title-link-events" href="# contact_modal_screened">Events</a></li>
-            <li class="sub-title-list"><a class="hvr-underline-from-center" id="sub-title-link-contact" href="# contact_modal_screened">Contact</a></li>
-            <li class="sub-title-list" id="mobile_drop"><a class="hvr-underline-from-center"  id="sub-title-link" href="http://www.historyapolis.com/">Historyapolis</a></li>
-            <li class="sub-title-list"><a class="hvr-underline-from-center" target="_blank" id="sub-title-link-donate" href="https://makingagift.umn.edu/donate/fund-contact-info.html?&fundCode=22110#formstep-1">Donate</a></li>
-          </ul>
-        </div>
-    </div>
-  </div>
-<!-- Sticky Nav Bar Desktop -->
+
+    <!-- Sticky Nav Bar Desktop -->
   <div class="top-sticky-nav-desktop">
       <div class="top-sticky-nav-container">
-        <ul class="sub-title-list" style="padding: 0px;">
-            <li class="sub-title-list-nav-home"><a href="../index.html" class="homepage-icon">Mapping Prejudice</a></li>
-            <li class="sub-title-list-nav-contact"><a id="contact_btn" href="# contact_modal_screened">Contact</a></li>
-            <li class="sub-title-list-nav-events"><a id="events_btn" href="# events_modal_screened">Events</a></li>
-            <li class="sub-title-list-nav-donate"><a href="https://makingagift.umn.edu/donate/fund-contact-info.html?&fundCode=22110#formstep-1" target="_blank">Donate</a></li>
+        <div class="nav-left">
+          <ul class="sub-title-list" style="padding: 0px;">
+              <li class="sub-title-list-nav-home"><a href="../index.html" class="homepage-icon">Mapping Prejudice</a></li>
           </ul>
+        </div>
+
+        <div class="nav-right">
+          <ul class="sub-title-list" style="padding: 0px;">
+            <li class="nav-item"><a href="../about-us/index.html" class="homepage-icon">About</a></li>
+            <li class="nav-item"><a href="#" class="homepage-icon">|</a></li>
+            <li class="nav-item"><a href="../what-are-covenants/index.html" class="homepage-icon">Learn More</a></li>
+            <li class="nav-item"><a href="#" class="homepage-icon">|</a></li>
+            <li class="nav-item"><a href="../get-involved/index.html" class="homepage-icon">Get Involved</a></li>
+            <li class="nav-item"><a href="#" class="homepage-icon">|</a></li>
+            <li class="nav-item"><a href="../resources/index.html" class="homepage-icon">Resources</a></li>
+            <li class="nav-item"><a href="#" class="homepage-icon">|</a></li>
+            <li class="nav-item"><a href="../stories/index.html" class="homepage-icon">Stories</a></li>
+            <li class="nav-item"><a href="#" class="homepage-icon">|</a></li>
+            <li class="nav-item"><a id="contact_btn" href="# contact_modal_screened">Contact</a></li>
+          </ul>
+
+        </div>
             <button class="stickyNavList-btn">
                 <img class="stickyNav-img" src="../images/nav_icon.png"></img>
             </button>
       </div>
-  </div>
-<!--Sub-header content -->
- <div id="sub-header-content">
-    <div id="sub-header-wrapper">
-      <div class="content-top-bar">
-    </div>
-<!--Side Nav Bar -->
-    <div class="side-nav-bar">
-      <div id="stickyNav_container_1">
-        <div id="stickyNav">
-          <ul id="left_nav_ul">
-            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="../what-are-covenants">What Are Covenants?</a></li>
-            <li class="stickyNavList"><a class="active-nav-link" href="../about-us">About Us</a></li>
-            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="../get-involved">Get Involved</a></li>
-            <li class="stickyNavList"><a class="side-nav-link hvr-underline-from-left" href="../media">Media</a></li>
+      <!-- sticky nav mobile -->
+      <div class="stickyNav">
+          <ul>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="#">About</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../what-are-covenants/index.html">Learn More</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../get-involved/index.html">Get Involved</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../resources/index.html">Resources</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../stories/index.html">Stories</a>
+            </li>
           </ul>
+      </div>
+  </div>
+
+    <div class="main-title">
+      <h3 class="flex-title-page page-title-padding">About Us</h3>
+    </div>
+
+<!--Sub-header content -->
+<div id="sub-header-content">
+  <div class="content-width">
+  
+    
+
+
+  <div class="content-block-2">
+    <div class="flex">
+        <div class="flex-div-1" style="background-color: white;">
+        <div class="text-padding">
+
+        <p>This research is showing what communities of color have known for decades. Structural barriers stopped many people who were not white from buying property and building wealth for most of the last century.</p>
+
+        <p>In Minneapolis, these restrictions served as powerful obstacles for people of color seeking safe and affordable housing.  They also limited access to community resources like parks and schools. Racial covenants dovetailed with redlining and predatory lending practices to depress homeownership rates for African Americans. Contemporary white residents of Minneapolis like to think their city never had formal segregation. But racial covenants did the work of Jim Crow in northern cities like Minneapolis.</p>
+
+        <p>This history has been willfully forgotten. So we created Mapping Prejudice to shed new light on these historic practices. We cannot address the inequities of the present without an understanding of the past.</p>
+
+        <p>Our work is part of a broader reckoning with the legacies of racist housing policies. Mapping Prejudice was inspired by groundbreaking work in Seattle and Virginia that show how digital tools can illuminate structural racism and transform our understanding of the past.</p>
+
+        <p><a href="http://depts.washington.edu/civilr/segregated.htm">Segregated Seattle</a> was the brainchild of the <a href="http://depts.washington.edu/civilr/segregated.htm">Seattle Civil Rights and Labor History Project at the University of Washington</a>, which assembled a <a href="http://depts.washington.edu/civilr/covenants_database.htm">database</a> of racial covenants that has become an important resource for historians, legal researchers and activists trying to understand how ideas about race shaped real estate law and housing policy.</p>
+
+        <p><a href="https://dsl.richmond.edu/panorama/redlining/#loc=4/36.71/-96.93&opacity=0.8">Mapping Inequality</a> was conceived by the University of Richmond's Digital Lab, which digitized New Deal redlining maps to illuminate how federal policy makers "used racial criteria to categorize lending and insurance risks." Historians have long understood the importance of redlining. Yet by using digital mapping software to organize, analyze and display historic data about this practice, this project retold the story in way that made it accessible for a popular audience.</p>
+
+        <p>Mapping Prejudice builds on this existing work. But our efforts in Minneapolis are made especially urgent by the city's contemporary racial disparities, which are <a href="https://metrocouncil.org/getdoc/03bd679d-21a4-455b-af7a-15309b0c71ae/Diving-Deeper-Understanding-Disparities-Between-B.aspx">some of the largest in the nation</a>. Our initial research shows that covenants created demographic patterns that remain in place in Minneapolis today. Residential segregation reinforces other disparities in employment, education and health care. Most notable is the gap in homeownership rates. While 78 percent of white families own homes in the Twin Cities, only 25 percent of African-American families have title to their dwelling.</p>
+
+        <p>Our initial analysis also draws new attention to the way that race has <a href="http://editions.lib.umn.edu/openrivers/article/mapping-racial-covenants-in-twentieth-century-minneapolis/">shaped public space in the city</a>. Our early maps show that some of the city's most spectacular parks were ringed by residential districts that barred people of color from taking up residence. The result was an invisible racial cordon around the city's renowned Grand Rounds, which serves as the city's urban commons.</p>
+
+        <p>Once completed, our database and map will be a powerful community resource that should serve as a foundation for productive community conversations and fact-based policy making.</p>
+
+        <p>Mapping Prejudice is based in the <a href="https://www.lib.umn.edu/borchert">Borchert Map Library</a> at the University of Minnesota. In 2016, the founding members of the project team joined forces to create the first-ever comprehensive visualization of racial covenants for an American city.</p>
+
         </div>
       </div>
+      </div>
+      <div class="flex">
+        <div class="flex-div-1 about-bios" id="bio-link-tag" style="background: url(../images/our-team-banner.png) no-repeat #111; background-position: center top;">
+            <h3 class="flex-sub-title">Our Team</h3>
+        </div>
+      </div>
+        <div class="flex about-bios" style="padding-top: 10%">
+              <div class="flex-div-1-bio">
+                  <img src="../images/kirsten_1680x2000.png" class="bio-imgs">
+                </div>
+
+              <div class="flex-div-3">
+                  <p class="bio-name">Kirsten Delegard</p>
+                  <p class="bio-title">Project Director</p>
+                  <p class="bio-email"><a href="mailto:deleg008@umn.edu">deleg008@umn.edu</a></p>
+                  <p class="margin-none bio-padding">Kirsten Delegard is one of the co-founders of Mapping Prejudice and has a faculty affiliation with the Department of Geography, Environment and Society at the University of Minnesota.</p>
+
+                  <p class="margin-none bio-padding">A third generation Minneapolitan, Delegard has written extensively about the history of her hometown on the Historyapolis website. She has been a <a href="http://sites.mnhs.org/library/legacy-research-fellowships">Legacy Research fellow at the Gale Library</a> at the Minnesota Historical Society and has authored columns for the <a href="http://www.southwestjournal.com/section/voices/historyapolis/">Southwest Journal</a> as well as a short history of the battle over pornography in Minneapolis that was published in <a href="https://www.rutgersuniversitypress.org/u-s-womens-history/9780813575834">U.S. Women’s History: Untangling the Threads of Sisterhood</a>.</p>
+
+                  <p class="margin-none bio-padding">Delegard holds a Ph.D. in history from Duke University and spent her graduate school years exploring American social movements, comparative women’s history and the history of women and politics in the United States. In 2012, the University of Pennsylvania Press published her book, <i>Battling Miss Bolsheviki: The Origins of Female Conservatism in the United States</i>.  This book revisits the 1920s to chart the growth of a conservative women’s movement that would reshape the parameters of female political activism for the remainder of the twentieth century. Delegard was also the co-editor, with Nancy A. Hewitt, for the two volume textbook <i>Women, Families and Communities: Readings in American History</i> (Longman Publishing, 2008). She was also part of the team behind Mary Wingerd’s <i>North Country: The Making of Minnesota</i> (University of Minnesota Press, 2010). Delegard was the image curator for that volume, writing a series of interpretive essays that explained the visuals.</p>
+
+                  <p class="margin-none bio-padding" id="ryan-id">In her spare time, Delegard thinks about writing a new history of Minneapolis that she has tentatively titled <i>City of Light and Darkness: The Making of a Progressive Metropolis in Minneapolis</i>.</p>
+
+              </div>
+        </div>
+        <div class="flex about-bios">
+              <div class="flex-div-1-bio">
+                  <img src="../images/ryan_1680x2000.png" class="bio-imgs">
+                </div>
+
+              <div class="flex-div-3">
+                  <p class="bio-name">Ryan Mattke</p>
+                  <p class="bio-title">Co-Director and Project Manager</p>
+                  <p class="bio-email"><a href="mailto:matt0089@umn.edu ">matt0089@umn.edu </a></p>
+                  <p class="margin-none bio-padding">Ryan Mattke is one of the co-founders of Mapping Prejudice. He is the Map & Geospatial Information Librarian and Head of the John R. Borchert Map Library at the University of Minnesota, as well as Adjunct Faculty in the Masters of Geographic Information Science program. Born and raised in Green Bay, WI, Mattke has lived in Minneapolis for nearly 20 years and now considers himself a Minneapolitan and a Minnesotan.
+
+                   <p class="margin-none bio-padding">Mattke holds a B.A. in English (Creative Writing) and a Masters of Geographic Information Science, both from the University of Minnesota. His areas of research interest include geospatial data access and discovery, increased access to library collections, and the history of Geographic Information Systems in Minnesota, as indicated by his published scholarship.</p> 
+
+                   <p class="margin-none bio-padding" id="kevin-id">When he is not managing projects, poring over maps, or visualizing data he can be found reading, writing, paddling, hiking, climbing, gardening, or building canoes.</p>
+
+              </div>
+        </div>
+        <div class="flex about-bios">
+              <div class="flex-div-1-bio">
+                  <img src="../images/kevin_1680x2000.png" class="bio-imgs">
+                </div>
+
+              <div class="flex-div-3">
+                  <p class="bio-name">Kevin Ehrman-Solberg</p>
+                  <p class="bio-title">Digital and Geospatial Director</p>
+                  <p class="bio-email"><a href="mailto:ehrma046@umn.edu">ehrma046@umn.edu</a></p>
+                  <p class="margin-none bio-padding">Kevin Ehrman-Solberg is one of the co-founders of the Mapping Prejudice Project and is a graduate student in the Department of Geography, Environment and Society at the University of Minnesota.</p>
+
+                  <p class="margin-none bio-padding">Ehrman-Solberg recently completed his Master of Geographic Information at the University of Minnesota. He masterminds the work of building the database necessary for the Mapping Prejudice maps, massaging the data that volunteers create into points that can be mapped digitally. He has also done the spatial analysis for the project, showing how covenants changed neighborhood demographics and how they laid the groundwork for later redlining and devastating urban renewal projects.</p>
+
+                  <p class="margin-none bio-padding" id="penny-id">Born and raised in the Twin Cities, Ehman-Solberg began researching the history of pornography theaters in Minneapolis as an undergraduate student at Augsburg University. It was this work that brought him to the Historyapolis Project, where he met Kirsten Delegard and began creating visualizations and narratives about Minneapolis history. An active proponent of the “digital humanities,” Ehman-Solberg interrogates the intersection of <a href="http://historyapolis.com/blog/2016/02/22/minneapolis-is-ruined-the-tunnel-disaster-of-1869/">space and historical narrative</a>. His work on <a href="http://mst01mw.muse.jhu.edu/article/631627">pornographic bookstores in Minneapolis</a> was published in the Middle West Review, where he explores the connections between pornography, gay sexual liberation, feminism, and police power. For more on Ehman-Solberg’s research interests, listen to his <a href="https://soundcloud.com/user-223689921/kevin-ehrman-solberg-web-developer-and-gis-director-for-historyapolis">interview</a> with the Midwestern History Association, or visit his <a href="http://www.kevinehrman.com/">website</a>.</p>
+              </div>
+        </div>     
+        <div class="flex about-bios">
+              <div class="flex-div-1-bio">
+                  <img src="../images/penny_1680x2000.png" class="bio-imgs">
+                </div>
+
+              <div class="flex-div-3">
+                  <p class="bio-name">Penny Petersen</p>
+                  <p class="bio-title">Property Records Specialist</p>
+                  <p class="bio-email"><a href="mailto:pennpetersen@me.com">pennpetersen@me.com</a></p>
+                  <p class="margin-none bio-padding">Penny Petersen is one of the co-founders of the Mapping Prejudice Project and is a leading expert on historic property records in Minnesota.</p>
+
+                  <p class="margin-none bio-padding">After retiring as a researcher for a Minneapolis-based historical consultant in 2015, Petersen spent countless hours in the Hennepin County Recorder’s Office identifying thousands of deeds encumbered by racial restrictions. This work only intensified after Mapping Prejudice launched its Zooniverse platform for crowd-sourcing deed transcription. Having transcribed more than fifteen thousand property records online, Petersen now leads training sessions for Mapping Prejudice volunteers.</p>
+
+                  <p class="margin-none bio-padding">Petersen embraced this effort after Kirsten Delegard requested instruction on finding racially-restricted property deeds in Minneapolis. Delegard was so befuddled by the byzantine organization of property records that Petersen decided it would be easier to do this work herself. She started with the Homewood neighborhood, where activists had long bemoaned the discriminatory barriers erected by restrictive covenants. When <a href="http://www.startribune.com/reputation-for-discrimination-in-north-side-s-homewood-unravels-after-property-study/390763991/">her search proved fruitless</a>, she realized the importance of digging into the archive to uncover where and when racial restrictions were placed on property holdings in Minneapolis.</p>
+
+                  <p class="margin-none bio-padding">Petersen has a long-standing interest in the history of  the Minneapolis central riverfront. Her first book, <a href="http://shop.mnhs.org/products/hiding-in-plain-sight-minneapolis-first-neighborhood">Hiding in Plain Sight: Minneapolis’ First Neighborhood</a>, describes the growth of the area around St. Anthony Falls. She also used property records to reconstruct the forgotten world of nineteenth century red-light districts in Minneapolis. She told the story of the powerful women who ran these Mill City establishments in <a href="https://www.upress.umn.edu/book-division/books/minneapolis-madams">Minneapolis Madams: The Lost History of Prostitution on the Riverfront</a>, which is available from the University of Minnesota Press. A <a href="http://historyapolis.com/blog/2014/03/10/mattie-st-clair-and-the-riverfront-red-light-district-1910/">short snippet</a> from this larger work was published on Historyapolis in 2014.</p>
+
+                  </p>
+              </div>
+        </div>   
+
+        
+        <div class="flex about-bios">
+              <div class="flex-div-1-bio">
+                  <img src="../images/pike_headshot.jpg" class="bio-imgs">
+                </div>
+
+              <div class="flex-div-3">
+                  <p class="bio-name">Denise Pike</p>
+                  <p class="bio-title">Social Media Intern</p>
+                  <p class="bio-email"><a href="mailto:pikex063@umn.edu">pikex063@umn.edu </a></p>
+                  <p class="margin-none bio-padding">Denise Pike is lifetime Twin Cities local and a student in the Master of Heritage Studies and Public History program at the University of Minnesota. Denise developed an interest in data analysis and GIS during her undergraduate education in Urban Studies at the University of Minnesota. She wants to use the digital humanities to address the inequities that exist in the Twin Cities.</p>
+              </div>
+        </div>  
+
+
+     <div class="flex about-bios">
+        <div class="flex-div-1-bio">
+            <h3 class="bio-sub-title">Alumni</h3>
+        </div>
     </div>
-<!--Begin Main Page Content -->
-    <div class="content-width">
-      <div id="map-border" style="text-align: center;">
-            <a class="example-image-link" href="../images/group_shot.png" data-lightbox="example-1">
-              <img class="page-lead-img" src="../images/group_shot.png" alt="Mapping Prejudice Team">
-            </a>
-            <p class="img-sub-script">From left: Borchert Library director Ryan Mattke, project director Kirsten Delegard, project manager Kevin Ehrman-Solberg, and property records specialist Penny Petersen.</p>
-      </div> 
 
-      <p id="lead-para">Our work started with the <a href="http://www.historyapolis.com/">Historyapolis Project</a> at Augsburg University. Rooted in the conviction that contemporary problems demand a sophisticated understanding of the past, Historyapolis has traced the roots of the city's current day racial disparities.</p>
+    <div class="content-block-2" style="background-color: white">
+      <div class="text-padding">
+        <div class="flex-center">
+          <div class="flex-div-2-left">
+            <h3 class="alumni-name">Soomin Lee</h3>
+            <h4 class="alumni-description">Graduate Research Assistant, 2017</h4>
+          </div>
+          <div class="flex-div-2-left">
+            <h3 class="alumni-name">Sam Schwartz</h3>
+            <h4 class="alumni-description">GIS Intern, 2017</h4>
+          </div>
+          <div class="flex-div-2-left">
+            <h3 class="alumni-name">John La Velle</h3>
+            <h4 class="alumni-description">Undergraduate Intern, 2016</h4>
+          </div>
+        </div>
+      </div>
+    </div>        
+    <div class="content-block-2" style="background-color: white">
+      <div class="text-padding">
+        <div class="flex-center">
+          <div class="flex-div-2-left">
+            <h3 class="alumni-name">Nick Stewart-Bloch</h3>
+            <h4 class="alumni-description">Undergraduate Intern, 2016</h4>
+          </div>
+          <div class="flex-div-2-left">
+            <h3 class="alumni-name">Caitlin Crowley</h3>
+            <h4 class="alumni-description">Undergraduate Intern, 2016</h4>
+          </div>
+          <div class="flex-div-2-left">
+            <h3 class="alumni-name"></h3>
+            <h4 class="alumni-description"></h4>
+          </div>
 
-      <p>Historyapolis director Kirsten Delegard had long imagined mapping racial restrictions on Minneapolis property. But after visiting the Hennepin County property records office with veteran property researcher Penny Petersen in 2014, Delegard realized she lacked the expertise necessary for this kind of systematic inventory of racial covenants.</p>
+          </div>
+        </div>
+      </div>
+    
 
-      <p>Fortunately, Petersen was fascinated by the challenges of this task. A veteran property researcher and <a href="https://www.upress.umn.edu/book-division/books/minneapolis-madams">author</a> of two books on Minneapolis history, Petersen began assembling a database that would grow to include several thousand restrictive deeds by the end of 2015.</p>
+    </div>
+</div>
+       
 
-      <p>Delegard immediately recognized the significance of Petersen's work and enlisted <a href="http://www.kevinehrman.com">Kevin Ehrman-Solberg</a>, a graduate student in the GIS program at the University of Minnesota and an employee of the <a href="https://www.lib.umn.edu/borchert">Borchert Map Library</a>. Ehrman-Solberg began to map the deeds located by Petersen. He soon became the project manager, masterminding the effort to build the databases necessary for this visualization.</p>
      
-      <p>With the support of University of Minnesota librarian <a href="https://www.lib.umn.edu/about/staff/ryan-mattke">Ryan Mattke</a>, the trio made the Borchert Library their base of operations. Together, they decided to create the first-ever comprehensive visualization of racial covenants for an American city.</p>
-
-      <p>The team has received extensive support from the <a href="http://www.cura.umn.edu/UMC">Center for Urban and Regional Affairs</a>. The project has been funded by the University Metropolitan Consortium, the University of Minnesota Libraries and the John R. Borchert Map Library Endowment.</p>
-
-     
-      <hr id="hr-mobile">
-      <div style="display:block; margin-top:30px; height:auto; overflow:hidden;"">
-          <img src="../images/kirsten_bw.png" style="max-height: 125px; margin-left: 5%; display: inline-block;">
-          <div style="display: inline-block; vertical-align: top; width: 300px;">
-              <p class="bio-name">Kirsten Delegard</p>
-              <p class="bio-text">Project Director <br>
-                <a href="mailto:delegard@augsburg.edu">delegard@augsburg.edu</a></p>
-          </div>
-      </div>
-      <div style="display:block; margin-top:30px; height:auto; overflow:hidden;"">
-          <img src="../images/kev_bw_225.jpg" style="max-height: 125px; margin-left: 5%; display: inline-block;">
-          <div style="display: inline-block; vertical-align: top; width: 300px;">
-              <p class="bio-name">Kevin Ehrman-Solberg</p>
-              <p class="bio-text">Project Manager and GIS Specialist <br>
-                <a href="mailto:ehrma046@umn.edu">ehrma046@umn.edu</a></p>
-              <p class="bio-text"><a href="http://www.kevinehrman.com">Website</a><br>
-          </div>
-      </div>
-      <div style="display:block; margin-top:30px; height:auto; overflow:hidden;"">
-          <img src="../images/penny_bw.png" style="max-height: 125px; margin-left: 5%; display: inline-block;">
-          <div style="display: inline-block; vertical-align: top; width: 300px;">
-              <p class="bio-name">Penny Petersen</p>
-              <p class="bio-text">Property Records Specialist<br>
-                <a href="mailto:pennpetersen@me.com">pennpetersen@me.com</a></p>
-          </div>
-      </div>
-      <div style="display:block; margin-top:30px; height:auto; overflow:hidden;"">
-          <img src="../images/ryan_bw.jpg" style="max-height: 125px; margin-left: 5%; display: inline-block;">
-          <div style="display: inline-block; vertical-align: top; width: 300px;">
-              <p class="bio-name">Ryan Mattke</p>
-              <p class="bio-text">Libraries Liaison<br>
-                <a href="mailto:matt0089@umn.edu ">matt0089@umn.edu </a></p>
-          </div>
-      </div>
-      <div style="display:block; margin-top:30px; height:auto; overflow:hidden;"">
-          <img src="../images/pike_headshot.jpg" style="max-height: 125px; margin-left: 5%; display: inline-block;">
-          <div style="display: inline-block; vertical-align: top; width: 300px;">
-              <p class="bio-name">Denise Pike</p>
-              <p class="bio-text">Social Media Intern<br>
-                <a href="mailto:pikex063@umn.edu ">pikex063@umn.edu </a></p>
-          </div>
-      </div>
-      <hr id="hr-mobile">
-
-      <p>Mapping Prejudice is part of a broader effort to examine the complex legacies of racist housing policies. Our investigation of residential segregation in Minneapolis was inspired by groundbreaking work in other cities that show how digital tools can illuminate structural racism and transform our understanding of the past.</p>
-
-      <p><a href="http://depts.washington.edu/civilr/segregated.htm">Segregated Seattle</a> was the brainchild of the Seattle Civil Rights and Labor History Project at the University of Washington, which assembled a <a href="http://depts.washington.edu/civilr/covenants_database.htm">database of racial covenants</a> that has become an important resource for historians, legal researchers and activists trying to understand how ideas about race shaped real estate law and housing policy.</p>
-
-      <p><a href="https://dsl.richmond.edu/panorama/redlining/#loc=4/36.71/-96.93&opacity=0.8">Mapping Inequality</a> was conceived by the University of Richmond's Digital Lab, which digitized New Deal redlining maps to illuminate how federal policy makers "used racial criteria to categorize lending and insurance risks." Historians have long understood the importance of redlining. Yet by using digital mapping software to organize, analyze and display historic data about this practice, this project retold the story in way that made it accessible for a popular audience.
-      </p>
-
-      <p><a href="http://prologuedc.com/blog/mapping-segregation/">Mapping Segregation</a> is the work of Prologue DC, which is documenting how segregation has shaped the urban landscape of the nation's capital. This team has been compiling a database of restrictive housing covenants and has created a map that tells the story of legal battles over restricted deeds in Washington D.C.</p>
-
-      <p>Mapping Prejudice builds on this existing work. But our efforts in Minneapolis are made especially urgent by the city's contemporary racial disparities, which are some of the largest in the nation. Our initial research shows that covenants created demographic patterns that remain in place in Minneapolis today. Residential segregation reinforces other disparities in employment, education and health care. Most notable is the gap in homeownership rates. While 78 percent of white families own homes in the Twin Cities, <a href="https://metrocouncil.org/Data-and-Maps/Publications-And-Resources/MetroStats/Census-and-Population/Diving-Deeper-Understanding-Disparities-Between-B.aspx">only 25 percent</a> of African-American families achieve this same measure of financial stability.</p>
-     
-      <p>Our initial analysis also draws new attention to the way that race has <a href="http://editions.lib.umn.edu/openrivers/article/mapping-racial-covenants-in-twentieth-century-minneapolis/">shaped public space</a> in the city. Our early maps show that some of the city's most spectacular parks were ringed by residential districts that barred people of color from taking up residence. The result was an invisible racial cordon around the city's renowned Grand Rounds, which serves as the city's urban commons.</p>
-
-      <p>Once completed, our database and map will be a powerful community resource that should serve as a foundation for productive community conversations and fact-based policy making.</p>
-
-      <hr id="hr-mobile">
-
-
+      
     </div>
   </div>
   </div>
 </div>
-<script src="../lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
-<script>
-    lightbox.option({
-      disableScrolling: true,
-      fadeDuration: 100
-    })
-</script>
+
 </body>
 <footer>
-  <div class="footer-text">
+  <div class="footer-contain">
+    <div class="flex">
+      <div class="footer-flex">
+      <div class="footer-text">
+        <p>Keep up with us on social media</p>
+      </div>
         <div class="ssk-group">
-         <p class="footer-text-p-social">Follow us on social media</p>
-              <div id="social-list">
+            <div id="social-list">
                 <ul style="padding: 0px;" class="social-ul">
                   <li><a href="https://twitter.com/MapPrejudice" class="ssk ssk-twitter ssk-lg" id="ssk-overide-twit" target="_blank"></a></li>
                   <li><a href="https://www.facebook.com/MappingPrejudice/" class="ssk ssk-facebook ssk-lg" id="ssk-overide-fb" target="_blank"></a></li>
                 </ul>
               </div>
         </div>
-        <p class="footer-text-p">&copy 2017 Mapping Prejudice Project. All Rights Reserved. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with prior written permission of Mapping Prejudice.</p>
-        <div class="footer-btn-box-div">
-          <ul class="sub-title-list" style="padding: 0px;">
-           <li class="sub-title-list"><a id="footer-contact-btn" href="# contact_modal_screened">Contact</a></li>
-            <li class="sub-title-list"><a id="sub-title-link-footer" href="http://historyapolis.com/">Historyapolis</a></li>
-            <li class="sub-title-list"><a id="sub-title-link-footer" href="https://www.lib.umn.edu/borchert">Borchert Map Library</a></li>
-            <li class="sub-title-list"><a id="sub-title-link-footer" href="http://www.cura.umn.edu/">C.U.R.A</a></li>
-          </ul>
-        </div>    
+      </div>
+<!-- Donate Button -->
+<div class="footer-flex">
+      <div class="footer-text">
+        <p>Support our work</p>
+      </div>
+        <div class="donate_button">
+          <p class="donate_text"><a href="https://makingagift.umn.edu/give/fund.html?fundCode=22110#formstep-1">Donate</a></p>
+        </div>
+    </div>
+<!-- Begin MailChimp Signup Form -->
+      <div class="footer-flex">
+        <div class="footer-text">
+          <p>Stay connected with Mapping Prejudice</p>
+        </div>
+          <p class="footer-sub-text">Get the latest news on our events, projects, and research by signing up for our monthly newsletter.</p>
+        <div id="mc_embed_signup">
+          <form action="https://mappingprejudice.us18.list-manage.com/subscribe/post?u=9f1a2e59b61269ac101feba2b&amp;id=f982509184" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9f1a2e59b61269ac101feba2b_f982509184" tabindex="-1" value="">
+                </div>
+              </div>
+          </form>
+        </div>
+        </div>
+<!--End mc_embed_signup-->
   </div>
 </footer>
 </div>
