@@ -9,7 +9,7 @@ $(document).ready(function () {
              // Get iframe by id and set iframe src
              var address = "https://www.mappingprejudice.org/timelapse-hennepin/index.html";
              var iframe = document.getElementById("iframe-modal");
-             var blankaddress = "http://historyapolis.com/KevinsProjects/background-blank/index.html";
+             var blankaddress = "https://www.mappingprejudice.org/background-blank/index.html";
              var navbar = document.getElementById('map_hide');
 
              btn.onclick = function() {
