@@ -1,0 +1,173 @@
+div.cartodb-layer-selector-box div.cartodb-dropdown {
+	display: block !important;
+	width: 230px !important;
+	right: 0 !important;
+}
+div.cartodb-layer-selector-box {
+	position: absolute;
+    float: right;
+    top: 0;
+    right: 0px;
+}
+div.cartodb-layer-selector-box div.cartodb-dropdown ul li a.layer{
+	width: 92% !important;
+	font-weight: 600 !important;
+}
+div.cartodb-layer-selector-box:hover{
+	text-decoration: none !important;
+}
+
+div.cartodb-layer-selector-box div.cartodb-dropdown ul li a.layer:hover{
+	color: #4d9ed8 !important;
+	text-decoration: none !important;
+}
+
+div.cartodb-layer-selector-box{
+	height: 0px !important;
+	width: 0px !important;
+	right: 0 !important;
+
+}
+
+div.cartodb-dropdown div.tail{
+	display: none !important;
+}
+div.cartodb-layer-selector-box a.layers {
+	display: none !important;
+}
+
+div.cartodb-layer-selector-box div.cartodb-dropdown ul li:last-child{
+	display: none;
+}
+.leaflet-bottom{
+	display: none !important;
+}
+
+div.cartodb-legend-stack{
+	bottom: 70px !important;
+}
+
+div.cartodb-legend.category ul li, div.cartodb-legend.color ul li, div.cartodb-legend.custom ul li{
+	line-height: 15px !important;
+}
+div.cartodb-legend.category ul li .bullet, div.cartodb-legend.color ul li .bullet, div.cartodb-legend.custom ul li .bullet{
+	margin: 0 10px 0 0 !important;
+	width: 8px !important;
+	height: 8px !important;
+	border-radius: 25% !important;
+}
+div.cartodb-infowindow{
+	z-index: 999999 !important;
+}
+/** custom attribution **/
+
+#kev-attribution {
+	float: right;
+
+}
+
+#attribution-text {
+	position: absolute;
+	font-size: 16px;
+	display: inline-block;
+	z-index: 99999;
+	bottom: 6px;
+	right: 0;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	width: 95px;
+	background-color: #d8d8d88f;
+	border-radius: 3px 0px 0px 0px;
+}
+
+#logo-img{
+	height: 40px;
+}
+#logo-img:hover{
+	cursor: pointer;
+}
+
+#info-text {
+	position: absolute;
+	font-size: 16px;
+	display: inline-block;
+	z-index: 1;
+	bottom: 0px;
+	left: 0;
+	padding-bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #d8d8d8e0;
+	border-radius: 3px 0px 0px 0px;
+}
+.info-text-para{
+	font: 500 13px "Helvetica Neue",Helvetica,Arial;
+	font-size: medium;
+}
+#attribution-link-txt {
+	margin: 0px;
+}
+
+#attribution-link-font {
+	font: 500 13px "Helvetica Neue",Helvetica,Arial;
+	font-size: medium;
+	text-decoration: none;
+    color: #000000;
+    padding: 1px;
+}
+#attribution-link-font:hover{
+	color: #4a5b8f;
+}
+.copyright {
+    max-width: 14px;
+    margin-bottom: -3px;
+    padding: 0px;
+}
+
+/** Modal Styles **/
+
+#contact_modal_screened {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d9;
+    z-index: 9999999;
+
+}
+#contact_modal_div {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    left: 10%;
+    top: 5%;
+    bottom: 5%;
+    right: 10%;
+    overflow: hidden;
+    background-color: #e6e6e6;
+ }
+ #contact_close {
+    color: #5d5c5c;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#contact_close:hover,
+#contact_close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact_modal_content {
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1%;
+
+}
+#text-box{
+	margin: 5%;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapping Segregation in Washington DC</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <link rel="stylesheet" href="carto_overide.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="modal.js"></script>
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+  <!-- contact modal content -->
+    <div id="contact_modal_screened">
+      <div id="contact_modal_div">
+        <span id="contact_close">x</span>
+        <div id="contact_modal_content">
+          <div id="text-box">
+            <p>Mapping Segregation in Washington DC is a public history project documenting the historic segregation of DC’s housing, along with its schools, recreation facilities, and other public spaces. The project launched in January 2014 and thus far has focused on racially restrictive housing covenants, mainly in DC’s Northwest neighborhoods east of Rock Creek Park, as well as on legal challenges to covenants. As of July 2017, the project had documented racial covenants on approximately 10,000 properties.</p>
+
+            <p>Real estate documents filed between 1921 and 1948 are available in the DC Recorder of Deeds’ publicly accessible database, while those filed earlier remain in their original form, in volumes housed at the DC Archives.</p> 
+
+            <p>The source of our block-level demographic data is a map developed by the Works Progress Administration for the Federal Housing Administration in 1934. Decennial census data showing racial composition of DC census tracts come from the Minnesota Population Center's National Historical Geographic Information System.</p>
+
+            <p>We gathered information on legal cases from various sources: the Charles Hamilton Houston Papers at Howard University’s Moorland-Spingarn Research Center, contemporary newspapers via Proquest, and the Records of the U.S. District and Other Courts in the District of Columbia housed at the National Archives and Records Administration. Thanks go to Robert Ellis at NARA for his assistance in finding those cases.</p>
+
+            <p>The project uses ArcGIS software and publicly available geospatial data provided by DC GIS to map properties with racial covenants. Using GIS to map historic properties means that in some cases the displayed data show covenants attached to buildings that no longer exist, or on lots with boundaries that do not precisely match those of current lots.</p>
+
+            <p>This project was organized by Prologue DC and Brian Kraft of JMT Technology Group, who made this story map. Humanities DC provided funding to support research assistance by several interns, including students from the University of the District of Columbia.</p>
+
+            <p>Carol Rose, Professor Emeritus of Law and Organization at Yale University and co-author of the book Saving the Neighborhood: Racially Restrictive Covenants, Law, and Social Norms (2013), and Valerie Schneider, Assistant Professor of Law and supervisor of the Fair Housing Clinic at Howard University School of Law, generously agreed to review the text of this story map prior to its online launch. We gratefully acknowledge, and have incorporated, the critical feedback they provided.</p>
+
+            <p>© 2017, Prologue DC, LLC. All Rights Reserved.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- end contact modal content -->
+
+    <div id="map">
+      <div id="kev-attribution">
+          <div id="attribution-text"><p id="attribution-link-txt"> 
+          <img src="logo.png" id="logo-img">
+          </p>
+          </div>
+      </div>
+      <div id="info-text">
+          <p class="info-text-para">
+          Click on features within the map to learn more.
+          </p>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+    <script>
+
+      function main() {
+        cartodb.createVis('map', 'https://ehrmanso.carto.com/api/v2/viz/52c3d03e-a382-45d6-aa18-1b1bf8bcc13c/viz.json', {
+          tiles_loader: true,
+          center_lat: 38.91,
+          center_lon: -77.01,
+          zoom: 12
+        })
+
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+           vis.map.set({
+            minZoom: 10,
+            maxZoom: 18
+          });
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          layers[0].leafletMap.setMaxBounds([
+          [39.08, -77.53], // lat long top left
+          [38.64, -76.59]  // lat long bottom right
+        ])
+          var subLayer = layers[1].getSubLayer(0);
+          createSelector(subLayer);
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+      window.onload = main;
+    </script>
+  </body>
+</html>
