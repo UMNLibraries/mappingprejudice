@@ -171,3 +171,25 @@ div.cartodb-infowindow{
 #text-box{
 	margin: 5%;
 }
+
+
+
+#kevbtn {
+	display: block;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 20px;
+    width: 14px;
+    height: 14px;
+    padding: 14px;
+    background: #fff url(https://raw.githubusercontent.com/mappingprejudice/mappingprejudice.github.io/master/images/fullscreen.png) no-repeat 7px 3px;
+    box-shadow: rgba(0,0,0,.2) 0 0 4px 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #999;
+    cursor: pointer;
+    z-index: 1;
+}
