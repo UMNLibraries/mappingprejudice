@@ -18,7 +18,7 @@
   <body>
     <div id="map">
         <div id="kev-attribution">
-          <div id="attribution-text"><p id="attribution-link-txt"> 
+          <div id="attribution-text"><p id="attribution-link-txt">
           <img class="copyright" src="../images/cc.png">
           <a href="http://kevinehrman.com" target="_blank" id="attribution-link-font">Kevin Ehrman</a></img>
           </p>
@@ -65,7 +65,13 @@
           // now, perform any operations you need
           // map.setZoom(3);
           // map.panTo([50.5, 30.5]);
+
+          var slider = vis.timeSlider;
+          slider.formatter(function(data) {
+            return "custom"
+          })
         })
+        
         .error(function(err) {
           console.log(err);
         });
