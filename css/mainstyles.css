@@ -444,6 +444,16 @@ ul.bxslider {
 
 /** Page Styles **/
 
+.resource-list-divider {
+  width: 50vw;
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
+.resource-list-divider.final {
+  margin-bottom: 5em;
+}
+
 .p-no-padding{
     padding: 0px;
 }
@@ -803,7 +813,10 @@ p.p-no-padding{
 .resources-sub-title {
     font-size: xx-large;
     font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
+
 #lead-para {
     padding: 0px 25px 25px 25px;
     font-weight: bold;
@@ -1722,7 +1735,7 @@ textarea[type="text"] {
 
      .banner-img {
         background: url(../images/shanty_postcard_1300.png) no-repeat #111;
-        background-position: center top; 
+        background-position: center top;
     }
     .page-title-padding {
         padding: 100px;
@@ -1757,6 +1770,8 @@ textarea[type="text"] {
     .iframe-media {
         width: 325px;
         height: 250px;
+        border-color: black;
+        background-color: black;
     }
 }
 
