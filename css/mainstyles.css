@@ -114,7 +114,7 @@
 }
 .field-div {
     background-color: #e6e6e6;
-    padding: 20px;
+    padding: 5% 10%;
 }
 .form-title{
 
@@ -1137,6 +1137,14 @@ p {
     padding: 2% 10%;
     text-align: left;
 }
+
+.text-padding-stories{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 2% 10%;
+    text-align: left;
+}
+
 .text-padding-light{
     padding: 1% 1%;
 }
@@ -1751,6 +1759,13 @@ textarea[type="text"] {
     color:#ffffff;
     cursor: pointer;
 }
+
+.user-form{
+  max-width: 1000px;
+  margin: 0 auto 100px;
+
+}
+
 /**-------------------**/
 /** RESPONSIVE DESIGN **/
 /**-------------------**/
