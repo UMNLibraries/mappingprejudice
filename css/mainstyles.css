@@ -207,8 +207,7 @@ div.cartodb-popup.v2 {
     margin-right: 25px;
 }
 
-/**
-modal btn stuff **/
+/** modal btn stuff **/
 .img-btn-screen-txt-home{
     color: #2d2c2a;
     text-decoration: none;
@@ -251,6 +250,86 @@ ul.bxslider {
 .bx-wrapper {
 }
 
+/* DROPDOWN NAVBAR STYLES*/
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+#drop-right {
+  float: right;
+  overflow: hidden;
+  direction: rtl;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* END DROPDOWN NAVBAR STYLES */
+
+
 /** main nav bar desktop display **/
 
 .top-sticky-nav-desktop{
@@ -265,21 +344,24 @@ ul.bxslider {
     transition: all .5s ease;
 }
 
-#show-nav{
+/* #show-nav{
     display: block;
     padding: 1px 0px;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
     background-color: #000000;
-}
-#show-nav a{
+} */
+
+/* #show-nav a{
    color: white;
    text-shadow: none;
-}
-#show-nav a:hover{
+} */
+
+/* #show-nav a:hover{
    color: grey;
    text-shadow: none;
-}
+} */
+
 .homepage-icon{
 
 }
@@ -292,7 +374,7 @@ ul.bxslider {
 }
 .nav-right{
     float: right;
-    line-height: 40px;
+    line-height: 45px;
     margin-right: 1%;
 }
 .sub-title{
@@ -308,11 +390,11 @@ ul.bxslider {
 }
 .nav-item{
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .nav-item a{
-    color: white;
+    color: #999;
 }
 
 .nav-item a:hover{
