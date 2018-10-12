@@ -525,6 +525,15 @@ ul.bxslider {
 
 
 /** Page Styles **/
+#matter {
+  color: white;
+  margin: 0;
+}
+
+#changed {
+  color: white;
+  margin: 1em;
+}
 
 .resource-list-divider {
   width: 50vw;
@@ -546,6 +555,8 @@ ul.bxslider {
 .content-block-2{
     background-color: #dbd9e2;
     padding: 0px;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 .content-block-3{
     background-color: none;
