@@ -83,10 +83,13 @@ div.cartodb-infowindow{
 #logo-img{
 	height: 40px;
 }
-#logo-img:hover{
+
+#modal-fire{
+	color: #af0f0f;
+}
+#modal-fire:hover{
 	cursor: pointer;
 }
-
 #info-text {
 	position: absolute;
 	font-size: 16px;

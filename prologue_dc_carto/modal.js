@@ -1,7 +1,7 @@
 //Contact Modal
 $(document).ready(function () {
              var contact_modal = document.getElementById('contact_modal_screened');
-             var btn = document.getElementById('logo-img');
+             var btn = document.getElementById('modal-fire');
              var close_btn = document.getElementById('contact_close');
 
              btn.onclick = function() {
