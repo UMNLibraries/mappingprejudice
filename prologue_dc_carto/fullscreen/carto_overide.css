@@ -61,6 +61,10 @@ div.cartodb-infowindow{
 }
 /** custom attribution **/
 
+body {
+    overflow: hidden;
+}
+
 #kev-attribution {
     float: right;
 
