@@ -342,6 +342,7 @@ ul.bxslider {
     top: 0px;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
+    max-width: 1500px;
 }
 
 /* #show-nav{
@@ -521,6 +522,16 @@ ul.bxslider {
 .blog-img-div {
     text-align: center;
 }
+
+.blog-quote {
+  padding: 1em 1em;
+}
+
+.blog-big-quote {
+  color: #ccc;
+  padding: 0 4em;
+  font-weight: lighter;
+}
 /** Resources Page Styles **/
 
 
@@ -627,7 +638,9 @@ ul.bxslider {
             flex: 1;
     text-align: center;
 }
-
+.title_block {
+    background-color: #00000094;
+}
 .flex-title{
     font-size: 50px;
     color:  white;
@@ -803,7 +816,6 @@ ul.bxslider {
     background-color: #00000094;
 }
 .banner-img {
-    max-width: 2000px;
     margin: 0 auto;
     width: 100%;
     position: fixed;
@@ -911,23 +923,21 @@ p.p-no-padding{
 }
 
 #lead-para {
-    padding: 0px 25px 25px 25px;
-    font-weight: bold;
-    margin: 0% 15% 6% 15%;
-    margin-right: 15%;
-    color: black;
-    font-size: large;
-    text-align: left;
+  font-weight: bold;
+  padding: 0% 15% 6% 15%;
+  margin: 0 auto;
+  color: black;
+  font-size: large;
+  text-align: left;
 }
 
 #lead-para-main-page{
-    padding: 0px 25px 25px 25px;
-    font-weight: 200;
-    margin: 0% 15% 6% 15%;
-    margin-right: 15%;
-    color: black;
-    font-size: 30px;
-    text-align: center;
+  font-weight: 200;
+  padding: 0% 15% 6% 15%;
+  margin: 0 auto;
+  color: black;
+  font-size: 30px;
+  text-align: center;
 }
 .lead-para-black {
     font-weight: bold;
@@ -1057,6 +1067,8 @@ p {
     /** background-color: rgba(255, 255, 255, 0.85); **/
     text-align: center;
     min-height: 450px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .main-title {
@@ -1546,6 +1558,7 @@ footer{
 
 .wrapper-parallax {
     margin-top: 0px;
+    background-color: rgba(144, 144, 144, 0.72);
 }
 .donate_text{
     margin-top: 5%;
@@ -1985,6 +1998,7 @@ textarea[type="text"] {
     }
     .top-sticky-nav-desktop{
         height: 60px;
+
     }
     .stickyNavList{
         padding: .5%;
