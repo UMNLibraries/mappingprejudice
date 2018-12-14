@@ -1087,7 +1087,7 @@ p {
 .main-title-stories {
     font-size: 50px;
     padding-top: 75px;
-    background-color: #8080809e;
+    background-color: #5e5e5e5c;
 }
 
 #main_title_a {
@@ -1581,7 +1581,7 @@ footer{
 
 .wrapper-parallax {
     margin-top: 0px;
-    background-color: rgba(144, 144, 144, 0.72);
+    background-color: rgba(144, 144, 144, 0.40);
 }
 .donate_text{
     margin-top: 5%;
