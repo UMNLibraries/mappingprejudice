@@ -528,7 +528,7 @@ ul.bxslider {
 }
 
 .blog-big-quote {
-  color: #ccc;
+  color: #9a9a9a;
   padding: 0 4em;
   font-weight: lighter;
 }
@@ -1140,13 +1140,35 @@ p {
     margin: 0%;
     font-weight: 400;
 }
-.alumni-description{
+.alumni-description {
     color: grey;
     margin: 0%;
     font-weight: 300;
 }
+
+.alumni-text-bios-box {
+  padding: 0% 5% 5%;
+  background-color: white;
+}
+
 .text-padding{
     padding: 2% 10%;
+    text-align: left;
+}
+
+.text-padding-resource-bibliography {
+    padding: 2% 5%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.text-padding-alumni{
+    padding: 2% 0% 1% 15%;
+    text-align: left;
+}
+
+.text-padding-resources{
+    padding: 2%;
     text-align: left;
 }
 
@@ -1387,6 +1409,7 @@ a {
     font-style: italic;
     text-align: left;
     margin: 0;
+    padding-bottom: 30px;
 }
 .blog-lead {
     margin-bottom: 2em;
