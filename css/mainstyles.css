@@ -532,6 +532,13 @@ ul.bxslider {
   padding: 0 4em;
   font-weight: lighter;
 }
+
+.blog-cov-quote {
+  padding: 3em 13em 3em 9em;
+  font-style: italic;
+  font-size: 1.25em;
+  font-family: monospace;
+}
 /** Resources Page Styles **/
 
 
