@@ -535,7 +535,7 @@ ul.bxslider {
 
 .blog-cov-quote {
   padding: 3em 13em 3em 9em;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 1.25em;
   font-family: monospace;
 }
