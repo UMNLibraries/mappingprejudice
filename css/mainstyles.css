@@ -964,6 +964,7 @@ p.p-no-padding{
     background-color: grey;
     margin-top: 25px;
 }
+
 .img-sub-script {
     color: #808080;
     margin-top: 5px;
@@ -1307,6 +1308,15 @@ a {
 .stories-lead-img{
     width: 100%;
 }
+
+.page-body-img-small{
+    max-width: 25%;
+    height: auto;
+    padding: 1%;
+    background-color: grey;
+    margin-top: 25px;
+}
+
 .blog-img{
     max-width: 300px;
 }
