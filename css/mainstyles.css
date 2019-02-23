@@ -1392,6 +1392,13 @@ a {
 .press-imgs {
   max-width: 95%;
 }
+
+.press-imgs-white {
+  max-width: 95%;
+  background: black;
+  padding: 1px;
+}
+
 .press-text-title {
     font-size: larger;
     font-weight: bold;
@@ -2174,6 +2181,11 @@ textarea[type="text"] {
         max-width: 475px;
     }
 
+    .press-imgs-white {
+      width: 100%;
+      max-width: 475px;
+    }
+
     #hr-mobile-hide{
         display: none;
     }
@@ -2362,6 +2374,11 @@ textarea[type="text"] {
     .press-imgs {
         max-width: 350px;
     }
+    .press-imgs-white {
+      max-width: 350px;
+    }
+
+
     .media-group-title {
         padding-bottom: 45px;
         padding-top: 45px;
