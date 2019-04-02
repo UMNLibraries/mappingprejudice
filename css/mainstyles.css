@@ -33,6 +33,10 @@
     right: 30px;
 
 }
+.juxtapose {
+   width: 500px;
+   height: 400px;
+}
 
 #iframe-modal {
     border-style: solid;
@@ -2011,6 +2015,11 @@ textarea[type="text"] {
 }
 
 @media screen and (max-width: 985px) {
+
+   .juxtapose {
+      width: 300px;
+      height: 275px;
+   }
 
     .flex{
         display: grid;
