@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapping Segregation in Washington DC</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="https://carto.com/favicon.ico" />
+    <link rel="stylesheet" href="carto_overide.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="modal.js"></script>
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+  <link rel="stylesheet" href="https://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+  <!-- contact modal content -->
+    <div id="contact_modal_screened">
+      <div id="contact_modal_div">
+        <span id="contact_close">x</span>
+        <div id="contact_modal_content">
+          <div id="text-box">
+              <p> Insert About Text Here</p>  
+
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- end contact modal content -->
+
+    <div id="map">
+      <a href="https://www.mappingprejudice.org/prologue_dc_carto/fullscreen/" target="_blank">
+        <button id="kevbtn">
+        </button>
+      </a>
+      <div id="kev-attribution">
+          <div id="about_link">
+            <p><a id="modal-fire" target="_blank">ABOUT</a></p>
+          </div>
+          <div id="attribution-text"><p id="attribution-link-txt"> 
+          <img src="logo.png" id="logo-img">
+          </p>
+          </div>
+      </div>
+      <div id="info-text">
+          <p class="info-text-para">
+          Click on features within the map to learn more.
+          </p>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- include cartodb.js library -->
+    <script src="https://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+    <script>
+
+      function main() {
+        cartodb.createVis('map', 'https://ehrmanso.carto.com/api/v2/viz/8e7ba4f4-3a25-47e8-85c9-9b5b15b1a522/viz.json', {
+          tiles_loader: true,
+          center_lat: 38.91,
+          center_lon: -77.01,
+          zoom: 12
+        })
+
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+           vis.map.set({
+            minZoom: 10,
+            maxZoom: 18
+          });
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          layers[0].leafletMap.setMaxBounds([
+          [39.03, -77.23], // lat long top left
+          [38.75, -76.83]  // lat long bottom right
+        ])
+          var subLayer = layers[1].getSubLayer(0);
+          createSelector(subLayer);
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+      window.onload = main;
+    </script>
+  </body>
+</html>
