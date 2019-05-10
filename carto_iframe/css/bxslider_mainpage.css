@@ -1,0 +1,100 @@
+
+.bx-wrapper {
+    -moz-box-shadow: 0 0 0px #ccc;
+    -webkit-box-shadow: 0 0 0px #ccc;
+    box-shadow: 0 0 0px #ccc;
+    border: 0px solid #fff;
+    background: none;
+    margin-bottom: 0px;
+}
+
+
+.bx-wrapper .bx-controls-direction a {
+	margin-top: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+.bx-wrapper .bx-controls-direction a:hover{
+  width: 57px;
+}
+.bx-wrapper img {
+   	width: auto;
+   	height: auto;
+   	margin: 0 auto;
+   	margin-top: 30px;
+ }
+
+.bx-wrapper .bx-next {
+    right: 20px;
+    background: url(../images/arrow_right.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+.bx-wrapper .bx-next:hover{
+  background-position: 0 0 !important;
+  right: 10px;
+  margin-top: -4px;
+}
+
+.bx-wrapper .bx-next:focus {
+  background-position: 0 0 !important;
+}
+
+.bx-wrapper .bx-prev {
+    left: 20px;
+    background: url(../images/arrow_left.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+.bx-wrapper .bx-prev:hover{
+  left: 10px;
+}
+
+.bx-wrapper .bx-caption {
+	  top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10%;
+    background: none;
+}
+
+.bx-wrapper .bx-caption span {
+	text-align: center;
+	color: #434343;
+    font-family: Arial;
+    display: block;
+    font-size: 2em;
+    padding: 0px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .bx-wrapper img {
+      width: 375px;
+      height: auto;
+    }
+  .bx-wrapper .bx-controls-direction a:hover{
+    width: 50px;
+  }
+  .bx-wrapper .bx-next {
+    right: 0px;
+  }
+  .bx-wrapper .bx-next:hover{
+    right: 0px;
+    margin-top: 0px;
+  }
+  .bx-wrapper .bx-prev {
+    left: 0px;
+  }
+  .bx-wrapper .bx-prev:hover{
+    left: 0px;
+  }
+  @media screen and (max-width: 525px) {
+  .bx-wrapper img {
+    width: 300px;
+    height: auto;
+  }
+
+}

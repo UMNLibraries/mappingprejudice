@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+
+  <title>Mapping Prejudice Timelapse</title>
+  
+  <link rel="stylesheet" type="text/css" href="css/mainstyles.css">
+  <!-- jQuery library (served from Google) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- carto css and js libs -->
+  <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
+  <!-- moment used for date/time processing in map.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.js"></script>
+
+  <!-- custom map code -->
+  <link href="css/map.css" rel="stylesheet" />
+  <script src="js/map.js"></script>
+
+</head>
+<body>
+ 
+
+<!-- MAP -->
+    <div id="map">
+        <div id="count-container">
+            <div id="counts">
+                <span>Year: <span class="year"></span> | Total: <span class="count"></span></span>
+            </div>
+        </div>
+        <div id="kev-attribution">
+            <div id="attribution-text">
+                <div id="attribution-link-txt">
+                    <img class="copyright" src="images/cc.png">
+                    <a href="http://kevinehrman.com" target="_blank" id="attribution-link-font">Kevin Ehrman</a></img>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+</body>
+
+</html>
