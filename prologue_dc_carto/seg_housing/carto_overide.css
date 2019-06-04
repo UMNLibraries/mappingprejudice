@@ -144,9 +144,11 @@ body {
     top: 5%;
     bottom: 5%;
     right: 10%;
-    overflow: hidden;
     background-color: #e6e6e6;
+    overflow: scroll;
+    overflow-x: hidden;
  }
+
  #contact_close {
 	color: #252424;
     float: right;
@@ -174,8 +176,16 @@ body {
 
 }
 #text-box{
-	margin: 5%;
+	margin: 2% 5%;
 	font-family: arial;
+    text-shadow: 1px 0px #a0a0a0;
+    font-size: 17px;
+    overflow: scroll;
+    position: absolute;
+    top: 0;
+}
+#modal_img{
+    position: absolute;
 }
 #modal-fire{
 	color: #af0f0f8f;
