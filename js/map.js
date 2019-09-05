@@ -3,7 +3,7 @@
   // TODO update these constants once a new carto account exists
   const cartoUsername = 'ehrmanso';
   const polygonLayerUrl = 'https://ehrmanso.carto.com/api/v2/viz/bacced84-ab5f-4670-b19b-b2e574135042/viz.json';
-  const torqueLayerName = 'centroids_9_5_2019'
+  const torqueLayerName = 'centroids_11_14_2018'
   const mapBoxAccessToken = 'pk.eyJ1Ijoia2V2aW5lc29sYmVyZyIsImEiOiJjaXR1aGcwZTMwMDFsMnlxdnZocmRxdmtjIn0.1fP2qelpZyI_p6h0pzsEWg'
   const tilesUrl = `https://api.mapbox.com/styles/v1/kevinesolberg/citvsawem00312io4xsuivy4z/tiles/{z}/{x}/{y}?access_token=${mapBoxAccessToken}`;
 
