@@ -70,7 +70,7 @@ div.cartodb-timeslider .ui-slider .ui-slider-range {
 
 
 div.cartodb-timeslider a.button{
-	background: url(../images/slider.png) no-repeat -2px -55px !important;
+	background: url(https://raw.githubusercontent.com/mappingprejudice/mappingprejudice.github.io/master/carto_iframe/images/slider.png) no-repeat -2px -55px !important;
 }
 
 div.cartodb-timeslider p {
