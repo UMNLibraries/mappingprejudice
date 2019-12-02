@@ -59,7 +59,7 @@ div.cartodb-timeslider .slider-wrapper {
 }
 
 div.cartodb-timeslider .ui-slider .ui-slider-handle {
-	background: url(../images/slider.png) no-repeat -98px -17px #fff !important;
+	background: url(https://raw.githubusercontent.com/mappingprejudice/mappingprejudice.github.io/master/carto_iframe/images/slider.png) no-repeat -98px -17px #fff !important;
 	top: -3px !important;
 	height: 11px !important;
 }
