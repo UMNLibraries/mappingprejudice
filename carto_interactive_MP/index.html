@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapping Segregation in Washington DC</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="https://carto.com/favicon.ico" />
+    <link rel="stylesheet" href="carto_overide.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="modal.js"></script>
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+  <link rel="stylesheet" href="https://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+
+
+    <div id="map">
+      <a href="https://borchertmaplibrary.carto.com/builder/ac93c77a-2d66-4eb6-a471-53a82fda6ef0/embed" target="_blank">
+        <button id="kevbtn">
+        </button>
+      </a>
+
+      <div id="info-text">
+          <p class="info-text-para">
+          Click on features within the map to learn more.
+          </p>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- include cartodb.js library -->
+    <script src="https://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+    <script>
+
+      function main() {
+        cartodb.createVis('map', 'https://borchertmaplibrary.carto.com/api/v2/viz/ac93c77a-2d66-4eb6-a471-53a82fda6ef0/viz.json', {
+          tiles_loader: true,
+          center_lat: 44.928,
+          center_lon: -93.255,
+          zoom: 12
+        })
+
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+           vis.map.set({
+            minZoom: 10,
+            maxZoom: 18
+          });
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          layers[0].leafletMap.setMaxBounds([
+          [45.503, -94.448], // lat long top left
+          [44.583, -92.611]  // lat long bottom right
+        ])
+          var subLayer = layers[1].getSubLayer(0);
+          createSelector(subLayer);
+        })
+        
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+      window.onload = main;
+    </script>
+  </body>
+</html>
+
+https://borchertmaplibrary.carto.com/builder/ac93c77a-2d66-4eb6-a471-53a82fda6ef0/layers
