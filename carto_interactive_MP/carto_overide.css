@@ -37,7 +37,9 @@
     font-size: 12px;
 }
 
-
+.cartodb-share{
+    display: none !important;
+}
 div.cartodb-layer-selector-box div.cartodb-dropdown {
 	display: block !important;
 	width: 230px !important;
@@ -266,7 +268,7 @@ body {
 
 /** Responsive Design **/
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 650px) {
     .info-text-para {
         display: none;
     }
