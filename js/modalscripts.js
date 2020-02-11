@@ -95,3 +95,37 @@ $(document).ready(function() {
     $('.stickyNav').toggle();
   });
 });
+
+
+//Map Launch Buttons
+$(document).ready(function() {
+  var timelapse_map = document.getElementById('map');
+  var interactive_map = document.getElementById('interactive_map_iframe');
+  $('#timelapse_button').on('click', function() {
+    map.style.display = "block";
+    interactive_map.style.display = "none";
+    interactive_button.style.backgroundColor = "#afafaf";
+    interactive_button.style.color = "#484848"
+    timelapse_button.style.backgroundColor = "#656565";
+    timelapse_button.style.color = "#ececec";
+    timelapse_sub_script.style.display = "block";
+    explore_sub_script.style.display = "none"
+
+  });
+});
+
+
+$(document).ready(function() {
+  var timelapse_map = document.getElementById('map');
+  var interactive_map = document.getElementById('interactive_map_iframe');
+  $('#interactive_button').on('click', function() {
+    map.style.display = "none";
+    interactive_map.style.display = "block";
+    interactive_button.style.backgroundColor = "#656565";
+    interactive_button.style.color = "#ececec"
+    timelapse_button.style.backgroundColor = "#afafaf";
+    timelapse_button.style.color = "#484848";
+    timelapse_sub_script.style.display = "none";
+    explore_sub_script.style.display = "block"
+  });
+});
