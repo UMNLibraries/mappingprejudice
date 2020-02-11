@@ -978,6 +978,28 @@ p.p-no-padding{
     margin-bottom: 0px;
     padding-bottom: 25px;
 }
+
+#timelapse_sub_script{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+    padding: 15px 0px;
+    font-size: 15px;
+}
+#explore_sub_script{
+    display: none;
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+    padding: 15px 0px;
+    font-size: 15px;
+}
+
+
+
+
+
 .side-nav-bar {
     position: absolute;
 }
@@ -1258,6 +1280,10 @@ a {
 }
 .main-page-btns {
     background-color: #252525a6;
+}
+#timelapse_button{
+background-color: #656565;
+color: #ececec;
 }
 
 /** Events Page Styles **/
@@ -2454,4 +2480,50 @@ textarea[type="text"] {
         display: -webkit-inline-box;
         text-align: center;
     }
+}
+
+/** Map Iframe Stuff Including Buttons **/
+.ul-main-map-btns {
+    text-align: left;
+    padding-left: 0%;
+    margin: 0 auto;
+    padding-top: 5%;
+    width: 70%;
+}
+
+.li-main-map-btns{
+    display: inline-block;
+    padding: 0%;
+    
+}
+
+.main-map-actual-buttons{
+    padding: 8%;
+    border-width:4px;
+    border-style: solid;
+    border-color: #e4e4e4;
+    background-color: #afafaf;
+    color: #484848;
+    font-size: larger;
+
+}
+.main-map-actual-buttons:hover{
+    background-color: grey;
+
+}
+
+#interactive_map_iframe{
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    height: 530px;
+    width: 70%;
+    border: 6px solid #484848;
+
+}
+#interactive_map_iframe_size{
+    width: 100%;
+    height: 100%;
+}
+
 }

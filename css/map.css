@@ -1,6 +1,7 @@
 #map {
   height: 425px;
   margin: 0 7%;
+  margin-bottom: 3%;
   position: relative;
   border: 6px solid #484848;
 }
@@ -188,6 +189,8 @@ div.cartodb-timeslider .time {
     height: 530px;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 3%;
+
   }
 
   #count-container {
