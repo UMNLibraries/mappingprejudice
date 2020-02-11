@@ -257,12 +257,28 @@
       <div id="sub-header-content">
         <div class="content-width">
 
-          <!-- ** MAP SECTION ** -->
-          <div id="map-section" class="content-block-2" style="background: url(images/iframe-map-background.png) no-repeat #111;">
-            <h3 class="flex-title">Our Map</h3>
-            <div id="fullscreen-background">
+   <!-- ** MAP SECTION ** -->
+          <div id="map-section" class="content-block-2" style="background-color: #2b2b2b;">
+
+           
+          <!-- Map Buttons --> 
+            <div>
+              <ul class="ul-main-map-btns">
+                <li class="li-main-map-btns"><button class="main-map-actual-buttons" id="timelapse_button">Timelapse</button></li>
+                <li class="li-main-map-btns"><button class="main-map-actual-buttons" id="interactive_button">&nbsp&nbspExplore&nbsp&nbsp&nbsp</button></li>
+              </ul>
+            </div>
+
+          <div>
+            <p class="img-sub-script" id="timelapse_sub_script">This interactive visualization shows the spread of racially-restrictive deeds across Hennepin County during the first half of the twentieth century.</p>
+            <p class="img-sub-script" id="explore_sub_script">Click on a racially covenanted lot to learn more about the property. Use the search button at the bottom of the map to look for a specific address.</p>
+          </div>
+
+            
+
+          <!-- Timelapse Map -->
+           <div id="fullscreen-background">
               <span class="close">x</span>
-              <!-- MAP -->
               <div id="map">
                 <div id="fullscreen"> </div>
                 <div id="count-container">
@@ -280,7 +296,11 @@
                 </div>
               </div>
             </div>
-            <p class="img-sub-script">This interactive visualization shows the spread of racially-restrictive deeds across Hennepin County during the first half of the twentieth century.</p>
+
+
+          <!-- Interactive Map -->
+          <div id="interactive_map_iframe">
+            <iframe src="https://www.mappingprejudice.org/carto_interactive_MP" id="interactive_map_iframe_size"></iframe>
           </div>
 
 
