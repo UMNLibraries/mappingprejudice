@@ -2498,7 +2498,7 @@ textarea[type="text"] {
 }
 
 .main-map-actual-buttons{
-    padding: 8%;
+    padding: 9px;
     border-width:4px;
     border-style: solid;
     border-color: #e4e4e4;
