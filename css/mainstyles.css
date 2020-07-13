@@ -1387,6 +1387,19 @@ color: #ececec;
     max-width: 334px;
     vertical-align: top;
 }
+.media-item-feature {
+    display: inline-block;
+    max-width: 334px;
+    vertical-align: top;
+}
+
+.media-item-feature {
+    display: inline-block;
+    max-width: 458px;
+    vertical-align: top;
+    padding-left: 3em;
+    padding-right: 3em;
+}
 
 .media-item-div {
     text-align: center;
@@ -2188,6 +2201,14 @@ textarea[type="text"] {
         max-width: 800px;
         background-color: #f2f2ed;
         padding-top: 50px;
+    }
+    .media-item-feature {
+        width: 100%;
+        max-width: 600px;
+        background-color: aliceblue;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .media-ul {
         text-align: center;
