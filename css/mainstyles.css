@@ -884,6 +884,17 @@ ul.bxslider {
     background-size: initial !important;
     background-position: center;
 }
+.banner-img-uprising {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    padding-bottom: 30px;
+    background-color: #ffffff !important;
+    background-size: initial !important;
+    background-position: center;
+}
 .banner-img-stories {
     width: 100%;
     position: fixed;
@@ -1903,6 +1914,10 @@ textarea[type="text"] {
     background: url(../images/resources_banner_2600.png) no-repeat #111;
     background-position: center top;
 }
+.banner-img-uprising {
+    background: url(../images/georgefloyd_protests_2600.jpg) no-repeat #111;
+    background-position: center top;
+}
 .banner-img-events{
     background: url(../images/freeway_2600.png) no-repeat #111;
     background-position: center top;
@@ -1931,6 +1946,10 @@ textarea[type="text"] {
     }
     .banner-img-resources {
         background: url(../images/resources_banner_1600.png) no-repeat #111;
+        background-position: center top;
+    }
+    .banner-img-uprising {
+        background: url(../images/georgefloyd_protests_1600.jpg) no-repeat #111;
         background-position: center top;
     }
     .banner-img-events{
@@ -1972,6 +1991,10 @@ textarea[type="text"] {
     }
     .banner-img-resources {
         background: url(../images/resources_banner_1300.png) no-repeat #111;
+        background-position: center top;
+    }
+    .banner-img-uprising {
+        background: url(../images/georgefloyd_protests_1300.jpg) no-repeat #111;
         background-position: center top;
     }
     .banner-img-events{
