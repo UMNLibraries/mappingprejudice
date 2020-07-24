@@ -4,8 +4,8 @@
   const cartoUsername = 'ehrmanso';
   const polygonLayerUrl = 'https://ehrmanso.carto.com/api/v2/viz/bacced84-ab5f-4670-b19b-b2e574135042/viz.json';
   const torqueLayerName = 'centroids_2_6_2020'
-  const mapBoxAccessToken = 'pk.eyJ1Ijoia2V2aW5lc29sYmVyZyIsImEiOiJjaXR1aGcwZTMwMDFsMnlxdnZocmRxdmtjIn0.1fP2qelpZyI_p6h0pzsEWg'
-  const tilesUrl = 'https://api.mapbox.com/styles/v1/kevinesolberg/ck6b6625a0squ1io3dstapde1/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoia2V2aW5lc29sYmVyZyIsImEiOiJjaXR1aGcwZTMwMDFsMnlxdnZocmRxdmtjIn0.1fP2qelpZyI_p6h0pzsEWg';
+  const mapBoxAccessToken = 'pk.eyJ1IjoibWFwcmVmIiwiYSI6ImNrY3o1c3E2dzBnazQyem1ub2tycmx5bGMifQ.AvNyL7CdcKWJMnmdFFqUHQ'
+  const tilesUrl = 'https://api.mapbox.com/styles/v1/mapref/ckcz2w2z105kv1ipudth9cj2i/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFwcmVmIiwiYSI6ImNpcWI4dDVnZjAwa2Nmcm0xOXFseWpjdjQifQ.jEr7JcX55yvCV738FBJVlQ';
 
   // Kind of a hack, the start and end dates are hard coded here instead of retrieved dynamically from the carto API. Update these if the date range changes when you find more covenants.
   const startDateString = "1911-01-01";
