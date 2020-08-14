@@ -1,0 +1,156 @@
+header {
+  background-color: white;
+  display: block;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav[aria-label="University"] {
+  background-color: #7a0019;
+}
+
+nav[aria-label="University"] a {
+  color: #fafafa;
+}
+
+nav[aria-label="University"] a:first-of-type {
+  margin-right: auto;
+}
+
+header nav > a {
+  padding: 0.5rem 1.25rem;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+@media (max-width: 50rem) {
+  header nav > a {
+    padding: 0.5rem;
+  }
+}
+
+header nav > a:hover,
+header nav > a:focus {
+  text-decoration: underline;
+}
+
+#umn-logo,
+#logo {
+  min-width: 170px;
+  max-width: 220px;
+  min-width: calc(170px + 1rem);
+  max-width: calc(220px + 1rem);
+  fill: white;
+}
+
+#umn-logo svg,
+#logo svg {
+  height: 38px;
+}
+
+@media (max-width: 50rem) {
+  #umn-logo,
+  #logo {
+    width: 170px;
+    width: calc(170px + 1rem);
+  }
+
+  #logo {
+    height: 38px;
+  }
+
+  #umn-logo svg {
+    height: 37px;
+  }
+
+  #logo svg {
+    height: 35px;
+    height: 31px;
+    padding-top: 5px;
+  }
+}
+
+#umn-logo svg,
+#logo svg {
+  width: 100%;
+}
+
+#logo path {
+  fill: var(--col-primary);
+}
+
+#logo .svg-m path, #logo polygon.svg-m {
+  fill: var(--col-primary);
+}
+
+#logo:hover .svg-m path,
+#logo:focus .svg-m path,
+#logo:hover polygon.svg-m,
+#logo:focus polygon.svg-m {
+  fill: white;
+}
+
+#logo:hover .svg-text path,
+#logo:focus .svg-text path {
+  fill: white;
+}
+
+nav[aria-label="University"] {
+  flex-wrap: nowrap;
+}
+
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  z-index: 50;
+}
+
+.skip-link:focus {
+  right: auto;
+  background-color: #343a40;
+  color: white;
+  font-weight: 700;
+  left: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom-left-radius: 0.188rem;
+  border-bottom-right-radius: 0.188rem;
+}
+
+.glyph {
+  height: 1rem;
+  width: 1rem;
+  color: currentColor;
+  fill: currentColor;
+}
+
+.white-fill {
+  fill: #fff;
+}
+
+.gold-stroke {
+  stroke: #fc3;
+  stroke-width: 0.1;
+}
+
+div.top-sticky-nav-desktop {
+  height: calc(75px + 2.75rem);
+}
+
+li.sub-title-list-nav-home {
+  display: flex;
+}
+
+.sub-title-list-nav-home a:first-of-type {
+  margin-left: 0;
+  padding-left: 0.5rem;
+}
