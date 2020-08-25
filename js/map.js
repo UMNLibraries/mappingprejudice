@@ -8,7 +8,7 @@
   const tilesUrl = 'https://api.mapbox.com/styles/v1/mapref/ckcz2w2z105kv1ipudth9cj2i/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFwcmVmIiwiYSI6ImNpcWI4dDVnZjAwa2Nmcm0xOXFseWpjdjQifQ.jEr7JcX55yvCV738FBJVlQ';
 
   // Kind of a hack, the start and end dates are hard coded here instead of retrieved dynamically from the carto API. Update these if the date range changes when you find more covenants.
-  const startDateString = "1911-01-01";
+  const startDateString = "1910-01-01";
   const endDateString = "1956-01-01";
 
   /**
