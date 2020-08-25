@@ -83,7 +83,7 @@
     const sql = cartodb.SQL({ user: cartoUsername,
                               protocol: 'https'
                             });
-    sql.execute("select date_part('year', date_ex) as year, date_part('month', date_ex) as month, count(*) from centroids_2_6_2020 group by year, month order by year, month")
+    sql.execute("select date_part('year', date_ex) as year, date_part('month', date_ex) as month, count(*) from centroids_8_26_2020 group by year, month order by year, month")
       .done(function(data) {
         var counts = calculateCumulativeCounts(data);
         createCountRenderer(counts, torqueLayer);
