@@ -244,3 +244,9 @@ h3.flex-title {
 div.main-title {
   padding-top: 0;
 }
+
+/* CONTACT US MODAL FIX */
+div#contact_modal_div {
+  top: 20%;
+  z-index: 999;
+}
