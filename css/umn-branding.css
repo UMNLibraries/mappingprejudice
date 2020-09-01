@@ -202,6 +202,7 @@ div.top-sticky-nav-desktop,
 
 li.sub-title-list-nav-home {
   display: flex;
+  margin-left: 10px;
 }
 
 .sub-title-list-nav-home a:first-of-type {
