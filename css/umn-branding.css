@@ -98,6 +98,13 @@ header nav > a:focus {
   .stickyNav ul {
     margin: 0;
   }
+
+  a.side-nav-link:active,
+  a.side-nav-link:hover,
+  a.side-nav-link:focus
+   {
+    color: #ff6955;
+  }
 }
 
 #umn-logo svg,
