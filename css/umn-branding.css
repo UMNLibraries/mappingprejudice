@@ -242,6 +242,20 @@ div.dropdown:focus .dropbtn {
   color: black;
 }
 
+.umnstatement {
+  text-align: left;
+}
+
+.umnstatement a {
+  color: white;
+}
+
+.umnstatement a:hover,
+.umnstatement a:focus,
+.umnstatement a:active {
+  text-decoration: underline;
+  color: #9dc5fb;
+}
 
 /*FIX HOMEPAGE CONTRAST*/
 h3.flex-title {
