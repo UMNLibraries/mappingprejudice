@@ -1,0 +1,274 @@
+header {
+  background-color: white;
+  display: block;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav[aria-label="University"] {
+  background-color: #7a0019;
+}
+
+nav[aria-label="University"] a {
+  color: #fafafa;
+}
+
+nav[aria-label="University"] a:first-of-type {
+  margin-right: auto;
+}
+
+header nav > a {
+  padding: 0.5rem 1.25rem;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  header nav > a {
+    padding: 0.5rem;
+  }
+}
+
+header nav > a:hover,
+header nav > a:focus {
+  text-decoration: underline;
+}
+
+#umn-logo,
+#logo {
+  min-width: 170px;
+  max-width: 220px;
+  fill: white;
+}
+
+#logo {
+  border-right: 1px solid white;
+}
+
+#umn-logo svg,
+#logo svg {
+  height: 38px;
+}
+
+@media (max-width: 600px) {
+  #umn-logo,
+  #logo-mobile {
+    width: 100%;
+  }
+
+  #logo svg {
+    margin-left: 0;
+  }
+
+  #logo-mobile {
+    height: 38px;
+    margin-left: 15px;
+  }
+
+  #umn-logo svg {
+    height: 37px;
+    width: 170px;
+  }
+
+  #logo-mobile svg {
+    height: 35px;
+    height: 31px;
+    width: 170px;
+    padding-top: 5px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  li.sub-title-list-nav-home {
+    margin-left: 0;
+  }
+
+  div.stickyNav {
+    margin-top: 0;
+  }
+
+  .stickyNav ul {
+    margin: 0;
+  }
+
+  a.side-nav-link:active,
+  a.side-nav-link:hover,
+  a.side-nav-link:focus
+   {
+    color: #ff6955;
+  }
+}
+
+#umn-logo svg,
+#logo svg {
+  width: 100%;
+}
+
+#logo path, #logo-mobile path {
+  fill: white;
+}
+
+#logo .svg-m path, #logo polygon.svg-m {
+  fill: white;
+}
+
+#logo:hover .svg-m path,
+#logo:focus .svg-m path,
+#logo:hover polygon.svg-m,
+#logo:focus polygon.svg-m {
+  fill: white;
+}
+
+#logo:hover .svg-text path,
+#logo:focus .svg-text path {
+  fill: white;
+}
+
+nav[aria-label="Libraries"] {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    display: none;
+  }
+  nav[aria-label="Libraries"] {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+nav[aria-label="University"] {
+  flex-wrap: nowrap;
+}
+
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  z-index: 50;
+}
+
+.skip-link:focus {
+  right: auto;
+  background-color: #343a40;
+  color: white;
+  font-weight: 700;
+  left: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom-left-radius: 0.188rem;
+  border-bottom-right-radius: 0.188rem;
+}
+
+.glyph {
+  height: 1rem;
+  width: 1rem;
+  color: currentColor;
+  fill: currentColor;
+}
+
+.white-fill {
+  fill: #fff;
+}
+
+.gold-stroke {
+  stroke: #fc3;
+  stroke-width: 0.1;
+}
+
+div.top-sticky-nav-desktop,
+.top-sticky-nav-container {
+  height: 65px;
+}
+
+@media (max-width: 600px) {
+  div.top-sticky-nav-desktop,
+  .top-sticky-nav-container {
+    height: calc(65px + 2rem);
+  }
+}
+
+.nav-left .sub-title-list {
+  margin: 0;
+}
+
+.nav-left .sub-title-list li {
+  padding: 10px;
+}
+
+li.sub-title-list-nav-home {
+  display: flex;
+  margin-left: 10px;
+}
+
+.sub-title-list-nav-home a:first-of-type {
+  margin-left: 0;
+  padding-right: 0.5rem;
+}
+
+div.top-sticky-nav-desktop {
+  position: relative;
+}
+
+button.stickyNavList-btn {
+  position: absolute;
+}
+
+/*FIX NAV CONTRAST*/
+div.navbar a:hover,
+div.navbar a:focus,
+div.dropdown:hover .dropbtn,
+div.dropdown:focus .dropbtn {
+  background-color: #ff6955;
+}
+
+.navbar a:hover .homepage-icon,
+.navbar a:focus .homepage-icon,
+.dropdown:hover .dropbtn .homepage-icon,
+.dropdown:focus .dropbtn .homepage-icon,
+.dropdown:hover #contact_btn,
+.dropdown:focus #contact_btn {
+  color: black;
+}
+
+.umnstatement {
+  text-align: left;
+}
+
+.umnstatement a {
+  color: white;
+}
+
+.umnstatement a:hover,
+.umnstatement a:focus,
+.umnstatement a:active {
+  text-decoration: underline;
+  color: #9dc5fb;
+}
+
+/*FIX HOMEPAGE CONTRAST*/
+h3.flex-title {
+  color: black;
+}
+
+/* SUB PAGE FIXES */
+div.main-title {
+  padding-top: 0;
+}
+
+/* CONTACT US MODAL FIX */
+div#contact_modal_div {
+  top: 20%;
+  z-index: 999;
+}
