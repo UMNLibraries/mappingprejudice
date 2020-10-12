@@ -1,4 +1,5 @@
 /** Modal and Modal Button Styles **/
+@import "umn-branding.css";
 #kevBtn {
     display: block;
     position: absolute;
@@ -1953,7 +1954,7 @@ textarea[type="text"] {
         background-position: center top;
     }
     .banner-img-events{
-        background: url(../images/freeways_1600.png) no-repeat #111;
+        background: url(../images/freeway_1600.png) no-repeat #111;
         background-position: center top;
     }
     #myiframe{
@@ -2076,8 +2077,8 @@ textarea[type="text"] {
 
 }
 
-@media screen and (max-width: 985px) {
-
+/*@media screen and (max-width: 985px) {*/
+@media screen and (max-width: 1200px) {
    .juxtapose {
       width: 300px;
       height: 275px;
@@ -2538,7 +2539,7 @@ textarea[type="text"] {
 .li-main-map-btns{
     display: inline-block;
     padding: 0%;
-    
+
 }
 
 .main-map-actual-buttons{
