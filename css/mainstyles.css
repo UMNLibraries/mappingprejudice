@@ -1592,6 +1592,25 @@ color: #ececec;
     cursor: pointer;
 }
 
+#ssk-overide-insta{
+    background-image: url('../images/insta_no_border.png');
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#ssk-overide-insta:hover {
+    border-color: #d10000;
+    cursor: pointer;
+}
+
 #ssk-overide-google{
     background-image: url('../images/Google_Plus.png');
     color: rgba(0, 0, 0, 0);
