@@ -1552,6 +1552,30 @@ color: #ececec;
 .img-icon{
     max-height: 150px;
 }
+
+
+/** Acknowledgments Page Styles **/
+.ackn-page-list {
+  margin: 2% 0% 0% 10%;
+  list-style-type: disc;
+}
+
+.alt-list-image-item {
+  float: right;
+  max-width: 35%;
+  margin: 2% 0% 0% 9%;
+}
+.ackn-page-li-item {
+  line-height: 25px;
+  margin: 1em;
+  list-style-type: none;
+}
+
+.ackn-last-ph {
+  margin-bottom: 6em;
+}
+
+
 /** Social Icon Style **/
 
 #ssk-overide-fb{
@@ -1942,6 +1966,10 @@ textarea[type="text"] {
     background: url(../images/freeway_2600.png) no-repeat #111;
     background-position: center top;
 }
+.banner-img-acknowledgements {
+  background: url(../images/denise-kacie-legislature.jpg) no-repeat #111;
+  background-position: center top;
+}
 
 @media screen and (max-width: 1600px){
     .banner-img {
@@ -1975,6 +2003,10 @@ textarea[type="text"] {
     .banner-img-events{
         background: url(../images/freeway_1600.png) no-repeat #111;
         background-position: center top;
+    }
+    .banner-img-acknowledgements {
+      background: url(../images/denise-kacie-legislature.jpg) no-repeat #111;
+      background-position: center top;
     }
     #myiframe{
         height: 530px;
@@ -2020,6 +2052,10 @@ textarea[type="text"] {
     .banner-img-events{
         background: url(../images/freeway_1300.png) no-repeat #111;
         background-position: center top;
+    }
+    .banner-img-acknowledgements {
+      background: url(../images/denise-kacie-legislature.jpg) no-repeat #111;
+      background-position: center top;
     }
     .iframe-media {
         width: 325px;
