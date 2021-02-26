@@ -485,6 +485,7 @@ ul.bxslider {
     font-size: larger;
     color: black;
 }
+
 .about-sub-title {
     margin-left: 5%;
     margin-right: 5%;
@@ -543,6 +544,10 @@ ul.bxslider {
   /* font-style: italic; */
   font-size: 1.25em;
   font-family: monospace;
+}
+
+.offset-text {
+  padding: .5em 1em .5em 8em;
 }
 /** Resources Page Styles **/
 
