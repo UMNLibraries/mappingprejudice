@@ -1,0 +1,471 @@
+<!doctype html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta property="og:title" content="Mapping Prejudice" />
+<meta name="description" content="Racial covenants and housing discrimination in 20th Century Minneapolis. Racial covenants were legal contracts embedded in property deeds to prevent African Americans from purchasing or occupying property." />
+<meta property="og:description" name="description" content="Racial covenants and housing discrimination in 20th century Minneapolis." />
+<meta property="og:image" content="https://www.mappingprejudice.org/images/protest_1200.png" />
+<meta property="og:url" content="https://www.mappingprejudice.org" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Mapping Prejudice">
+<meta name="twitter:description" content="Racial covenants and housing discrimination in 20th century Minneapolis">
+<meta name="twitter:image" content="https://www.mappingprejudice.org/images/protest_1200.png">
+<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0104/0451.js" async="async" ></script>
+<title>Mapping Prejudice</title>
+<link rel="icon" href="../../images/web_icon.ico"/>
+<link rel="stylesheet" type="text/css" href="../../css/mainstyles.css">
+<link rel="stylesheet" type="text/css" href="../../css/responsivedesign.css">
+<!-- jQuery library (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="../../js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="../../css/jquery.bxslider.css" rel="stylesheet" />
+<!-- social icons stylesheet -->
+<link rel="stylesheet" href="../../social/css/social-share-kit.css" type="text/css">
+<!-- Social Share Kit JS -->
+<script type="text/javascript" src="../../social/js/social-share-kit.js"></script>
+<script src="../../js/modalscripts.js"></script>
+<!-- override CSS file for bxslider main page -->
+<link href="../../css/bxslider_mainpage.css" rel="stylesheet">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88400382-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://apps.lib.umn.edu/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '6']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+<body>
+<div class="wrapper-parallax">
+
+<!-- contact modal content -->
+<div id="contact_modal_screened">
+<div id="contact_modal_div">
+  <span id="contact_close">x</span>
+  <div id="contact_modal_content">
+     <div class="contact_form">
+      <div class="user-form">
+        <form action="https://formspree.io/kevinesolberg@gmail.com" method="POST" class="form-style">
+          <div class="field-div">
+          <p class="model-events-text" style="text-align: center;">We welcome feedback, comments, and suggestions. To request a speaking engagement, please click <a href="../../speaking/index.html">here</a>.</p>
+            <div class="sub-field-div">
+
+              <input type="hidden" name="_cc" value="kdelegard@gmail.com" />
+
+              <p class="field-text">Name</p>
+              <input type="text" name="name" class="form-field">
+
+              <p class="field-text">Email Address</p>
+              <input type="email" name="_replyto" class="form-field">
+
+              <p class="field-text">Comment</p>
+              <textarea name="comment-stuff" id="field_text_comment_box" cols="30" rows="5" class="form-field"> </textarea>
+
+              <input type="submit" value="Send" class="form-field" style="max-width: 50px">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Nav Buttons and Title Top Section -->
+  <div class="top-section">
+    <div class="top-section-text">
+      <div>
+        <div class="banner-img-resources" style="background-image: url('../../images/pedagogy_notes_background.jpg');background-size: cover !important;">
+      </div>
+      <header>
+        <a href="#main" class="skip-link">Skip to main content</a>
+                    <nav aria-label="University">
+          <a href="https://twin-cities.umn.edu/" id="umn-logo" aria-label="University of Minnesota, Driven to Discover">
+            <svg x="0" y="0" viewBox="0 0 220 37.9">
+            <path class="white-fill" d="M25.1,25H29c3.9,0,6.7,2.6,6.7,6.4s-2.8,6.4-6.7,6.4h-3.9V25z M28.9,35.4c2.8,0,4.1-1.7,4.1-4.1 s-1.3-4.1-4.1-4.1h-1.2v8.1L28.9,35.4z M38.1,29.7h2.5v1.4c0.6-1.3,1.5-1.6,2.4-1.6c0.5,0,0.9,0.1,1.2,0.3l-0.8,2.3 c-0.3-0.2-0.6-0.2-1-0.2c-1.1,0-1.8,0.5-1.8,2.2v3.5h-2.5C38.1,37.6,38.1,29.7,38.1,29.7z M46.1,26.8c0-0.9,0.8-1.6,1.6-1.6 c0.9,0,1.6,0.6,1.6,1.6c0,0.9-0.7,1.6-1.6,1.6C46.9,28.4,46.1,27.7,46.1,26.8z M46.5,29.7H49v8h-2.5V29.7z M51.2,29.7H54l1.1,2.4 c0.4,0.8,0.7,2.1,0.7,2.1s0.3-1.3,0.6-2.1l1.1-2.4h2.6l-4.3,8.2h-0.2C55.6,37.9,51.2,29.7,51.2,29.7z M66.1,35.8 c0.9,0,1.6-0.4,2-0.6l1.4,1.6c-0.8,0.7-1.8,1.2-3.4,1.2c-2.9,0-4.7-1.7-4.7-4.2c0-2.4,1.9-4.1,4.4-4.1c2.9,0,4.4,2.1,4.2,4.9h-6 C64.3,35.3,64.9,35.8,66.1,35.8z M67.5,33c-0.1-0.9-0.7-1.4-1.7-1.4s-1.7,0.5-1.9,1.4H67.5z M72.8,29.7h2.5L75.2,31 c0.5-1,1.4-1.5,2.5-1.5c1.8,0,3,1.3,3,3.5v4.6h-2.5v-4.5c0-0.9-0.4-1.4-1.3-1.4c-1,0-1.6,0.6-1.6,1.6v4.3h-2.5L72.8,29.7L72.8,29.7z M89.5,34.7v-2.9h-1.2v-2.1h1.2v-4.2H92v4.2h2.1v2.1H92v3c0,0.8,0.3,1,0.7,1s0.7-0.2,0.9-0.3l1,1.8c-0.4,0.3-1.1,0.7-2.2,0.7 C90.7,37.9,89.5,37.1,89.5,34.7z M96.4,33.7c0-2.4,1.9-4.2,4.4-4.2s4.4,1.7,4.4,4.2c0,2.4-1.9,4.2-4.4,4.2S96.4,36.2,96.4,33.7z M102.6,33.7c0-1.2-0.7-2-1.8-2s-1.8,0.8-1.8,2s0.7,2,1.8,2S102.6,34.9,102.6,33.7z M113.2,25h3.9c3.9,0,6.7,2.6,6.7,6.4 s-2.8,6.4-6.7,6.4h-3.9V25z M117,35.4c2.8,0,4.1-1.7,4.1-4.1s-1.3-4.1-4.1-4.1h-1.2v8.1L117,35.4z M126.5,26.8 c0-0.9,0.8-1.6,1.6-1.6s1.6,0.6,1.6,1.6c0,0.9-0.7,1.6-1.6,1.6S126.5,27.7,126.5,26.8z M126.8,29.7h2.5v8h-2.5V29.7z M131.8,36.4 l1.5-1.3c0.5,0.5,1.2,0.8,2,0.8s1.1-0.2,1.1-0.5c0-0.4-0.5-0.4-1.8-0.8c-1.1-0.3-2.3-0.9-2.3-2.5c0-1.8,1.4-2.5,3.1-2.5 c1.3,0,2.2,0.4,2.9,1.1l-1.4,1.4c-0.4-0.3-0.9-0.6-1.5-0.6s-0.9,0.1-0.9,0.5c0,0.5,0.5,0.5,1.6,0.8c1.2,0.3,2.6,0.8,2.6,2.5 c0,1.5-0.8,2.7-3.3,2.7C133.6,37.9,132.5,37.2,131.8,36.4L131.8,36.4z M140.9,33.7c0-2.4,1.9-4.1,4.4-4.1c1.6,0,2.5,0.6,3.4,1.6 l-1.8,1.5c-0.3-0.5-0.9-0.9-1.6-0.9c-1.1,0-1.8,0.8-1.8,1.9c0,1.2,0.6,2,1.8,2c0.8,0,1.2-0.4,1.6-0.8l1.7,1.5 c-0.8,0.9-1.7,1.5-3.3,1.5C142.8,37.9,140.9,36.2,140.9,33.7L140.9,33.7z M150.6,33.7c0-2.4,1.9-4.2,4.4-4.2s4.4,1.7,4.4,4.2 c0,2.4-1.9,4.2-4.4,4.2C152.6,37.9,150.6,36.2,150.6,33.7z M156.8,33.7c0-1.2-0.7-2-1.8-2s-1.8,0.8-1.8,2s0.7,2,1.8,2 C156.2,35.8,156.8,34.9,156.8,33.7z M160.8,29.7h2.8l1.1,2.4c0.4,0.8,0.7,2.1,0.7,2.1s0.3-1.3,0.6-2.1l1.1-2.4h2.6l-4.3,8.2h-0.2 L160.8,29.7L160.8,29.7z M175.7,35.8c0.9,0,1.6-0.4,2-0.6l1.5,1.6c-0.8,0.7-1.7,1.2-3.4,1.2c-2.9,0-4.7-1.7-4.7-4.2 c0-2.4,1.9-4.1,4.4-4.1c2.9,0,4.4,2.1,4.2,4.9h-6.1C173.8,35.3,174.5,35.8,175.7,35.8z M177.1,33c-0.1-0.9-0.7-1.4-1.7-1.4 s-1.7,0.5-1.9,1.4H177.1L177.1,33z M182.3,29.7h2.5v1.4c0.6-1.3,1.5-1.6,2.4-1.6c0.5,0,0.9,0.1,1.2,0.3l-0.8,2.3 c-0.3-0.2-0.6-0.2-1-0.2c-1.1,0-1.8,0.5-1.8,2.2v3.5h-2.5L182.3,29.7L182.3,29.7z"/>
+            <g>
+              <path class="white-fill" d="M193.4,28.4c0.3,0.1,0.5,0.3,0.7,0.5s0.4,0.4,0.5,0.7c0.1,0.3,0.2,0.6,0.2,1s-0.1,0.8-0.3,1.1 c-0.2,0.4-0.5,0.7-0.9,0.8c-0.4,0.2-0.7,0.3-1.1,0.3c-0.4,0-0.8-0.1-1.1-0.3c-0.4-0.2-0.6-0.5-0.9-0.9c-0.2-0.4-0.3-0.8-0.3-1.1 c0-0.3,0.1-0.7,0.2-0.9s0.3-0.5,0.5-0.7s0.4-0.3,0.6-0.5c0.3-0.1,0.6-0.2,0.9-0.2C192.9,28.2,193.2,28.3,193.4,28.4L193.4,28.4z M195.1,29.4c-0.1-0.3-0.3-0.5-0.5-0.8c-0.2-0.2-0.5-0.4-0.8-0.6s-0.7-0.2-1.1-0.2c-0.4,0-0.8,0.1-1.2,0.3 c-0.3,0.1-0.5,0.3-0.8,0.5c-0.2,0.2-0.4,0.5-0.6,0.8s-0.2,0.7-0.2,1.1c0,0.5,0.1,0.9,0.4,1.4s0.6,0.8,1,1s0.9,0.4,1.4,0.4 c0.4,0,0.8-0.1,1.2-0.3c0.3-0.1,0.5-0.3,0.8-0.6c0.2-0.2,0.4-0.5,0.5-0.9c0.1-0.3,0.2-0.7,0.2-1C195.3,30.1,195.2,29.8,195.1,29.4 L195.1,29.4z M192.5,30.9c0.2,0,0.3,0,0.4,0.1c0.1,0,0.1,0.1,0.2,0.2s0.1,0.2,0.1,0.4V32h0.6v-0.4v-0.4c0-0.1-0.1-0.2-0.1-0.3 l-0.2-0.2c-0.1,0-0.2-0.1-0.3-0.1c0.2,0,0.3,0,0.3-0.1c0.1-0.1,0.2-0.1,0.3-0.3c0.1-0.1,0.1-0.2,0.1-0.4s0-0.3-0.1-0.4l-0.3-0.3 c-0.1-0.1-0.2-0.1-0.4-0.1h-1.6v3h0.7v-1.1H192.5z M192.8,29.5c0.1,0,0.2,0.1,0.2,0.1s0.1,0.2,0.1,0.3s0,0.2-0.1,0.3 c0,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.2,0.1-0.3,0.1h-0.4v-1H192.8z"/>
+            </g>
+            <g>
+              <path class="white-fill" d="M210.6,3.5l0.1,2.7h-0.4c-0.3-1.7-0.8-2-3-2v8.1c0,0.9,0.5,1.4,1.4,1.4v0.4h-4.2v-0.4c0.9,0,1.4-0.4,1.4-1.4 V4.2c-2.3,0-2.7,0.3-3,2h-0.4l0.1-2.7L210.6,3.5L210.6,3.5z M196.5,3.3c-2.6,0-4.7,2.1-4.7,5.5s2.1,5.5,4.7,5.5s4.7-2.1,4.7-5.5 S199.1,3.3,196.5,3.3z M196.5,13.6c-2,0-3.1-1.9-3.1-4.8s1.1-4.8,3.1-4.8s3.1,1.9,3.1,4.8C199.7,11.7,198.5,13.6,196.5,13.6z M218.9,12.8c-0.2-0.5-3.7-9.4-3.7-9.4h-0.4c0,0-3.1,8.2-3.5,9.1s-0.9,1.2-1.2,1.2v0.4h2.9v-0.4c-0.4,0-0.9-0.3-0.9-0.8v-0.4 c0-0.1,0.3-0.9,0.7-1.9h3.7c0.4,1,0.7,1.8,0.7,1.8c0,0.1,0.1,0.3,0.1,0.5c0,0.4-0.3,0.8-1,0.8v0.4h3.7v-0.4 C219.6,13.7,219.1,13.2,218.9,12.8z M213.1,9.9c0.7-1.9,1.6-4.2,1.6-4.2s0.9,2.3,1.5,4.2H213.1z M181.3,11.3 c-0.5,1.1-1.1,2.1-2.8,2.1h-1.7c-0.6,0-0.9-0.2-0.9-0.7V8.9h2.3c0.9,0,1.4,0.5,1.5,1.4h0.4V6.7h-0.4c-0.1,1-0.6,1.5-1.4,1.5h-2.4 V4.7c0-0.4,0.2-0.5,0.6-0.5h2c1.3,0,1.7,0.5,2,1.7h0.4l-0.1-2.4h-7.6v0.4c0.9,0,1.3,0.4,1.3,1.4v7.1c0,0.9-0.4,1.4-1.3,1.4v0.4h7.8 l0.7-2.7C181.7,11.3,181.3,11.3,181.3,11.3L181.3,11.3z M189.3,3.3l0.3,3.5h-0.4C188.7,5,187.9,4,186.6,4c-0.9,0-1.4,0.6-1.4,1.4 c0,0.9,0.7,1.5,1.5,2.1c0.9,0.6,1.4,1,1.7,1.2c0.8,0.6,1.5,1.5,1.5,2.7c0,1.7-1.3,3-3,3c-1,0-1.7-0.5-2.2-0.5 c-0.3,0-0.4,0.3-0.5,0.5h-0.4l-0.4-3.5h0.4c0.6,1.8,1.6,2.9,2.9,2.9c1,0,1.7-0.7,1.7-1.8c0-1-0.5-1.5-1.1-1.9 c-0.7-0.5-1.6-1.1-2.1-1.4c-0.8-0.6-1.3-1.3-1.3-2.5c0-1.5,1-2.7,2.6-2.7c0.7,0,1.5,0.5,1.9,0.5c0.3,0,0.5-0.2,0.5-0.5 C189,3.3,189.3,3.3,189.3,3.3L189.3,3.3z M168.3,3.5v0.4c0.8,0,1.3,0.6,1.3,1.6v5.6l-5.5-7.5h-2.4V4c0.5,0,0.9,0.2,1,0.5 c0,0,0.1,0.2,0.3,0.4V12c0,1.2-0.4,1.8-1.4,1.8v0.4h3.4v-0.4c-0.8,0-1.3-0.6-1.3-1.5V5.8c2,2.7,6.3,8.6,6.3,8.6h0.2V5.9 c0-1.3,0.6-1.8,1.4-1.8V3.5H168.3z M156.6,3.5v0.4c0.8,0,1.3,0.6,1.3,1.6v5.6l-5.5-7.5H150V4c0.5,0,0.9,0.2,1,0.5 c0,0,0.1,0.2,0.3,0.4V12c0,1.2-0.4,1.8-1.4,1.8v0.4h3.4v-0.4c-0.8,0-1.3-0.6-1.3-1.5V5.8c2,2.7,6.3,8.6,6.3,8.6h0.2V5.9 c0-1.3,0.6-1.8,1.4-1.8V3.5H156.6L156.6,3.5z M142.5,0.4V0.1h-3.3l-4.3,11.4l-4.3-11.4h-3.3v0.4c1.4,0,1.8,0.8,1.8,2.1v8.6 c0,2-0.6,2.5-1.8,2.5v0.4h4.3v-0.4c-1.2,0-1.8-0.5-1.8-2.5v-9l4.4,11.9h0.4L139.2,2v9.2c0,2-0.4,2.5-1.7,2.5v0.4h4.9v-0.4 c-1.2,0-1.7-0.5-1.7-2.5V2.4C140.8,0.8,141.6,0.4,142.5,0.4z M146.5,5.2c0-0.9,0.5-1.4,1.4-1.4V3.5h-4.3v0.4c0.9,0,1.4,0.4,1.4,1.4 v7.1c0,0.9-0.5,1.4-1.4,1.4v0.4h4.3v-0.4c-0.9,0-1.4-0.4-1.4-1.4V5.2z M107.5,3.3c-2.6,0-4.7,2.1-4.7,5.5s2.1,5.5,4.7,5.5 s4.7-2.1,4.7-5.5S110.1,3.3,107.5,3.3z M107.5,13.6c-2,0-3.1-1.9-3.1-4.8s1.1-4.8,3.1-4.8s3.1,1.9,3.1,4.8S109.5,13.6,107.5,13.6z M121.4,3.5h-7.7v0.4c0.9,0,1.3,0.4,1.3,1.4v7.1c0,0.9-0.4,1.4-1.3,1.4v0.4h4.1v-0.4c-0.9,0-1.3-0.4-1.3-1.4V9h2.2 c0.9,0,1.4,0.5,1.5,1.4h0.4V6.7h-0.4c-0.1,1-0.6,1.5-1.4,1.5h-2.3V4.7c0-0.4,0.2-0.5,0.6-0.5h2.1c1.3,0,1.7,0.5,2,1.7h0.4 C121.6,5.9,121.4,3.5,121.4,3.5z M86.1,3.5l0.1,2.7h-0.4c-0.3-1.7-0.8-2-3.1-2v8.1c0,0.9,0.5,1.4,1.4,1.4v0.4h-4.2v-0.4 c0.9,0,1.4-0.4,1.4-1.4V4.2c-2.3,0-2.7,0.3-3.1,2h-0.4L78,3.5H86.1z M94.3,3.9V3.5h3.2v0.4c-0.5,0-1.2,0.5-1.5,1 c-0.3,0.6-2.6,4.3-2.6,4.3v3.1c0,1,0.4,1.4,1.5,1.4v0.4h-4.5v-0.4c1.1,0,1.5-0.4,1.5-1.4V9.4c0,0-2.5-4-2.8-4.5s-0.9-1-1.5-1V3.5 h4.2v0.4c-0.6,0-1,0.3-1,0.6c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,2.1,3.5,2.1,3.5s2-3.5,2.1-3.6s0.1-0.2,0.1-0.3 C95.2,4.2,95.1,3.9,94.3,3.9L94.3,3.9z M69.3,3.3l0.3,3.5h-0.4C68.7,5,67.8,4,66.5,4c-0.9,0-1.4,0.6-1.4,1.4c0,0.9,0.7,1.5,1.5,2.1 c0.9,0.6,1.4,1,1.7,1.2c0.8,0.6,1.5,1.5,1.5,2.7c0,1.7-1.3,3-3,3c-1.1,0-1.7-0.5-2.2-0.5c-0.3,0-0.4,0.3-0.5,0.5h-0.4l-0.4-3.5h0.4 c0.6,1.8,1.6,2.9,2.9,2.9c1,0,1.7-0.7,1.7-1.8c0-1-0.5-1.5-1.1-1.9c-0.7-0.5-1.6-1.1-2.1-1.4c-0.8-0.6-1.3-1.3-1.3-2.5 c0-1.5,1-2.7,2.6-2.7c0.7,0,1.5,0.5,1.9,0.5c0.3,0,0.5-0.2,0.5-0.5C68.9,3.3,69.3,3.3,69.3,3.3z M75.1,5.2c0-0.9,0.5-1.4,1.4-1.4 V3.5h-4.2v0.4c0.9,0,1.4,0.4,1.4,1.4v7.1c0,0.9-0.5,1.4-1.4,1.4v0.4h4.2v-0.4c-0.9,0-1.4-0.4-1.4-1.4V5.2z M50.9,11.3 c-0.5,1.1-1.1,2.1-2.7,2.1h-1.7c-0.6,0-0.9-0.2-0.9-0.7V8.9h2.3c0.9,0,1.3,0.5,1.5,1.4h0.4V6.7h-0.4c-0.1,1-0.6,1.5-1.4,1.5h-2.4 V4.7c0-0.4,0.2-0.5,0.6-0.5h2c1.3,0,1.7,0.5,2,1.7h0.4l-0.1-2.4h-7.6v0.4c0.9,0,1.3,0.4,1.3,1.4v7.1c0,0.9-0.4,1.4-1.3,1.4v0.4h7.8 l0.7-2.7h-0.5L50.9,11.3z M60.9,13.2c-0.2-0.3-2.6-3.5-3.1-4.2c1.9-0.4,2.6-1.4,2.6-2.8c0-1.6-1.2-2.7-3.5-2.7h-4.2v0.4 c0.9,0,1.3,0.4,1.3,1.4v7c0,0.9-0.4,1.4-1.3,1.4v0.4h4.1v-0.4c-0.9,0-1.3-0.4-1.3-1.4V9.2h0.8l3.4,4.9H62v-0.3 C61.6,13.7,61.2,13.5,60.9,13.2z M55.5,8.6V5c0-0.7,0.2-0.9,1-0.9c1.8,0,2.4,0.9,2.4,2.2c0,1.6-1.2,2.3-3,2.3H55.5z M28.5,5.2 c0-0.9,0.5-1.4,1.4-1.4V3.5h-4.3v0.4c0.9,0,1.4,0.4,1.4,1.4v7.1c0,0.9-0.5,1.4-1.4,1.4v0.4h4.3v-0.4c-0.9,0-1.4-0.4-1.4-1.4 C28.5,12.4,28.5,5.2,28.5,5.2z M35.5,3.9V3.5h-3.9v0.4c0.5,0,1,0.3,1.3,1.1c0.3,0.8,3.8,9.2,3.8,9.2h0.2c0,0,3.1-8.5,3.3-9.2 s0.7-1.1,1.2-1.1V3.5h-3v0.4c0.7,0,1,0.4,1,0.8c0,0.1,0,0.3-0.1,0.4c-0.1,0.2-2.2,6.2-2.2,6.2S34.6,5.2,34.5,5 c-0.1-0.1-0.1-0.3-0.1-0.5C34.4,4.1,34.8,3.9,35.5,3.9z M0,0.4c1.2,0,1.8,0.6,1.8,2.2v6.5c0,3.3,1.8,5.1,5,5.1 c2.7,0,4.8-1.6,4.8-4.8V2.3c0-1.1,0.3-1.8,1.7-1.8V0.1H9v0.4c1.2,0,1.7,0.5,1.7,2c0,1.4,0.1,5.2,0.1,7.4S9.2,13.5,7,13.5 c-2.1,0-3.7-1.2-3.7-3.8V2.4c0-1.1,0.4-1.8,1.7-1.8V0.1H0V0.4z M20,3.5v0.4c0.8,0,1.3,0.6,1.3,1.6v5.6l-5.5-7.5h-2.4V4 c0.5,0,0.8,0.2,1.1,0.5c0,0,0.1,0.2,0.3,0.4V12c0,1.2-0.4,1.8-1.4,1.8v0.4h3.4v-0.4c-0.8,0-1.3-0.6-1.3-1.5V5.8 c2,2.7,6.3,8.6,6.3,8.6H22V5.9c0-1.3,0.6-1.8,1.4-1.8V3.5H20z"/>
+            </g>
+            </svg>
+          </a>
+          <a href="https://onestop.umn.edu/">One Stop</a>
+          <a href="https://www.myu.umn.edu/">
+            MyU
+            <svg aria-hidden="true" class="glyph glyph-lock" focusable="false" viewBox="0 0 21 32" width="21" height="32">
+            <title>Lock</title>
+            <desc>Authentication required</desc>
+            <path d="M5.728 13.728h9.12v-3.456q0-1.888-1.344-3.232t-3.232-1.312-3.232 1.312-1.312 3.232v3.456zM20.576 15.424v10.304q0 0.704-0.512 1.184t-1.216 0.512h-17.12q-0.736 0-1.216-0.512t-0.512-1.184v-10.304q0-0.704 0.512-1.216t1.216-0.48h0.544v-3.456q0-3.264 2.368-5.632t5.632-2.368 5.664 2.368 2.336 5.632v3.456h0.576q0.736 0 1.216 0.48t0.512 1.216z"></path>
+            </svg>
+          </a>
+        </nav>
+        <nav aria-label="Libraries">
+          <a href="https://www.lib.umn.edu" id="logo" aria-labelledby="logo-text">
+            <svg x="0" y="0" viewBox="0 0 500 70" width="500" height="50">
+              <title id="logo-text">University Libraries</title>
+              <g>
+                <path d="M156.6,12.4h9.5v37.8H187v8.4h-30.4V12.4L156.6,12.4z"/>
+                <path d="M198.3,12.4h9.5v46.2h-9.5V12.4z"/>
+                <path d="M220.9,12.4h17.9c8.6,0,13.4,5.4,13.4,11.9c0,4.3-2.5,7.2-6.5,8.5c6.3,1.5,9.4,5.7,9.4,11.5c0,8.2-5.8,14.3-15.5,14.3 h-18.7L220.9,12.4L220.9,12.4z M237.8,29.4c3.1,0,5.1-1.7,5.1-4.3c0-2.6-1.7-4.3-4.6-4.3h-7.8v8.7H237.8z M239.2,50.2 c3.9,0,6.3-2.6,6.3-6.4c0-3.7-2.5-6.3-6.9-6.3h-8.2v12.7H239.2z"/>
+                <path d="M299.8,58.5h-11l-7.6-11.7c-0.9,0.1-1.8,0.2-2.7,0.2h-3.3v11.5h-9.5V12.4h12.8c12.9,0,20.6,6.2,20.6,17.4 c0,7.2-3.2,11.7-8.9,14.3L299.8,58.5z M278.2,38.8c7.7,0,11.1-2.4,11.1-9c0-6.5-3.5-9.1-11.1-9.1h-3v18.1H278.2z"/>
+                <path d="M327.4,12h0.8l21.1,46.6h-10l-2.2-5.2h-18.7l-2.2,5.2h-9.2L327.4,12z M333.8,45.4l-3.3-8c-1.4-3.3-2.8-8.3-2.8-8.3 s-1.4,5-2.7,8.3l-3.3,8H333.8z"/>
+                <path d="M393,58.5h-11l-7.6-11.7c-0.9,0.1-1.8,0.2-2.7,0.2h-3.3v11.5h-9.5V12.4h12.8c12.9,0,20.6,6.2,20.6,17.4 c0,7.2-3.2,11.7-8.9,14.3L393,58.5z M371.4,38.8c7.7,0,11.1-2.4,11.1-9c0-6.5-3.5-9.1-11.1-9.1h-3v18.1H371.4z"/>
+                <path d="M404.2,12.4h9.5v46.2h-9.5V12.4z"/>
+                <path d="M426.9,12.4h30.5v8.3h-21v14.7h18.5v8.1h-18.5v6.7h22v8.4h-31.5L426.9,12.4L426.9,12.4z"/>
+                <path d="M466.9,49.4l7.7-4.5c2,3.3,4.7,5.8,9.4,5.8c3.9,0,6.4-2,6.4-4.7c0-3.3-2.6-4.4-6.9-6.3l-2.4-1 c-6.9-2.9-11.4-6.6-11.4-14.3c0-7.1,5.4-12.6,13.9-12.6c6,0,10.4,2.1,13.5,7.6l-7.4,4.8c-1.6-2.9-3.4-4.1-6.1-4.1 c-2.8,0-4.6,1.8-4.6,4.1c0,2.9,1.8,4,5.8,5.8l2.4,1c8.1,3.5,12.6,7,12.6,14.9c0,8.6-6.7,13.2-15.7,13.2 C475.4,59.1,469.7,54.9,466.9,49.4z"/>
+              </g>
+              <g>
+                <path class="white-fill" d="M125.4,63.9c0.4,0.1,0.7,0.3,1,0.6c0.3,0.3,0.5,0.6,0.6,0.9c0.2,0.4,0.3,0.8,0.3,1.3 c0,0.5-0.1,1-0.4,1.5c-0.3,0.5-0.6,0.9-1.1,1.1c-0.5,0.3-1,0.4-1.5,0.4c-0.5,0-1-0.1-1.5-0.4c-0.5-0.3-0.8-0.6-1.1-1.1 c-0.3-0.5-0.4-1-0.4-1.5c0-0.4,0.1-0.9,0.3-1.2c0.2-0.4,0.4-0.7,0.6-0.9c0.3-0.2,0.5-0.4,0.9-0.6c0.4-0.2,0.8-0.3,1.2-0.3 C124.6,63.7,125,63.8,125.4,63.9z M127.5,65.3c-0.2-0.4-0.4-0.7-0.7-1c-0.3-0.3-0.7-0.6-1.1-0.8c-0.4-0.2-0.9-0.3-1.4-0.3 c-0.5,0-1.1,0.1-1.5,0.4c-0.4,0.2-0.7,0.4-1,0.7c-0.3,0.3-0.5,0.7-0.7,1.1c-0.2,0.4-0.3,0.9-0.3,1.4c0,0.6,0.2,1.2,0.5,1.8 c0.3,0.6,0.7,1,1.3,1.3c0.6,0.3,1.1,0.5,1.8,0.5c0.5,0,1.1-0.1,1.5-0.4c0.4-0.2,0.7-0.4,1-0.7c0.3-0.3,0.5-0.7,0.7-1.1 c0.2-0.4,0.2-0.9,0.2-1.3C127.8,66.2,127.7,65.7,127.5,65.3z M124.1,67.2c0.2,0,0.4,0,0.5,0.1c0.1,0.1,0.2,0.1,0.2,0.3 c0.1,0.1,0.1,0.3,0.1,0.5c0,0.3,0,0.5,0.1,0.6h0.8c0-0.1-0.1-0.3-0.1-0.5c0-0.2,0-0.4,0-0.5c0-0.2-0.1-0.3-0.2-0.4 c-0.1-0.1-0.2-0.2-0.3-0.2c-0.1-0.1-0.2-0.1-0.4-0.1c0.2,0,0.4-0.1,0.4-0.1c0.2-0.1,0.3-0.2,0.4-0.3c0.1-0.2,0.1-0.3,0.1-0.5 c0-0.2,0-0.4-0.1-0.5c-0.1-0.2-0.2-0.3-0.3-0.4c-0.1-0.1-0.3-0.2-0.5-0.2c-0.2,0-0.4,0-0.7,0h-1.4v3.9h0.9v-1.5L124.1,67.2 L124.1,67.2z M124.6,65.4c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.2-0.3,0.2 c-0.1,0-0.3,0.1-0.4,0.1h-0.6v-1.2h0.6C124.3,65.4,124.4,65.4,124.6,65.4z"/>
+              </g>
+              <polygon class="white-fill" points="110.8,52.3 90.1,17.9 95.8,17.9 95.8,0 61.3,0 61.3,17.9 67,17.9 59.1,31.1 51.2,17.9 56.9,17.9 56.9,0 22.4,0 22.4,17.9 28.1,17.9 7.4,52.3 0,52.3 0,70.3 35.2,70.3 35.2,52.3 28.8,52.3 39.6,34.4 43.8,41.4 39.8,41.4 39.8,59.3 78.4,59.3 78.4,41.4 74.3,41.4 78.5,34.4 89.3,52.3 83,52.3 83,70.3 118.2,70.3 118.2,52.3 						"/>
+            </svg>
+          </a>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Sticky Nav Bar Desktop -->
+  <div class="top-sticky-nav-desktop">
+      <div class="top-sticky-nav-container">
+
+        <nav aria-label="Libraries">
+          <a href="https://www.lib.umn.edu" id="logo-mobile" aria-labelledby="logo-text-mobile">
+            <svg x="0" y="0" viewBox="0 0 500 70" width="500" height="50">
+              <title id="logo-text-mobile">University Libraries</title>
+              <g>
+                <path d="M156.6,12.4h9.5v37.8H187v8.4h-30.4V12.4L156.6,12.4z"></path>
+                <path d="M198.3,12.4h9.5v46.2h-9.5V12.4z"></path>
+                <path d="M220.9,12.4h17.9c8.6,0,13.4,5.4,13.4,11.9c0,4.3-2.5,7.2-6.5,8.5c6.3,1.5,9.4,5.7,9.4,11.5c0,8.2-5.8,14.3-15.5,14.3 h-18.7L220.9,12.4L220.9,12.4z M237.8,29.4c3.1,0,5.1-1.7,5.1-4.3c0-2.6-1.7-4.3-4.6-4.3h-7.8v8.7H237.8z M239.2,50.2 c3.9,0,6.3-2.6,6.3-6.4c0-3.7-2.5-6.3-6.9-6.3h-8.2v12.7H239.2z"></path>
+                <path d="M299.8,58.5h-11l-7.6-11.7c-0.9,0.1-1.8,0.2-2.7,0.2h-3.3v11.5h-9.5V12.4h12.8c12.9,0,20.6,6.2,20.6,17.4 c0,7.2-3.2,11.7-8.9,14.3L299.8,58.5z M278.2,38.8c7.7,0,11.1-2.4,11.1-9c0-6.5-3.5-9.1-11.1-9.1h-3v18.1H278.2z"></path>
+                <path d="M327.4,12h0.8l21.1,46.6h-10l-2.2-5.2h-18.7l-2.2,5.2h-9.2L327.4,12z M333.8,45.4l-3.3-8c-1.4-3.3-2.8-8.3-2.8-8.3 s-1.4,5-2.7,8.3l-3.3,8H333.8z"></path>
+                <path d="M393,58.5h-11l-7.6-11.7c-0.9,0.1-1.8,0.2-2.7,0.2h-3.3v11.5h-9.5V12.4h12.8c12.9,0,20.6,6.2,20.6,17.4 c0,7.2-3.2,11.7-8.9,14.3L393,58.5z M371.4,38.8c7.7,0,11.1-2.4,11.1-9c0-6.5-3.5-9.1-11.1-9.1h-3v18.1H371.4z"></path>
+                <path d="M404.2,12.4h9.5v46.2h-9.5V12.4z"></path>
+                <path d="M426.9,12.4h30.5v8.3h-21v14.7h18.5v8.1h-18.5v6.7h22v8.4h-31.5L426.9,12.4L426.9,12.4z"></path>
+                <path d="M466.9,49.4l7.7-4.5c2,3.3,4.7,5.8,9.4,5.8c3.9,0,6.4-2,6.4-4.7c0-3.3-2.6-4.4-6.9-6.3l-2.4-1 c-6.9-2.9-11.4-6.6-11.4-14.3c0-7.1,5.4-12.6,13.9-12.6c6,0,10.4,2.1,13.5,7.6l-7.4,4.8c-1.6-2.9-3.4-4.1-6.1-4.1 c-2.8,0-4.6,1.8-4.6,4.1c0,2.9,1.8,4,5.8,5.8l2.4,1c8.1,3.5,12.6,7,12.6,14.9c0,8.6-6.7,13.2-15.7,13.2 C475.4,59.1,469.7,54.9,466.9,49.4z"></path>
+              </g>
+              <g>
+                <path class="white-fill" d="M125.4,63.9c0.4,0.1,0.7,0.3,1,0.6c0.3,0.3,0.5,0.6,0.6,0.9c0.2,0.4,0.3,0.8,0.3,1.3 c0,0.5-0.1,1-0.4,1.5c-0.3,0.5-0.6,0.9-1.1,1.1c-0.5,0.3-1,0.4-1.5,0.4c-0.5,0-1-0.1-1.5-0.4c-0.5-0.3-0.8-0.6-1.1-1.1 c-0.3-0.5-0.4-1-0.4-1.5c0-0.4,0.1-0.9,0.3-1.2c0.2-0.4,0.4-0.7,0.6-0.9c0.3-0.2,0.5-0.4,0.9-0.6c0.4-0.2,0.8-0.3,1.2-0.3 C124.6,63.7,125,63.8,125.4,63.9z M127.5,65.3c-0.2-0.4-0.4-0.7-0.7-1c-0.3-0.3-0.7-0.6-1.1-0.8c-0.4-0.2-0.9-0.3-1.4-0.3 c-0.5,0-1.1,0.1-1.5,0.4c-0.4,0.2-0.7,0.4-1,0.7c-0.3,0.3-0.5,0.7-0.7,1.1c-0.2,0.4-0.3,0.9-0.3,1.4c0,0.6,0.2,1.2,0.5,1.8 c0.3,0.6,0.7,1,1.3,1.3c0.6,0.3,1.1,0.5,1.8,0.5c0.5,0,1.1-0.1,1.5-0.4c0.4-0.2,0.7-0.4,1-0.7c0.3-0.3,0.5-0.7,0.7-1.1 c0.2-0.4,0.2-0.9,0.2-1.3C127.8,66.2,127.7,65.7,127.5,65.3z M124.1,67.2c0.2,0,0.4,0,0.5,0.1c0.1,0.1,0.2,0.1,0.2,0.3 c0.1,0.1,0.1,0.3,0.1,0.5c0,0.3,0,0.5,0.1,0.6h0.8c0-0.1-0.1-0.3-0.1-0.5c0-0.2,0-0.4,0-0.5c0-0.2-0.1-0.3-0.2-0.4 c-0.1-0.1-0.2-0.2-0.3-0.2c-0.1-0.1-0.2-0.1-0.4-0.1c0.2,0,0.4-0.1,0.4-0.1c0.2-0.1,0.3-0.2,0.4-0.3c0.1-0.2,0.1-0.3,0.1-0.5 c0-0.2,0-0.4-0.1-0.5c-0.1-0.2-0.2-0.3-0.3-0.4c-0.1-0.1-0.3-0.2-0.5-0.2c-0.2,0-0.4,0-0.7,0h-1.4v3.9h0.9v-1.5L124.1,67.2 L124.1,67.2z M124.6,65.4c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.2-0.3,0.2 c-0.1,0-0.3,0.1-0.4,0.1h-0.6v-1.2h0.6C124.3,65.4,124.4,65.4,124.6,65.4z"></path>
+              </g>
+              <polygon class="white-fill" points="110.8,52.3 90.1,17.9 95.8,17.9 95.8,0 61.3,0 61.3,17.9 67,17.9 59.1,31.1 51.2,17.9 56.9,17.9 56.9,0 22.4,0 22.4,17.9 28.1,17.9 7.4,52.3 0,52.3 0,70.3 35.2,70.3 35.2,52.3 28.8,52.3 39.6,34.4 43.8,41.4 39.8,41.4 39.8,59.3 78.4,59.3 78.4,41.4 74.3,41.4 78.5,34.4 89.3,52.3 83,52.3 83,70.3 118.2,70.3 118.2,52.3 						"></polygon>
+            </svg>
+          </a>
+        </nav>
+
+        <div class="nav-left">
+          <ul class="sub-title-list" style="padding: 0px;">
+              <li class="sub-title-list-nav-home">
+                <a href="https://www.lib.umn.edu" id="logo" aria-labelledby="logo-text">
+                  <svg x="0" y="0" viewBox="0 0 500 70" width="500" height="50">
+                    <title id="logo-text">University Libraries</title>
+                    <g>
+                      <path d="M156.6,12.4h9.5v37.8H187v8.4h-30.4V12.4L156.6,12.4z"/>
+                      <path d="M198.3,12.4h9.5v46.2h-9.5V12.4z"/>
+                      <path d="M220.9,12.4h17.9c8.6,0,13.4,5.4,13.4,11.9c0,4.3-2.5,7.2-6.5,8.5c6.3,1.5,9.4,5.7,9.4,11.5c0,8.2-5.8,14.3-15.5,14.3 h-18.7L220.9,12.4L220.9,12.4z M237.8,29.4c3.1,0,5.1-1.7,5.1-4.3c0-2.6-1.7-4.3-4.6-4.3h-7.8v8.7H237.8z M239.2,50.2 c3.9,0,6.3-2.6,6.3-6.4c0-3.7-2.5-6.3-6.9-6.3h-8.2v12.7H239.2z"/>
+                      <path d="M299.8,58.5h-11l-7.6-11.7c-0.9,0.1-1.8,0.2-2.7,0.2h-3.3v11.5h-9.5V12.4h12.8c12.9,0,20.6,6.2,20.6,17.4 c0,7.2-3.2,11.7-8.9,14.3L299.8,58.5z M278.2,38.8c7.7,0,11.1-2.4,11.1-9c0-6.5-3.5-9.1-11.1-9.1h-3v18.1H278.2z"/>
+                      <path d="M327.4,12h0.8l21.1,46.6h-10l-2.2-5.2h-18.7l-2.2,5.2h-9.2L327.4,12z M333.8,45.4l-3.3-8c-1.4-3.3-2.8-8.3-2.8-8.3 s-1.4,5-2.7,8.3l-3.3,8H333.8z"/>
+                      <path d="M393,58.5h-11l-7.6-11.7c-0.9,0.1-1.8,0.2-2.7,0.2h-3.3v11.5h-9.5V12.4h12.8c12.9,0,20.6,6.2,20.6,17.4 c0,7.2-3.2,11.7-8.9,14.3L393,58.5z M371.4,38.8c7.7,0,11.1-2.4,11.1-9c0-6.5-3.5-9.1-11.1-9.1h-3v18.1H371.4z"/>
+                      <path d="M404.2,12.4h9.5v46.2h-9.5V12.4z"/>
+                      <path d="M426.9,12.4h30.5v8.3h-21v14.7h18.5v8.1h-18.5v6.7h22v8.4h-31.5L426.9,12.4L426.9,12.4z"/>
+                      <path d="M466.9,49.4l7.7-4.5c2,3.3,4.7,5.8,9.4,5.8c3.9,0,6.4-2,6.4-4.7c0-3.3-2.6-4.4-6.9-6.3l-2.4-1 c-6.9-2.9-11.4-6.6-11.4-14.3c0-7.1,5.4-12.6,13.9-12.6c6,0,10.4,2.1,13.5,7.6l-7.4,4.8c-1.6-2.9-3.4-4.1-6.1-4.1 c-2.8,0-4.6,1.8-4.6,4.1c0,2.9,1.8,4,5.8,5.8l2.4,1c8.1,3.5,12.6,7,12.6,14.9c0,8.6-6.7,13.2-15.7,13.2 C475.4,59.1,469.7,54.9,466.9,49.4z"/>
+                    </g>
+                    <g>
+                      <path class="white-fill" d="M125.4,63.9c0.4,0.1,0.7,0.3,1,0.6c0.3,0.3,0.5,0.6,0.6,0.9c0.2,0.4,0.3,0.8,0.3,1.3 c0,0.5-0.1,1-0.4,1.5c-0.3,0.5-0.6,0.9-1.1,1.1c-0.5,0.3-1,0.4-1.5,0.4c-0.5,0-1-0.1-1.5-0.4c-0.5-0.3-0.8-0.6-1.1-1.1 c-0.3-0.5-0.4-1-0.4-1.5c0-0.4,0.1-0.9,0.3-1.2c0.2-0.4,0.4-0.7,0.6-0.9c0.3-0.2,0.5-0.4,0.9-0.6c0.4-0.2,0.8-0.3,1.2-0.3 C124.6,63.7,125,63.8,125.4,63.9z M127.5,65.3c-0.2-0.4-0.4-0.7-0.7-1c-0.3-0.3-0.7-0.6-1.1-0.8c-0.4-0.2-0.9-0.3-1.4-0.3 c-0.5,0-1.1,0.1-1.5,0.4c-0.4,0.2-0.7,0.4-1,0.7c-0.3,0.3-0.5,0.7-0.7,1.1c-0.2,0.4-0.3,0.9-0.3,1.4c0,0.6,0.2,1.2,0.5,1.8 c0.3,0.6,0.7,1,1.3,1.3c0.6,0.3,1.1,0.5,1.8,0.5c0.5,0,1.1-0.1,1.5-0.4c0.4-0.2,0.7-0.4,1-0.7c0.3-0.3,0.5-0.7,0.7-1.1 c0.2-0.4,0.2-0.9,0.2-1.3C127.8,66.2,127.7,65.7,127.5,65.3z M124.1,67.2c0.2,0,0.4,0,0.5,0.1c0.1,0.1,0.2,0.1,0.2,0.3 c0.1,0.1,0.1,0.3,0.1,0.5c0,0.3,0,0.5,0.1,0.6h0.8c0-0.1-0.1-0.3-0.1-0.5c0-0.2,0-0.4,0-0.5c0-0.2-0.1-0.3-0.2-0.4 c-0.1-0.1-0.2-0.2-0.3-0.2c-0.1-0.1-0.2-0.1-0.4-0.1c0.2,0,0.4-0.1,0.4-0.1c0.2-0.1,0.3-0.2,0.4-0.3c0.1-0.2,0.1-0.3,0.1-0.5 c0-0.2,0-0.4-0.1-0.5c-0.1-0.2-0.2-0.3-0.3-0.4c-0.1-0.1-0.3-0.2-0.5-0.2c-0.2,0-0.4,0-0.7,0h-1.4v3.9h0.9v-1.5L124.1,67.2 L124.1,67.2z M124.6,65.4c0.1,0,0.2,0.1,0.3,0.2c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0,0.2-0.1,0.3c-0.1,0.1-0.2,0.2-0.3,0.2 c-0.1,0-0.3,0.1-0.4,0.1h-0.6v-1.2h0.6C124.3,65.4,124.4,65.4,124.6,65.4z"/>
+                    </g>
+                    <polygon class="white-fill" points="110.8,52.3 90.1,17.9 95.8,17.9 95.8,0 61.3,0 61.3,17.9 67,17.9 59.1,31.1 51.2,17.9 56.9,17.9 56.9,0 22.4,0 22.4,17.9 28.1,17.9 7.4,52.3 0,52.3 0,70.3 35.2,70.3 35.2,52.3 28.8,52.3 39.6,34.4 43.8,41.4 39.8,41.4 39.8,59.3 78.4,59.3 78.4,41.4 74.3,41.4 78.5,34.4 89.3,52.3 83,52.3 83,70.3 118.2,70.3 118.2,52.3 						"/>
+                  </svg>
+                </a>
+                <a href="../../index.html" class="homepage-icon">Mapping Prejudice</a>
+              </li>
+          </ul>
+        </div>
+
+        <div class="nav-right">
+          <ul class="sub-title-list" style="padding: 0px;">
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                <li class="nav-item"><a href="../../about-us/index.html" class="homepage-icon">About</a></li>
+              </button>
+              <div class="dropdown-content">
+                <a href="../../about-us/index.html#about-us">About Us</a>
+                <a href="../../about-us/index.html#bio-link-tag">Our Team</a>
+                <a href="../../about-us/index.html#alumni">Alumni</a>
+                <a href="../../acknowledgements-page/index.html">Acknowledgments</a>
+              </div>
+            </div>
+
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                <li class="nav-item"><a href="../../what-are-covenants/index.html" class="homepage-icon">Learn More</a></li>
+              </button>
+              <div class="dropdown-content">
+                <a href="../../what-are-covenants/index.html#what">What Are Covenants?</a>
+                <a href="../../what-are-covenants/index.html#changed">How Covenants Changed Minneapolis</a>
+                <a href="../../what-are-covenants/index.html#matter">Why Covenants Matter</a>
+              </div>
+            </div>
+
+
+            <div class="dropdown">
+            <button class="dropbtn">
+              <li class="nav-item"><a href="../../get-involved/index.html" class="homepage-icon">Get Involved</a></li>
+            </button>
+            <div class="dropdown-content">
+              <a href="../../images/action_guide_vX.pdf">Action Guide</a>
+              <a href="../../images/Awareness_to_Action_Mapping_Prejudice.pdf">From Awareness to Action</a>
+              <a href="../../get-involved/index.html#build-the-map">Build the Map</a>
+              <a href="../../get-involved/index.html#share-your-story">Share Your Story</a>
+              <a href="../../Events/index.html">Events</a>
+              <a href="https://makingagift.umn.edu/give/fund.html?fundCode=22110#formstep-1" target="_blank">Donate</a>
+            </div>
+            </div>
+
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                <li class="nav-item"><a href="../resources/index.html" class="homepage-icon">Resources</a></li>
+              </button>
+              <div class="dropdown-content">
+                <a href="../../resources/index.html#press">Press</a>
+                <a href="../../resources/index.html#media">Presentations</a>
+                <a href="../../resources-uprising/index.html">MPLS Uprising</a>
+                <!-- <a href="../resources/index.html#reading">Further Reading</a> -->
+                <a href="../../resources/index.html#educators">For Educators</a>
+                <a href="../../newsletter_archive/index.html#educators">Newsletter Archive</a>
+              </div>
+            </div>
+
+
+            <div class="dropdown">
+            <button class="dropbtn">
+              <li class="nav-item"><a href="../../stories/index.html" class="homepage-icon">Stories</a></li>
+            </button>
+            <!-- <div class="dropdown-content">
+              <a href=" /index.html# "> </a>
+              <a href=" /index.html# "> </a>
+              <a href=" /index.html# "> </a>
+            </div> -->
+            </div>
+
+
+            <div class="dropdown" id="drop-right">
+            <button class="dropbtn">
+              <li class="nav-item"><a id="contact_btn" href="# contact_modal_screened">Contact</a></li>
+            </button>
+            <div class="dropdown-content">
+              <a href="../../speaking/index.html#contact">Contact Us</a>
+              <a href="../../speaking/index.html#speaking">Speaking Requests</a>
+              <!-- <a href=" /index.html# "> </a> -->
+            </div>
+            </div>
+
+          </ul>
+        </div>
+            <button class="stickyNavList-btn">
+                <img class="stickyNav-img" src="../../images/nav_icon.png"></img>
+            </button>
+      </div>
+<!-- sticky nav mobile -->
+      <div class="stickyNav">
+          <ul>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../../about-us/index.html">About</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../../what-are-covenants/index.html">Learn More</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../../get-involved/index.html">Get Involved</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../../resources/index.html">Resources</a>
+            </li>
+            <li class="stickyNavList">
+              <a class="side-nav-link" href="../../stories/index.html">Stories</a>
+            </li>
+          </ul>
+      </div>
+  </div>
+
+    <div class="main-title-stories" id="main">
+      <h3 class="flex-title-stories">Race and the streetcar suburb
+      </h3>
+      <h3 class="flex-title-smallest">
+        <div class="text-padding"></div>
+      </h3>
+
+    </div>
+
+
+
+<!--Sub-header content -->
+<div id="sub-header-content">
+    <div class="flex">
+      <div class="flex-div-2">
+        <div class="text-padding">
+          <p class="stories-author-line">By: <a href="https://mappingprejudice.umn.edu/about-us/index.html#hannah-id">HANNAH COBLE</a></p>
+          <p class="blog-date">November 15, 2021</p>
+           <p class="blog-date"></p>
+
+           <p>In the 1920s, the owner of a large chunk of land in south Minneapolis decided that it was time to benefit from rapidly rising property values. This land--which was adjacent to Minnehaha Creek--had been used to to bury the dead, graze cattle and house orphans. Strategic investments by the Minneapolis Park Board and the Twin Cities Rapid Transit Company had rendered it a prime location for a new streetcar suburb.</p>
+           <p>This landholder decided to sell all but 10 of the acres it owned between 46th street and Minnehaha Creek. It worked with real estate developers to carve up the remaining 68 acres, dividing the hills and woods of the landscape into 327 residential lots. The platting of Shenandoah Terrace transformed this bucolic setting into a grid for residential development. It also drew racial boundaries in the landscape. This text was attached to each of these new residential parcels:</p>
+           <p>[these] <i>described premises shall not be sold, mortgaged, or leased to or occupied by any person or persons other than members of the Caucasian race.</i></p>
+           <p>The landowner responsible for blanketing Shenandoah Terrace with racial covenants was the <a href="https://open.mitchellhamline.edu/cgi/viewcontent.cgi?article=1124&context=wmlr">Catholic Boy’s Orphan Asylum, which had been established at the direction of Bishop John Ireland in 1886.</a><sup><a href="#fn1" id="ref1">1</a></sup> This decision ensured that this neighborhood, which is bounded by Chicago Avenue and Minnehaha Parkway, would be inhabited by white people for decades. It remains one of the whitest areas of Minneapolis, more than 50 years after the passage of the Fair Housing Act.</p>
+           <p>The Catholic Boy’s Orphan Asylum had been created by a group of community leaders who were inspired by Bishop Ireland’s declaration that “justice and necessity” required his parishioners to carry “the burden of orphaned children.”<sup><a href="#fn2" id="ref2">2</a></sup> Supporters donated land adjacent to the modern-day intersection of 46th and Chicago Avenue, raising the money to build what was described as a “baronial castle,” that was located on “78 acres of rich ground, partly wooded and sloping from a knoll down to Minnehaha Creek.”<sup><a href="#fn3" id="ref3">3</a></sup> The Sisters of St. Joseph  “taught the lessons of life” to the boys “in the pure air and attractive surroundings” where this small community supplied its own food by tending gardens and keeping dairy cows.<sup><a href="#fn4" id="ref4">4</a></sup></p>
+           <p>During the first several decades of its existence, the Asylum was known for its policy of racial and religious inclusiveness. A journalist who visited the orphanage in 1905 wrote that “creed, race and color are not questioned: non-Catholics are received with as warm a welcome as those of the Roman faith, and black boys and white share alike the protection of its beneficent walls.”<sup><a href="#fn5" id="ref5">5</a></sup></p>
+           <p>Observers made virtue from a necessity, touting the advantages of caring for the orphans “far from the ills of city life.” But the orphanage was likely located in this swampy section of the city because land was cheap. For many years, the Asylum’s closest neighbor was a large cemetery for nuns.</p>
+           <p>The early twentieth century brought rapid changes to what had once been seen as a remote hinterland. A powerful agent of change was the Minneapolis Park Board, which made ambitious investments in state-of-the-art green spaces in this section of the city. After acquiring a swamp known as Lake Amelia in 1907, <a href='https://www.frnng.org/history-by-richard-kronick'>the Park Board dredged the wetland and renamed it Lake Nokomis</a>. The new lake connected to the recently constructed Minnehaha Parkway, which snaked along one boundary of the Catholic Boy’s Orphan Asylum. Another driver of development was the Twin Cities Rapid Transit Company, which extended the streetcar line on Chicago Avenue past Minnehaha Creek. This made the area that would become known as Shenandoah Terrace easily accessible for people who worked in the central business district.<sup><a href="#fn6" id="ref6">6</a></sup> These investments in green space and transit converged to make this area enticing for would-be homebuyers.</p>
+           <p>Those responsible for the operation of the Asylum sensed opportunity. They teamed up with local real estate developers to sell off much of the newly-valuable land surrounding the orphanage, hoping to convert the rolling woodlands into cash that could support their mission. The decision to sell was sparked by investments in the urban infrastructure. But the way the transaction was conducted was shaped by rapidly changing ideas about race in the urban environment.</p>
+           <p>Only four years after the reporter from the Minneapolis Tribune had praised the racially inclusive ethos of the Asylum, the editorial board of the Minneapolis Journal called for coordinated action to make Minneapolis neighborhoods all white.<sup><a href="#fn7" id="ref7">7</a></sup> The introduction of racial covenants to Minneapolis in 1910 ushered in a new era for the city. City leaders were following the guidance of newly influential urban planners and real estate professionals, who argued that healthy urban environments required both plentiful green space and strict racial segregation. The Asylum was surely influenced by this new orthodoxy when it decided in 1921 that it could no longer serve children who were not white. Though administrators blamed the “attitudes of other children” for this shift, this assumption that people of different races could not live together also guided the planning of the real estate development that would swallow up the woodlands that had surrounded the orphanage.<sup><a href="#fn8" id="ref8">8</a></sup></p>
+           <p>Leaders of the Asylum realized that they could not execute a large-scale real estate development without outside help. So they entered into a partnership with Shenandoah Terrace Company and Estates Improvement, Inc., which were responsible for surveying the 68 acres and laying them out into streets, lots and blocks. As part of this process, racial covenants were attached to each of the new home lots. The paperwork for the Asylum was signed by Austin Dowling, the Archbishop of St. Paul and Rev. E. John Wilbee, pastor of St. Anthony of Padua. They turned the technical business of selling lots over to the real estate professionals, who wrote the exclusionary clauses.</p>
+           <p>Even though racial covenants were being promoted as the best practice for real estate developers, these church leaders may have harbored some unease about this aspect of the development. By having a real estate holding company attach the covenants before finalizing the sale, the orphanage--and the Catholic Church that administered it--was able to profit financially from racial covenants without having to defend the use of discriminatory deeds.<sup><a href="#fn9" id="ref9">9</a></sup></p>
+           <p>The Catholic Church was not alone. Any institution or entity that bought and sold property during the twentieth century in Minneapolis likely participated in this practice of barring people who were not white from inhabiting or owning land. To move forward as a community, we need to acknowledge this historical truth. As James Baldwin said: “as long as you pretend you don’t know your history, you’re going to be a prisoner of it.” So now that we are working towards freedom, where will this new knowledge take us?</p>
+
+           <hr></hr>
+
+           <sup id="fn1">1. Saksena, Marian E. (2006) "Out-of-home Placements for Abused, Neglected, and Dependent Children in Minnesota: A Historical Perspective," William Mitchell Law Review: Vol. 32: Iss. 3, Article 10. Available at: http://open.mitchellhamline.edu/wmlr/vol32/iss3/10<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
+
+           <sup id="fn2">2. Saksena, Marian E. (2006) "Out-of-home Placements for Abused, Neglected, and Dependent Children in Minnesota: A Historical Perspective," William Mitchell Law Review: Vol. 32: Iss. 3, Article 10. Available at: http://open.mitchellhamline.edu/wmlr/vol32/iss3/10, 1031.<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup>
+
+           <sup id="fn3">3. “Where Orphan Boys Are Taught and Trained,” <i>Minneapolis Tribune</i>, June 25, 1905.<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup>
+
+           <sup id="fn4">4. “Where Orphan Boys Are Taught and Trained,” <i>Minneapolis Tribune</i>, June 25, 1905.<a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></sup>
+           
+           <sup id="fn5">5. “Where Orphan Boys Are Taught and Trained,” <i>Minneapolis Tribune</i>, June 25, 1905.<a href="#ref5" title="Jump back to footnote 5 in the text.">↩</a></sup>
+
+           <sup id="fn6">6. John W. Diers and Aaron Isaacs, Twin Cities by Trolley: The Streetcar Era in Minneapolis and St. Paul (Minneapolis: University of Minnesota Press, 2007): 247<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></sup>
+
+           <sup id="fn7">7. “The Negro in Minneapolis.” <i>Minneapolis Journal</i>, January 10, 1910.<a href="#ref7" title="Jump back to footnote 7 in the text.">↩</a></sup>
+
+           <sup id="fn8">8. Marian Veronica DeVoy, “The Catholic Boys’ Home: History of the Minneapolis Catholic Orphan Asylum.” (Minneapolis: MA Thesis, Master of Arts in Social Work at the University of Minnesota, March, 1944): 85. Unpublished work held in the archives of the University of St. Catherine.<a href="#ref8" title="Jump back to footnote 8 in the text.">↩</a></sup>
+           
+           <sup id="fn9">9. Hennepin County Registrar of Titles Warranty Deed Document No. 60356, recorded January 19, 1926. This deed from 1925 documents the sale of Lot 2, Block 10 to Anolda Josephine Sampson and her husband, for $1,250. The title history shows that the property was transferred from the orphan asylum to Shenandoah Terrace Company in March of 1925 and then to Sampson in October of that same year.<a href="#ref9" title="Jump back to footnote 9 in the text.">↩</a></sup> 
+           
+           
+           
+           <div style="text-align: center;">
+             <img src="../../images/pedagogy_notes_2.jpg" class="page-body-img" style="max-width: 60% !important; padding: 0.1% !important;">
+             <div class="text-padding">
+               <p class="img-sub-script">September 2018, a class of students from Great River School on a learning retreat at <a href="http://bdotememorymap.org/">Bdote</a>, identify racially restrictive covenants in deeds. (Photo credit: Marguerite Mills)</p>
+             </div>
+           </div>
+
+           <p>With students, it's not about facilitating the creation of our map data, it's about providing a learning experience. It's about that lightbulb moment volunteers get when they read their first covenanted deed—the moment where covenants stop being statistical and begin to feel personal. But I hadn’t thought about how students even related to the idea of a property deed. I was close to 30 when I first guest taught on Mapping Prejudice, and almost all of my knowledge about property records I learned from working on the project. I found out quickly that the concept of a property deed is not immediately accessible to K12 students.</p>
+           <p>The idea that a policy kept people of color from purchasing a home doesn't necessarily hinge on understanding exactly what a property deed is. However, understanding the impact of racially restricting land ownership does require some knowledge of private property as a system. For example, I found that when I paid little attention to the particulars of how a property deed works, folks came away with the idea that in the past, there were laws that kept people of color from owning property. I am not one for pedantry, but this is not what we mean when we talk about racially restrictive covenants. Covenants are legally binding agreements, but they are not laws. Part of what made covenants possible in the first place -- and what made them so difficult to stop -- was their relationship to the private property system and the ways constitutional law protects private transactions.</p>
+           <p> Students don't have experience buying a house. They don't have a reference point for property or contract law. I had to think of a similar experience that students understood. While students don't buy homes, most have seen or participated in retail consumerism. "A receipt is essentially your agreement with the store," I tell students. It details what you purchased, how much money you were charged for the items, and it serves as proof that the transaction happened -- that you took possession of the items and paid (or agreed to pay) for them. These receipts also have a fine print section. When you accept a receipt at the register, it signifies that you have entered into an agreement with the store. Sometimes you can find the fine print directly on the receipt, or nowadays directions to visit the store's website where you will find pages of details about the return policy. These details include how many days you have to return your items, the type of things you can't return, what proof of purchase or identification you need to make a return, etc.
+           </p>
+
+           <p>A deed is like a receipt in that it records a transaction and demonstrates ownership. Covenants in a deed are like the fine print on a receipt. They are part of the comprehensive agreement behind the transaction. Only a covenant doesn't say how you can return a property; it dictates what you can and cannot do with the property. Some covenants were racial, and they dictated who you could and could not sell, lease, or allow to occupy your property based on race.</p>
+           <p>The specific fine print on a receipt is not a law, but it is governed by contract law. If it is not followed, you or the seller would theoretically have standing to sue. If a store refused to uphold its return policy, you could challenge them in court. Similarly, covenants are not laws, but are governed by contract law. They are legally binding agreements that hold the involved parties to a set of terms. Breaching these terms can (and did) lead to litigation.</p>
+           <p>There is, however, a key distinction between retail agreements and property agreements., When you buy something from Target--say a potted plant-- they have no control over what you do with it. There are no terms of use written into your receipt for your new peace lily. But what if the Target receipt said you couldn't sell, rent, or give your plant to a person of color? What if it said that the sales agreement ran with the pot, and no matter how many times it got sold -- even if the plant died and you put a new plant in the pot -- if it was ever sold to a Black person, that transaction would be a breach of the initial agreement? This would mean that Target would have legal standing to sue anyone who attempted to sell that pot to someone who wasn't white. If successful, Target would take back the pot and have the United States legal system's full support to do so.</p>
+           <p>This is, of course, ridiculous. This is not how receipts work.</p>
+           <p>But it is precisely how racial covenants work.</p>
+           <p>Students understand this breakdown. When I came up with the receipt analogy, it was purely to bridge students' knowledge gap. But as I started talking more about covenants in terms of a receipt, I gained a firmer grasp of the absurdity of racial covenants myself.</p>
+           <p>In addition to a digestible understanding of covenants as a form of contract law, this line of explanation creates more fertile ground for introducing students to private property history. It opens up space for discussing the significant legal challenges to racial covenants. Students have a far easier time grasping the legal logic of historic supreme court cases like the <a href="https://www.oyez.org/cases/1940-1955/334us1">Shelley v. Kraemer</a> when I set them up with a foundational understanding of how property law works. </p>
+
+           <div style="text-align: center;">
+             <img src="../../images/shelley_house.jpg" class="page-body-img" style="max-width: 50% !important; padding: 0% !important;">
+             <div class="text-padding">
+               <p class="img-sub-script">The “Shelley House.”  In 1930, the Shelley family fled racial violence in Mississippi and made their way to St. Louis. They bought this house in 1945, but they were unaware that a covenant placed on the home in 1911 prohibited the sale of the property to anyone of the "Negro or Mongolian race." But their white neighbors knew about the fine print on the Shelley’s deed, and they were able to bring the Shelley’s to court for breach of covenant. (Photo credit: Marguerite Mills)</p>
+             </div>
+           </div>
+
+           <p>The unanimous 1948 Shelley v. Kraemer ruling was pivotal in the ultimate demise of the practice of racial covenanting. But that's not because the verdict found racially restrictive covenants unconstitutional. It held that on their own, racially restrictive covenants do not violate the Fourteenth Amendment, which guarantees equal protection under the law. The court ruled that as long as racial covenants were kept to the realm of private property agreements, they were fine. Only when enforcement of the contract violation was carried out by the court or the state that racial covenants became unconstitutional. </p>
+           <p>So, in our receipt example, under the Shelley v. Kraemer ruling, Target would be within their rights to write a racial restriction into your receipt regarding who you can give your plant to. As long as they did not rely on the government to enforce the racial restrictions, they were just fine. This explains why we continue to see covenants written into deeds years after the Shelley v. Kraemer case. This is essential for students to understand if we want them to grasp what is meant when we say that racial covenants were not made wholly illegal until the passing of the Fair Housing Act in 1968.</p>
+
+           <div style="text-align: center;">
+             <img src="../../images/pedagogy_notes_1.jpeg" class="page-body-img" style="max-width: 50% !important; padding: 0% !important;">
+             <div class="text-padding">
+               <p class="img-sub-script">Student’s from Robbinsdale Armstrong Highschool visited the Wilson Library University of Minnesota for a lesson on racial covenants in February of 2020. (Photo credit: Marguerite Mills)</p>
+             </div>
+           </div>
+
+           <p>Engagement with students and community members offers a window into the challenges and opportunities inherent in a project that seeks to engage a wide variety of audiences. The act of meeting people where they're at is not only a pedagogical challenge; it is also an opportunity for us as "experts" to think about our research in new ways. A dialectical relationship can play out if we, as researchers and educators, open ourselves to producing knowledge in, and with, a community instead of becoming self-appointed experts about a community. By being open to new and various approaches when I go into a classroom or a community, I often leave with a new understanding of the topic myself. It can be easy to rely on established ways of discussing racial covenants and housing injustice. But when we involve students and think of them less as an audience and more as a collaborator in understanding the information, that is when the real lightbulbs moments can happen.</p>
+
+          <hr class="resource-list-divider final">
+
+        </div>
+
+      </div>
+
+
+</div>
+
+<footer>
+  <div class="footer-contain">
+    <div class="flex">
+      <div class="footer-flex">
+      <div class="footer-text">
+        <p>Keep up with us on social media</p>
+      </div>
+        <div class="ssk-group">
+            <div id="social-list">
+                <ul style="padding: 0px;" class="social-ul">
+                  <li><a href="https://twitter.com/MapPrejudice" class="ssk ssk-twitter ssk-lg" id="ssk-overide-twit" target="_blank"></a></li>
+                  <li><a href="https://www.facebook.com/MappingPrejudice/" class="ssk ssk-facebook ssk-lg" id="ssk-overide-fb" target="_blank"></a></li>
+                </ul>
+              </div>
+        </div>
+      </div>
+<!-- Donate Button -->
+<div class="footer-flex">
+      <div class="footer-text">
+        <p>Support our work</p>
+      </div>
+        <div class="donate_button">
+          <p class="donate_text"><a href="https://makingagift.umn.edu/give/fund.html?fundCode=22110#formstep-1">Donate</a></p>
+        </div>
+    </div>
+<!-- Begin MailChimp Signup Form -->
+      <div class="footer-flex">
+        <div class="footer-text">
+          <p>Stay connected with Mapping Prejudice</p>
+        </div>
+          <p class="footer-sub-text">Get the latest news on our events, projects, and research by signing up for our monthly newsletter.</p>
+        <div id="mc_embed_signup">
+          <form action="https://mappingprejudice.us18.list-manage.com/subscribe/post?u=9f1a2e59b61269ac101feba2b&amp;id=f982509184" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9f1a2e59b61269ac101feba2b_f982509184" tabindex="-1" value="">
+                </div>
+              </div>
+          </form>
+        </div>
+        </div>
+      </div>
+<!--End mc_embed_signup-->
+  <p class="umnstatement">&copy; 2020 Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer.
+    <br>
+    <a href="https://www.lib.umn.edu/about/privacy">Privacy statement</a>
+     |
+    <a href="https://policy.umn.edu/it/itresources">Acceptable Use of IT Resources</a>
+  </p>
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>
