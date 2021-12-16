@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta property="og:title" content="Mapping Prejudice" />
+  <meta name="description" content="Racial covenants and housing discrimination in 20th Century Minneapolis. Racial covenants were legal contracts embedded in property deeds to prevent African Americans from purchasing or occupying property." />
+  <meta property="og:description" name="description" content="Racial covenants and housing discrimination in 20th century Minneapolis." />
+  <meta property="og:image" content="https://www.mappingprejudice.org/images/protest_1200.png" />
+  <meta property="og:url" content="https://www.mappingprejudice.org" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mapping Prejudice">
+  <meta name="twitter:description" content="Racial covenants and housing discrimination in 20th century Minneapolis">
+  <meta name="twitter:image" content="https://www.mappingprejudice.org/images/protest_1200.png">
+  <title>Mapping Prejudice</title>
+  <link rel="icon" href="../images/web_icon.ico"/>
+  <link rel="stylesheet" type="text/css" href="../css/mainstyles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../css/responsivedesign.css"> -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+  <!-- jQuery library (served from Google) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+  <!-- social icons stylesheet -->
+  <link rel="stylesheet" href="../social/css/social-share-kit.css" type="text/css">
+  <!-- Social Share Kit JS -->
+  <script type="text/javascript" src="../social/js/social-share-kit.js"></script>
+  <script src="../js/modalscripts.js"></script>
+
+  <script type="text/javascript" src="https://script.crazyegg.com/pages/scripts/0104/0451.js" async="async" ></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-88400382-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+<!-- Matomo -->
+<script type="text/javascript">
+var _paq = window._paq = window._paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+  var u="https://apps.lib.umn.edu/matomo/";
+  _paq.push(['setTrackerUrl', u+'matomo.php']);
+  _paq.push(['setSiteId', '6']);
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+<body>
+
+  <div class="user-form">
+
+    <form id="speaking-form" name="speaking-form">
+
+      <div class="field-div">
+        <div class="sub-field-div" style="display: inline-block;">
+
+          <p style="text-align: left; padding: 0%;">New intro to speaking engagements here...</p>
+
+          <div class="flex">
+            <div class="speaking-pading">
+              <p class="field-text p-no-padding">Your name</p>
+              <input type="text" name="name" class="form-field" required>
+            </div>
+            <div class="speaking-pading">
+              <p class="field-text p-no-padding">Email</p>
+              <input name="email" type="email" required>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="speaking-pading">
+              <p class="field-text p-no-padding">Preferred date</p>
+              <input type="text" name="preferred_date" id="preferred_date" class="form-field" required>
+            </div>
+            <div class="speaking-pading">
+              <p class="field-text p-no-padding">Preferred time</p>
+              <input type="text" name="preferred_time" id="preferred_time" class="form-field">
+            </div>
+            <div class="speaking-pading">
+              <p class="field-text p-no-padding">What is your institution or affiliation?</p>
+              <input type="text" name="affiliation" class="form-field">
+            </div>
+          </div>
+
+          <div style="display: block; text-align: left;">
+            <p class="field-text">Description</p>
+            <textarea name="description" id="field_text_comment_box" cols="30" rows="5" class="form-field" required> </textarea>
+          </div>
+          <div style="display: block; text-align: left;" id="start-resources">
+            <input type="submit" value="Send" class="form-field" style="max-width: 50px" id="resources_link">
+          </div>
+
+          <script>
+            $( function() {
+              $("#speaking-form #preferred_date").datepicker();
+
+              $('#speaking-form #preferred_time').timepicker({
+                  timeFormat: 'h:mm p',
+                  interval: 30,
+                  minTime: '8',
+                  maxTime: '9:00pm',
+                  // defaultTime: '11',
+                  startTime: '8:00',
+                  dynamic: false,
+                  dropdown: true,
+                  scrollbar: true
+              });
+            } );
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyb4x2l9W84i5qPJxUsIoXFm9aRYQIH79RVi6URV1NxdW_lZpWv-TWePV67RSRvEnyW/exec'
+            const form = document.forms['speaking-form']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

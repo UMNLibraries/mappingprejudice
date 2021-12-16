@@ -41,13 +41,16 @@ $(document).ready(function () {
   var btn = document.getElementById('contact_btn');
   var close_btn = document.getElementById('contact_close');
 
-  btn.onclick = function() {
-    contact_modal.style.display = "block";
+  if (btn) {
+    btn.onclick = function() {
+      contact_modal.style.display = "block";
+    }
+
+    close_btn.onclick = function() {
+      contact_modal.style.display = "none";
+    }
   }
 
-  close_btn.onclick = function() {
-    contact_modal.style.display = "none";
-  }
 
 });
 
