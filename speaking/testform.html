@@ -98,7 +98,7 @@ _paq.push(['enableLinkTracking']);
             <textarea name="description" id="field_text_comment_box" cols="30" rows="5" class="form-field" required> </textarea>
           </div>
           <div style="display: block; text-align: left;" id="start-resources">
-            <input type="submit" value="Send" class="form-field" style="max-width: 50px" id="resources_link">
+            <input type="submit" value="Send" class="form-field" id="speaking-form-submit">
           </div>
 
           <script>
@@ -116,17 +116,25 @@ _paq.push(['enableLinkTracking']);
                   dropdown: true,
                   scrollbar: true
               });
+
+              const scriptURL = 'https://script.google.com/macros/s/AKfycbyb4x2l9W84i5qPJxUsIoXFm9aRYQIH79RVi6URV1NxdW_lZpWv-TWePV67RSRvEnyW/exec'
+              const form = document.forms['speaking-form']
+
+              form.addEventListener('submit', e => {
+                e.preventDefault()
+                $('#speaking-form-submit').val('Sending...')
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => {
+                    console.log('Success!', response)
+                    $('#speaking-form-submit').val('Request submitted.')
+                  })
+                  .catch(error => {
+                    console.error('Error!', error.message)
+                    $('#speaking-form-submit').val('Something went wrong.')
+                  })
+              })
             } );
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyb4x2l9W84i5qPJxUsIoXFm9aRYQIH79RVi6URV1NxdW_lZpWv-TWePV67RSRvEnyW/exec'
-            const form = document.forms['speaking-form']
-
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-            })
           </script>
 
         </div>
