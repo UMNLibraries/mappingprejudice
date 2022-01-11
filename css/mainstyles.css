@@ -1621,7 +1621,7 @@ color: #ececec;
     cursor: pointer;
 }
 
-#ssk-overide-insta{
+#ssk-overide-instagram{
     background-image: url('../images/insta_no_border.png');
     color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
@@ -1635,7 +1635,7 @@ color: #ececec;
     border-radius: 20px;
 }
 
-#ssk-overide-insta:hover {
+#ssk-overide-instagram:hover {
     border-color: #d10000;
     cursor: pointer;
 }
